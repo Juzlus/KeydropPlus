@@ -243,7 +243,19 @@
                 "url": "https://key-drop.com/pl/skins/category/sajucsgo",
                 "image": "https://key-drop.com/uploads/skins/sajucsgo.png",
                 "price_pln": "34,95"
-            }
+            },
+                        {
+                "name": "black",
+                "url": "https://key-drop.com/pl/skins/category/black",
+                "image": "https://key-drop.com/uploads/skins/black.png",
+                "price_pln": "31,60"
+            },
+            {
+                "name": "poker",
+                "url": "https://key-drop.com/pl/skins/category/poker",
+                "image": "https://key-drop.com/uploads/skins/poker.png",
+                "price_pln": "39,45"
+            },
         ]
     },
     "Hungary": {
@@ -286,21 +298,9 @@
             }
         ]
     },
-    "Unknown": {
-        "abbreviation": "??",
+    "United Kingdom": {
+        "abbreviation": "EN",
         "cases": [
-            {
-                "name": "black",
-                "url": "https://key-drop.com/pl/skins/category/black",
-                "image": "https://key-drop.com/uploads/skins/black.png",
-                "price_pln": "31,60"
-            },
-            {
-                "name": "poker",
-                "url": "https://key-drop.com/pl/skins/category/poker",
-                "image": "https://key-drop.com/uploads/skins/poker.png",
-                "price_pln": "39,45"
-            },
             {
                 "name": "anon",
                 "url": "https://key-drop.com/pl/skins/category/anon",
