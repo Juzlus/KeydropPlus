@@ -1,0 +1,19 @@
+{
+  "codes": [
+    {
+      "id": 1,
+      "code": "TEST1"
+    },
+    {
+      "id": 2,
+      "code": "TEST2"
+    },
+    {
+      "id": 3,
+      "code": "TEST3"
+    },
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
