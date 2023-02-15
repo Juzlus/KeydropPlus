@@ -1,17 +1,9 @@
 {
-  "codes": [
+  "posts": [
     {
       "id": 1,
-      "code": "TEST1"
-    },
-    {
-      "id": 2,
-      "code": "TEST2"
-    },
-    {
-      "id": 3,
-      "code": "TEST3"
-    },
+      "title": "hello"
+    }
   ],
   "profile": {
     "name": "typicode"
