@@ -1,5 +1,7 @@
 {
-	"giveaway_joined": "Dołączono do giveaway'u!",
-	"giveaway_joined_error": "Nie udało się dołaczyć do giveaway'u:",
-	"giveaway_joined_captcha": "Wymagany reCAPTCHA!"
+	"autogiveaway_joined": "Dołączono do giveaway'u!",
+	"autogiveaway_error": "Nie udało się dołaczyć do giveaway'u:",
+	"autogiveaway_captcha": "Wymagany reCAPTCHA!",
+	"autogiveaway_active": "Automatyczne dołączanie do giveaway'ów jest włączone.",
+	"autogiveaway_win": "Wygrałeś w giveaway'u! Kliknij, aby zobaczyć szeczegóły."
 }
