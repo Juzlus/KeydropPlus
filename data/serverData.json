@@ -1,5 +1,6 @@
 {
     "version": "2.0.0",
+    "keydropGiveawaysPort": 2061,
     
     "iconsPath": "/icons/",
     "soundsPath": "/souns/",
