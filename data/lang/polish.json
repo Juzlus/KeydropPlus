@@ -1,5 +1,5 @@
 {
-	giveaway_joined: "Dołączono do giveaway'u!",
-	giveaway_joined_error: "Nie udało się dołaczyć do giveaway'u:",
-	giveaway_joined_captcha: "Wymagany reCAPTCHA!"
+	"giveaway_joined": "Dołączono do giveaway'u!",
+	"giveaway_joined_error": "Nie udało się dołaczyć do giveaway'u:",
+	"giveaway_joined_captcha": "Wymagany reCAPTCHA!"
 }
