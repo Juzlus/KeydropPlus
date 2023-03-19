@@ -3,7 +3,7 @@
     "keydropGiveawaysPort": 2061,
     
     "iconsPath": "/icons/",
-    "soundsPath": "/souns/",
+    "soundsPath": "/sounds/",
 
     "globalAlertVersion": 0,
     "globalAlertType": "error",
