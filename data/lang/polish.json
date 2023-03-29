@@ -34,5 +34,25 @@
 	"autogiveaway_id": "ID KONKURSU",
     "autogiveaway_salary": "KWOTA NAGRÓD",
     "autogiveaway_joined2": "DOŁĄCZONO?",
-    "autogiveaway_endDate": "DATA ZAKOŃCZENIA"
+    "autogiveaway_endDate": "DATA ZAKOŃCZENIA",
+
+    "autoJoinFreeCaseBattle_title": "FAST FREE CASE BATTLE",
+    "autoJoinFreeCaseBattle_players": "Liczba graczy",
+    "autoJoinFreeCaseBattle_two": "2 Graczy",
+    "autoJoinFreeCaseBattle_three": "3 Graczy",
+    "autoJoinFreeCaseBattle_four": "4 Graczy",
+    "autoJoinFreeCaseBattle_time": "Czas szukania",
+    "autoJoinFreeCaseBattle_status": "Status",
+    "autoJoinFreeCaseBattle_find": "Szukaj Bitwy",
+    "autoJoinFreeCaseBattle_synopsis": "Opis",
+    "autoJoinFreeCaseBattle_desc": "Automatyczne dołączanie do wybranych darmowych skrzynek. Koszt dołączenia do darmowej skrzynki to 1 bilet.",
+    "autoJoinFreeCaseBattle_noCaseName": "Nie wybrano nazwy skrzynki!",
+    "autoJoinFreeCaseBattle_noPlayers": "Nie wybrano liczby graczy w bitwie!",
+    "autoJoinFreeCaseBattle_search": "Szukanie...",
+    "autoJoinFreeCaseBattle_notFound": "Nie znaleziono bitwy!",
+    "autoJoinFreeCaseBattle_interrupted": "Przerwano!",
+    "autoJoinFreeCaseBattle_wait10s": "Musisz odczekać co najmniej 10 sekund!",
+    "autoJoinFreeCaseBattle_joined": "Dołączono do bitwy!",
+    "autoJoinFreeCaseBattle_error": "Nie udało się dołączyć do bitwy:",
+    "autoJoinFreeCaseBattle_found": "Znaleziono bitwę!"
 }
