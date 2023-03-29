@@ -10,8 +10,8 @@
     "globalAlertLangText": "",
     
     "freeCaseBattle": [
-        {name: "SERENITY", cover: "SERENITY.png"},
-        {name: "JOY", cover: "NEW2.png"},
-        {name: "PROGRESS", cover: "ANEW.png"}
+        {"name": "SERENITY", "cover": "SERENITY.png"},
+        {"name": "JOY", "cover": "NEW2.png"},
+        {"name": "PROGRESS", "cover": "ANEW.png"}
     ]
 }
