@@ -7,5 +7,11 @@
 
     "globalAlertVersion": 0,
     "globalAlertType": "error",
-    "globalAlertLangText": ""
+    "globalAlertLangText": "",
+    
+    "freeCaseBattle": [
+        {"name": "SERENITY", "cover": "SERENITY.png"},
+        {"name": "JOY", "cover": "NEW2.png"},
+        {"name": "PROGRESS", "cover": "ANEW.png"}
+    ]
 }
