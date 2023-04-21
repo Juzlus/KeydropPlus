@@ -62,5 +62,13 @@
 
     "skinport_loading": "Ładowanie cen skinów z serwisu Skinport... ",
     "skinport_currencyError": "Skinport nie obsługuje tej waluty!\n(Dozwolone waluty: PLN, USD, EUR, BRL, GBP, CZK)",
-    "skinport_timeoutError": "Zbyt wiele prób łączenia się z serwerem, spróbuj ponownie wkrótce!"
+    "skinport_timeoutError": "Zbyt wiele prób łączenia się z serwerem, spróbuj ponownie wkrótce!",
+
+    "steam_loading": "Ładowanie cen skinów z serwisu Steamcommunity... ",
+    "steam_dsc_1": "Do prawidłowego działania skryptu wymagane jest zalogowanie się do serwisu ",
+    "steam_dsc_2": " i ustawienie formatu cen na 'PLN', 'EUR' bądz 'USD'.",
+    "steam_dsc_3": "Zbyt częste odświeżanie cen może spowodować tymczasowe zablokowanie Steam Market API, przez co niemożliwe będzie korzystanie z rynku steam.",
+    "steam_currencyError": "Wykryto nieobsługiwany format walut!",
+    "steam_attemptTimeout": "Wystąpił problem połączenia z serwerem. Próba ponownego łączenia: {ATTEMPT} z {MAXATTEMPT}",
+    "steam_toManyTimeout": "Pomimo ponownego łączenia, nie udało się skontaktować z serwerem!"
 }
