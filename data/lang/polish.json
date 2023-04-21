@@ -18,7 +18,7 @@
     "autogiveaway_settings_p3": "Wygrane konkursy",
     "autogiveaway_settings_a3": "Zliczone wygrane konkursy",
     "autogiveaway_settings_p4": "Zarobek z konkursów",
-    "autogiveaway_settings_a4": "Łączna kwwota z wygranych konkursów",
+    "autogiveaway_settings_a4": "Łączna kwota z wygranych konkursów",
     "autogiveaway_settings_desc": "Automatyczne dołączanie do konkursów typu 'Amateur'. Po włączeniu działa na wszystkich podstronach serwisu keydop. Skrypt nie dołącza do konkursów do których wymagane jest zrobienie reCAPTCHA.",
     "autogiveaway_start": "URUCHOM",
     "autogiveaway_disable": "WYŁĄCZ",
