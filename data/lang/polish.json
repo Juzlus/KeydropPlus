@@ -58,5 +58,9 @@
     "autoJoinFreeCaseBattle_found": "Znaleziono bitwę!",
     "autoJoinFreeCaseBattle_winBattle": "Ostatnia bitwa została wygrana!",
     "autoJoinFreeCaseBattle_lostBattle": "Ostatnia bitwa została przegrana!",
-    "autoJoinFreeCaseBattle_caseCount": "Minimalna liczba skrzynek"
+    "autoJoinFreeCaseBattle_caseCount": "Minimalna liczba skrzynek",
+
+    "skinport_loading": "Ładowanie cen skinów z serwisu Skinport... ",
+    "skinport_currencyError": "Skinport nie obsługuje tej waluty!\n(Dozwolone waluty: PLN, USD, EUR, BRL, GBP, CZK)",
+    "skinport_timeoutError": "Zbyt wiele prób łączenia się z serwerem, spróbuj ponownie wkrótce!"
 }
