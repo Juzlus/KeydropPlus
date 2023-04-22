@@ -73,7 +73,8 @@
     "steam_toManyTimeout": "Pomimo ponownego łączenia, nie udało się skontaktować z serwerem!",
 
     "skinChanger_price": "Dodatkowe ceny",
-    "skinChanger_refresh": "Odświeżono: ",
-    "skinChanger_currency": "Waluta: ",
+    "skinChanger_refresh": "Odświeżono",
+    "skinChanger_currency": "Waluta",
+    "skinChanger_wait1h": "Musisz odczekać co najmniej 1 godzinę!",
     "skinChanger_steamInfo": "Aby nie przeciążać Steam Market API odświeżenie cen jest możliwe co godzinę. Całośc trwa w okolicach 5 minut. Aby wszystko działało bez przeszkód należy zalogować się na steam w przeglądarcę i mieć ustawione walutę w PLN."
 }
