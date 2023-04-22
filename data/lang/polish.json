@@ -70,5 +70,10 @@
     "steam_dsc_3": "Zbyt częste odświeżanie cen może spowodować tymczasowe zablokowanie Steam Market API, przez co niemożliwe będzie korzystanie z rynku steam.",
     "steam_currencyError": "Wykryto nieobsługiwany format walut!",
     "steam_attemptTimeout": "Wystąpił problem połączenia z serwerem. Próba ponownego łączenia: {ATTEMPT} z {MAXATTEMPT}",
-    "steam_toManyTimeout": "Pomimo ponownego łączenia, nie udało się skontaktować z serwerem!"
+    "steam_toManyTimeout": "Pomimo ponownego łączenia, nie udało się skontaktować z serwerem!",
+
+    "skinChanger_price": "Dodatkowe ceny",
+    "skinChanger_refresh": "Odświeżono: ",
+    "skinChanger_currency": "Waluta: ",
+    "skinChanger_steamInfo": "Aby nie przeciążać Steam Market API odświeżenie cen jest możliwe co godzinę. Całośc trwa w okolicach 5 minut. Aby wszystko działało bez przeszkód należy zalogować się na steam w przeglądarcę i mieć ustawione walutę w PLN."
 }
