@@ -76,5 +76,11 @@
     "skinChanger_refresh": "Odświeżono",
     "skinChanger_currency": "Waluta",
     "skinChanger_wait1h": "Musisz odczekać co najmniej 1 godzinę!",
-    "skinChanger_steamInfo": "Aby nie przeciążać Steam Market API odświeżenie cen jest możliwe co godzinę. Całośc trwa w okolicach 5 minut. Aby wszystko działało bez przeszkód należy zalogować się na steam w przeglądarcę i mieć ustawione walutę w PLN."
+    "skinChanger_steamInfo": "Aby nie przeciążać Steam Market API odświeżenie cen jest możliwe co godzinę. Całośc trwa w okolicach 5 minut. Aby wszystko działało bez przeszkód należy zalogować się na steam w przeglądarcę i mieć ustawione walutę w PLN.",
+    
+    "skinChanger_inventoryError": "Nie udało się pobrać listy skinów!",
+    "skinChanger_limit": "Limit 100 skinów osiągnięty! Pamiętaj, że możesz zmieniać przedział cenowy!",
+    "skinChanger_diff_err1": "Musisz wybrać tylko jedną dodatkową cene!",
+    "skinChanger_diff_err2": "Musisz wybrać dodatkową cene!",
+    "skinChanger_diff_err3": "Waluta cen dodatkowych nie może być inna niż waluta na keydrop'ie!"
 }
