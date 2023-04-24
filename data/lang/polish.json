@@ -3,6 +3,7 @@
 	"error_fetch": "Nie udało się połączyć z serwerem. Spróbuj ponownie później!",
 	"error_storage": "Nie można pobrać informacji z magazynu. Spróbuj ponownie później!",
 	"warning_dateManipulated": "Wykryto manipolowanie daty!",
+    "warning_mustLogin": "Przed korzystaniem z rozszerzenie musisz się zalogować!",
 
 	"autogiveaway_joined": "Dołączono do giveaway'u!",
 	"autogiveaway_error": "Nie udało się dołaczyć do giveaway'u:",
