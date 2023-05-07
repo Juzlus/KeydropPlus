@@ -89,5 +89,14 @@
     "skinChanger_name": "Nazwa",
     "skinChanger_priceText": "Cena",
     "skinChanger_priceDiff": "Różnica Cen",
-    "skinChanger_priceDiffButtonText": "Wyszukaj skiny z największą róznicą cen"
+    "skinChanger_priceDiffButtonText": "Wyszukaj skiny z największą róznicą cen",
+
+    "accessDenied_title": "PROBLEM Z WERYFIKACJĄ KOPII",
+    "accessDenied_desc": "TA KOPIA ROZSZERZENIA NIE JEST ZINTEGROWANA Z TYM KONTEM STEAM",
+    "accessDenied_info": "Jeżeli uważasz, że ten komunikat nie powinnien wystąpić napisz do|na serwerze",
+    "accessDenied_serverName": "TeamAversen",
+    "accessDenied_userName": "Aversen ModMail#0931",
+
+    "dailyCase_waitTime": "ZA",
+    "dailyCase_readyTime": "GOTOWE!"
 }
