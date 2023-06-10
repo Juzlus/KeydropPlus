@@ -9,6 +9,7 @@
 	"autogiveaway_error": "Nie udało się dołaczyć do giveaway'u:",
 	"autogiveaway_captcha": "Wymagany reCAPTCHA!",
 	"autogiveaway_active": "Automatyczne dołączanie do giveaway'ów jest włączone.",
+    "autogiveaway_deactivate": "Automatyczne dołączanie do giveaway'ów jest wyłączone.",
 	"autogiveaway_win": "Wygrałeś w giveaway'u! Kliknij, aby zobaczyć szeczegóły.",
 	"autogiveaway_history": "HISTORIA KONKURSÓW",
     "autogiveaway_settings": "USTAWIENIA",
