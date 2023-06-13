@@ -5,7 +5,7 @@
     "iconsPath": "/icons/",
     "soundsPath": "/sounds/",
 
-    "globalAlertVersion": 0,
+    "globalAlertVersion": [0],
     "globalAlertType": "error",
     "globalAlertLangText": "",
     
