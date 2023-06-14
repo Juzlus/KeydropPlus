@@ -122,7 +122,8 @@
     "caseInfo_commonSkinTitle": "Najczęstszy",
     "caseInfo_bestSkinTitle": "Najlepszy",
     "caseInfo_possibleText": "Możliwy drop",
-    
+    "caseInfo_chance": "SZANSA",
+
     "freeOpen_testDrops": "Testowe Dropy",
     "freeOpen_caseCount": "ILOŚĆ SKRZNEK",
     "freeOpen_caseSum": "CENA SKRZYNEK",
