@@ -15,5 +15,88 @@
         {"name": "PROGRESS", "cover": "ANEW.png"}
     ],
 
-    "userGiveaways": ["bBGlki16755", "nZvMEi15648", "wdY7Ei17215"]
+    "userGiveaways": ["bBGlki16755", "wdY7Ei17215", "XqJuHi17194", "nZvMEi15648"],
+
+    "goldArea" : [
+        {
+            "name": "BONY",
+            "profit": 914812.49
+        },
+        {
+            "name": "TOPAZ",
+            "profit": 1829624.98
+        },
+        {
+            "name": "MAGENT",
+            "profit": 4082359.08
+        },
+        {
+            "name": "ASSAULT",
+            "profit": 10061591.92
+        },
+        {
+            "name": "RECON",
+            "profit": 15422192.35
+        },
+        {
+            "name": "FOSTER",
+            "profit": 120466895.9
+        },
+        {
+            "name": "ATUM",
+            "profit": 244984901.3
+        },
+        {
+            "name": "EMERALD CUT",
+            "profit": 249120857
+        },
+        {
+            "name": "RUBY",
+            "profit": 250116836
+        },
+        {
+            "name": "OPTIMAL",
+            "profit": 256311524.3
+        },
+        {
+            "name": "SHARK",
+            "profit": 261341620.8
+        },
+        {
+            "name": "WRAP",
+            "profit": 273408102.9
+        },
+        {
+            "name": "SOLAR",
+            "profit": 290925694
+        },
+        {
+            "name": "GOLD DIGGER",
+            "profit": 307481379
+        },
+        {
+            "name": "PREDATOR",
+            "profit": 316791568.5
+        },
+        {
+            "name": "WIND",
+            "profit": 341111013.4
+        },
+        {
+            "name": "SAMURAI",
+            "profit": 363825199.8
+        },
+        {
+            "name": "DIAMOND SKY",
+            "profit": 391426212.7
+        },
+        {
+            "name": "RUBIN RAIN",
+            "profit": 466641603.3
+        },
+        {
+            "name": "AMETHYST LIGHT",
+            "profit": 492152521.7
+        }
+    ]
 }
