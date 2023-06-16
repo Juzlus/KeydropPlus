@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "current_versions": ["F2.0.0", "T2.0.0", "B2.0.0"],
     "keydropGiveawaysPort": 2061,
     
     "iconsPath": "/icons/",
