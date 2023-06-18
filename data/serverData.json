@@ -20,214 +20,356 @@
 
     "allCases": [
         {
-            "lang": "AD",
+            "img": "/uploads/skins/snugtoes.png",
+            "lang": "DE",
             "name": "SNUGTOES",
             "odds": 8,
+            "price_USD": 27,
             "url": "https://key-drop.com/pl/skins/category/snugtoes"
         },
         {
-            "lang": "AD",
+            "img": "/uploads/skins/black.png",
+            "lang": "ES",
             "name": "BLACK",
             "odds": 16,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/black"
         },
         {
-            "lang": "AD",
+            "img": "/uploads/skins/csr.png",
+            "lang": "BR",
             "name": "CSR",
             "odds": 12,
+            "price_USD": 3.94,
             "url": "https://key-drop.com/pl/skins/category/csr"
         },
         {
-            "lang": "AD",
+            "img": "/uploads/skins/poker3.png",
+            "lang": "ES",
             "name": "POKER",
             "odds": 19,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/poker"
         },
         {
-            "lang": "AD",
+            "img": "/uploads/skins/anon.png",
+            "lang": "EN",
             "name": "ANON",
             "odds": 16,
+            "price_USD": 27,
             "url": "https://key-drop.com/pl/skins/category/anon"
         },
         {
-            "lang": "AR",
+            "img": "/uploads/skins/saju.png",
+            "lang": "ES",
             "name": "SAJUCSGO",
             "odds": 15,
+            "price_USD": 6.99,
             "url": "https://key-drop.com/pl/skins/category/sajucsgo"
         },
         {
-            "lang": "AR",
+            "img": "/uploads/skins/tarifa.png",
+            "lang": "ES",
             "name": "BYTARIFA",
             "odds": 14,
+            "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/bytarifa"
         },
         {
+            "img": "/uploads/skins/elpibecs1.png",
             "lang": "AR",
             "name": "ELPIBECS1",
             "odds": 18,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/elpibecs1"
         },
         {
-            "lang": "BG",
+            "img": "/uploads/skins/Mopo_case.png",
+            "lang": "NL",
             "name": "MOPO",
             "odds": 17,
+            "price_USD": 10.8,
             "url": "https://key-drop.com/pl/skins/category/mopo"
         },
         {
-            "lang": "BR",
+            "img": "/uploads/skins/jamiedrakehd.png",
+            "lang": "PT",
             "name": "JAMIEDRAKEHD",
             "odds": 20,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/jamiedrakehd"
         },
         {
-            "lang": "BR",
+            "img": "/uploads/skins/tiagovski3.png",
+            "lang": "PT",
             "name": "TIAGOVSKI",
             "odds": 20,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/tiagovski"
         },
         {
+            "img": "/uploads/skins/lugin.png",
             "lang": "BR",
             "name": "LUGIN",
             "odds": 12,
+            "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/lugin"
         },
         {
-            "lang": "BR",
+            "img": "/uploads/skins/chentric.png",
+            "lang": "PT",
             "name": "CHENTRIC",
             "odds": 14,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/chentric"
         },
         {
-            "lang": "CZ",
+            "img": "/uploads/skins/zolik.png",
+            "lang": "SK",
             "name": "ZOLIK22",
             "odds": 13,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/zolik22"
         },
         {
+            "img": "/uploads/skins/tynka.png",
             "lang": "CZ",
             "name": "TYNKA",
             "odds": 19,
+            "price_USD": 5.13,
             "url": "https://key-drop.com/pl/skins/category/tynka"
         },
         {
+            "img": "/uploads/skins/krowny.png",
             "lang": "DE",
             "name": "KROWNY",
             "odds": 15,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/krowny"
         },
         {
+            "img": "/uploads/skins/jorgo.png",
             "lang": "DE",
             "name": "JORGO",
             "odds": 21,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/jorgo"
         },
         {
+            "img": "/uploads/skins/dadosch.png",
             "lang": "DE",
             "name": "DADOSCH",
             "odds": 16,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/dadosch"
         },
         {
+            "img": "/uploads/skins/pietrak.png",
             "lang": "HU",
             "name": "PIETRAK",
             "odds": 17,
+            "price_USD": 5.13,
             "url": "https://key-drop.com/pl/skins/category/pietrak"
         },
         {
+            "img": "/uploads/skins/jasonplay.png",
             "lang": "HU",
             "name": "JASONPLAY",
             "odds": 18,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/jasonplay"
         },
         {
+            "img": "/uploads/skins/narancs.png",
             "lang": "HU",
             "name": "NARANCS",
             "odds": 15,
+            "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/narancs"
         },
         {
+            "img": "/uploads/skins/VALEK.png",
             "lang": "PT",
             "name": "VALEK",
             "odds": 12,
+            "price_USD": 15,
             "url": "https://key-drop.com/pl/skins/category/valek"
         },
         {
+            "img": "/uploads/skins/shavo.png",
             "lang": "RO",
             "name": "SHAVO",
             "odds": 15,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/shavo"
         },
         {
+            "img": "/uploads/skins/OKTA.png",
             "lang": "RO",
             "name": "OKTA",
             "odds": 16,
+            "price_USD": 9,
             "url": "https://key-drop.com/pl/skins/category/okta"
         },
         {
+            "img": "/uploads/skins/iraphahell.png",
             "lang": "RO",
             "name": "IRAPHAHELL",
             "odds": 19,
+            "price_USD": 7.89,
             "url": "https://key-drop.com/pl/skins/category/iraphahell"
         },
         {
+            "img": "/uploads/skins/generalu.png",
             "lang": "RO",
             "name": "GENERALU",
             "odds": 16,
+            "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/generalu"
         },
         {
+            "img": "/uploads/skins/CALYX.png",
             "lang": "TR",
             "name": "CALYX",
             "odds": 17,
+            "price_USD": 3.59,
             "url": "https://key-drop.com/pl/skins/category/calyx"
         },
         {
+            "img": "/uploads/skins/XFL0UD.png",
             "lang": "TR",
             "name": "XFL0UD",
             "odds": 17,
+            "price_USD": 45,
             "url": "https://key-drop.com/pl/skins/category/xfl0ud"
         },
         {
+            "img": "/uploads/skins/XANTARES.png",
             "lang": "TR",
             "name": "XANTARES",
             "odds": 18,
+            "price_USD": 170,
             "url": "https://key-drop.com/pl/skins/category/xantares"
         },
         {
+            "img": "/uploads/skins/MAJ3R.png",
             "lang": "TR",
             "name": "MAJ3R",
             "odds": 13,
+            "price_USD": 3.46,
             "url": "https://key-drop.com/pl/skins/category/maj3r"
         },
         {
+            "img": "/uploads/skins/IMORR.png",
             "lang": "TR",
             "name": "IMORR",
             "odds": 19,
+            "price_USD": 8.69,
             "url": "https://key-drop.com/pl/skins/category/imorr"
         },
         {
+            "img": "/uploads/skins/ENERQIA.png",
             "lang": "TR",
             "name": "ENERQIA",
             "odds": 12,
+            "price_USD": 4.95,
             "url": "https://key-drop.com/pl/skins/category/enerqia"
         },
         {
+            "img": "/uploads/skins/vural1.png",
             "lang": "TR",
             "name": "VURAL UCAR",
             "odds": 16,
+            "price_USD": 6.32,
             "url": "https://key-drop.com/pl/skins/category/vural-ucar"
         },
         {
+            "img": "/uploads/skins/rennow.png",
             "lang": "TR",
             "name": "RENNOW",
             "odds": 17,
+            "price_USD": 5.13,
             "url": "https://key-drop.com/pl/skins/category/rennow"
         },
         {
+            "img": "/uploads/skins/XM1NN.png",
             "lang": "TR",
             "name": "XM1NN",
             "odds": 9,
+            "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/xm1nn"
+        },
+        {
+            "img": "/uploads/skins/kacper1.png",
+            "lang": "PL",
+            "name": "KACPER RIETZ",
+            "odds": 15,
+            "price_USD": 3.94,
+            "url": "https://key-drop.com/pl/skins/category/kacper-rietz"
+        },
+        {
+            "img": "/uploads/skins/mateoo.png",
+            "lang": "PL",
+            "name": "MATEO",
+            "odds": 9,
+            "price_USD": 3.94,
+            "url": "https://key-drop.com/pl/skins/category/mateo"
+        },
+        {
+            "img": "/uploads/skins/isamu.png",
+            "lang": "PL",
+            "name": "ISAMU",
+            "odds": 8,
+            "price_USD": 15,
+            "url": "https://key-drop.com/pl/skins/category/isamu"
+        },
+        {
+            "img": "/uploads/skins/medusa1.png",
+            "lang": "PL",
+            "name": "MEDUSA",
+            "odds": 13,
+            "price_USD": 6.7,
+            "url": "https://key-drop.com/pl/skins/category/medusa"
+        },
+        {
+            "img": "/uploads/skins/innocent.png",
+            "lang": "PL",
+            "name": "INNOCENT",
+            "odds": 13,
+            "price_USD": 5.53,
+            "url": "https://key-drop.com/pl/skins/category/innocent"
+        },
+        {
+            "img": "/uploads/skins/dmg.png",
+            "lang": "PL",
+            "name": "DMG",
+            "odds": 8,
+            "price_USD": 22,
+            "url": "https://key-drop.com/pl/skins/category/dmg"
+        },
+        {
+            "img": "/uploads/skins/nexe2.png",
+            "lang": "PL",
+            "name": "NEXE",
+            "odds": 17,
+            "price_USD": 6.66,
+            "url": "https://key-drop.com/pl/skins/category/nexe"
+        },
+        {
+            "img": "/uploads/skins/FOREVER.jpg",
+            "lang": "PL",
+            "name": "FOREVER",
+            "odds": 14,
+            "price_USD": 9,
+            "url": "https://key-drop.com/pl/skins/category/forever"
+        },
+        {
+            "img": "/uploads/skins/zony.png",
+            "lang": "PL",
+            "name": "ZONY",
+            "odds": 14,
+            "price_USD": 9,
+            "url": "https://key-drop.com/pl/skins/category/zony"
         },
         {
             "name": "BISHOP",
@@ -333,60 +475,6 @@
             "name": "BLOODSHOT",
             "odds": 17,
             "url": "https://key-drop.com/pl/skins/category/bloodshot"
-        },
-        {
-            "lang": "PL",
-            "name": "KACPER RIETZ",
-            "odds": 15,
-            "url": "https://key-drop.com/pl/skins/category/kacper-rietz"
-        },
-        {
-            "lang": "PL",
-            "name": "MATEO",
-            "odds": 9,
-            "url": "https://key-drop.com/pl/skins/category/mateo"
-        },
-        {
-            "lang": "PL",
-            "name": "ISAMU",
-            "odds": 8,
-            "url": "https://key-drop.com/pl/skins/category/isamu"
-        },
-        {
-            "lang": "PL",
-            "name": "MEDUSA",
-            "odds": 13,
-            "url": "https://key-drop.com/pl/skins/category/medusa"
-        },
-        {
-            "lang": "PL",
-            "name": "INNOCENT",
-            "odds": 13,
-            "url": "https://key-drop.com/pl/skins/category/innocent"
-        },
-        {
-            "lang": "PL",
-            "name": "DMG",
-            "odds": 8,
-            "url": "https://key-drop.com/pl/skins/category/dmg"
-        },
-        {
-            "lang": "PL",
-            "name": "NEXE",
-            "odds": 17,
-            "url": "https://key-drop.com/pl/skins/category/nexe"
-        },
-        {
-            "lang": "PL",
-            "name": "FOREVER",
-            "odds": 14,
-            "url": "https://key-drop.com/pl/skins/category/forever"
-        },
-        {
-            "lang": "PL",
-            "name": "ZONY",
-            "odds": 14,
-            "url": "https://key-drop.com/pl/skins/category/zony"
         },
         {
             "name": "SPARK",
