@@ -20,6 +20,78 @@
 
     "allCases": [
         {
+            "img": "/uploads/skins/kacper1.png",
+            "lang": "PL",
+            "name": "KACPER RIETZ",
+            "odds": 15,
+            "price_USD": 3.94,
+            "url": "https://key-drop.com/pl/skins/category/kacper-rietz"
+        },
+        {
+            "img": "/uploads/skins/mateoo.png",
+            "lang": "PL",
+            "name": "MATEO",
+            "odds": 9,
+            "price_USD": 3.94,
+            "url": "https://key-drop.com/pl/skins/category/mateo"
+        },
+        {
+            "img": "/uploads/skins/isamu.png",
+            "lang": "PL",
+            "name": "ISAMU",
+            "odds": 8,
+            "price_USD": 15,
+            "url": "https://key-drop.com/pl/skins/category/isamu"
+        },
+        {
+            "img": "/uploads/skins/medusa1.png",
+            "lang": "PL",
+            "name": "MEDUSA",
+            "odds": 13,
+            "price_USD": 6.7,
+            "url": "https://key-drop.com/pl/skins/category/medusa"
+        },
+        {
+            "img": "/uploads/skins/innocent.png",
+            "lang": "PL",
+            "name": "INNOCENT",
+            "odds": 13,
+            "price_USD": 5.53,
+            "url": "https://key-drop.com/pl/skins/category/innocent"
+        },
+        {
+            "img": "/uploads/skins/dmg.png",
+            "lang": "PL",
+            "name": "DMG",
+            "odds": 8,
+            "price_USD": 22,
+            "url": "https://key-drop.com/pl/skins/category/dmg"
+        },
+        {
+            "img": "/uploads/skins/nexe2.png",
+            "lang": "PL",
+            "name": "NEXE",
+            "odds": 17,
+            "price_USD": 6.66,
+            "url": "https://key-drop.com/pl/skins/category/nexe"
+        },
+        {
+            "img": "/uploads/skins/FOREVER.jpg",
+            "lang": "PL",
+            "name": "FOREVER",
+            "odds": 14,
+            "price_USD": 9,
+            "url": "https://key-drop.com/pl/skins/category/forever"
+        },
+        {
+            "img": "/uploads/skins/zony.png",
+            "lang": "PL",
+            "name": "ZONY",
+            "odds": 14,
+            "price_USD": 9,
+            "url": "https://key-drop.com/pl/skins/category/zony"
+        },
+        {
             "img": "/uploads/skins/snugtoes.png",
             "lang": "DE",
             "name": "SNUGTOES",
@@ -298,78 +370,6 @@
             "odds": 9,
             "price_USD": 7.1,
             "url": "https://key-drop.com/pl/skins/category/xm1nn"
-        },
-        {
-            "img": "/uploads/skins/kacper1.png",
-            "lang": "PL",
-            "name": "KACPER RIETZ",
-            "odds": 15,
-            "price_USD": 3.94,
-            "url": "https://key-drop.com/pl/skins/category/kacper-rietz"
-        },
-        {
-            "img": "/uploads/skins/mateoo.png",
-            "lang": "PL",
-            "name": "MATEO",
-            "odds": 9,
-            "price_USD": 3.94,
-            "url": "https://key-drop.com/pl/skins/category/mateo"
-        },
-        {
-            "img": "/uploads/skins/isamu.png",
-            "lang": "PL",
-            "name": "ISAMU",
-            "odds": 8,
-            "price_USD": 15,
-            "url": "https://key-drop.com/pl/skins/category/isamu"
-        },
-        {
-            "img": "/uploads/skins/medusa1.png",
-            "lang": "PL",
-            "name": "MEDUSA",
-            "odds": 13,
-            "price_USD": 6.7,
-            "url": "https://key-drop.com/pl/skins/category/medusa"
-        },
-        {
-            "img": "/uploads/skins/innocent.png",
-            "lang": "PL",
-            "name": "INNOCENT",
-            "odds": 13,
-            "price_USD": 5.53,
-            "url": "https://key-drop.com/pl/skins/category/innocent"
-        },
-        {
-            "img": "/uploads/skins/dmg.png",
-            "lang": "PL",
-            "name": "DMG",
-            "odds": 8,
-            "price_USD": 22,
-            "url": "https://key-drop.com/pl/skins/category/dmg"
-        },
-        {
-            "img": "/uploads/skins/nexe2.png",
-            "lang": "PL",
-            "name": "NEXE",
-            "odds": 17,
-            "price_USD": 6.66,
-            "url": "https://key-drop.com/pl/skins/category/nexe"
-        },
-        {
-            "img": "/uploads/skins/FOREVER.jpg",
-            "lang": "PL",
-            "name": "FOREVER",
-            "odds": 14,
-            "price_USD": 9,
-            "url": "https://key-drop.com/pl/skins/category/forever"
-        },
-        {
-            "img": "/uploads/skins/zony.png",
-            "lang": "PL",
-            "name": "ZONY",
-            "odds": 14,
-            "price_USD": 9,
-            "url": "https://key-drop.com/pl/skins/category/zony"
         },
         {
             "name": "BISHOP",
