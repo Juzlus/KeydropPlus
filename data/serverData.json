@@ -12,7 +12,8 @@
     "freeCaseBattle": [
         {"name": "SERENITY", "cover": "SERENITY.png"},
         {"name": "JOY", "cover": "NEW2.png"},
-        {"name": "PROGRESS", "cover": "ANEW.png"}
+        {"name": "PROGRESS", "cover": "ANEW.png"},
+        {"name": "ADVANCE", "cover": "ADVANCE.png"}
     ],
 
     "userGiveaways": ["bBGlki16755", "MNO6Fi17105", "XqJuHi17194", "LAI64i17252", "9I0SSi17183"],

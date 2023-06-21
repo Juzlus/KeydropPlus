@@ -45,7 +45,7 @@
     "autoJoinFreeCaseBattle_status": "Status",
     "autoJoinFreeCaseBattle_find": "Szukaj Bitwy",
     "autoJoinFreeCaseBattle_synopsis": "Opis",
-    "autoJoinFreeCaseBattle_desc": "Automatyczne dołączanie do wybranych darmowych skrzynek. Koszt dołączenia do darmowej skrzynki to 1 bilet. Skrypt automatycznie się wyłącza po 90 sekundach od szukania bitwy.",
+    "autoJoinFreeCaseBattle_desc": "Automatyczne dołączanie do wybranych darmowych skrzynek. Koszt dołączenia do darmowej skrzynki to 1 bilet. Skrypt automatycznie się wyłącza po 600 sekundach od szukania bitwy.",
     "autoJoinFreeCaseBattle_noCaseName": "Nie wybrano nazwy skrzynki!",
     "autoJoinFreeCaseBattle_noPlayers": "Nie wybrano liczby graczy w bitwie!",
     "autoJoinFreeCaseBattle_search": "Szukanie...",

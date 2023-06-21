@@ -45,7 +45,7 @@
     "autoJoinFreeCaseBattle_status": "Status",
     "autoJoinFreeCaseBattle_find": "Find Battle",
     "autoJoinFreeCaseBattle_synopsis": "Synopsis",
-    "autoJoinFreeCaseBattle_desc": "Automatically join selected free cases. The cost of joining a free case is 1 ticket. The script automatically disables after 90 seconds of searching for a battle.",
+    "autoJoinFreeCaseBattle_desc": "Automatically join selected free cases. The cost of joining a free case is 1 ticket. The script automatically disables after 600 seconds of searching for a battle.",
     "autoJoinFreeCaseBattle_noCaseName": "No case name selected!",
     "autoJoinFreeCaseBattle_noPlayers": "No number of players selected in the battle!",
     "autoJoinFreeCaseBattle_search": "Searching...",
