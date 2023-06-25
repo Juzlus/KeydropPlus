@@ -21,8 +21,8 @@
         {"name": "PROGRESS", "cover": "ANEW.png"}
     ],
 
-    "userGiveaways": ["bBGlki16755", "MNO6Fi17105", "XqJuHi17194", "LAI64i17252", "9I0SSi17183"],
-    "userGiveawaysWaiting": ["N04vSi11166", "wrZlVi16339", "gUFi0i17588"],
+    "userGiveaways": ["XqJuHi17194", "bBGlki16755", "N04vSi11166", "9I0SSi17183", "gUFi0i17588"],
+    "userGiveawaysWaiting": ["wrZlVi16339"],
 
     "allCases": [
         {
@@ -861,6 +861,31 @@
             "name": "MIA",
             "url": "https://key-drop.com/pl/skins/category/mia",
             "odds": 17
+        },
+        {
+            "name": "TENTACLE",
+            "url": "https://key-drop.com/pl/skins/category/tentacle",
+            "odds": 15
+        },
+        {
+            "name": "RATMAN",
+            "url": "https://key-drop.com/pl/skins/category/ratman",
+            "odds": 14
+        },
+        {
+            "name": "PULPO",
+            "url": "https://key-drop.com/pl/skins/category/pulpo",
+            "odds": 15
+        },
+        {
+            "name": "XEN",
+            "url": "https://key-drop.com/pl/skins/category/xen",
+            "odds": 15
+        },
+        {
+            "name": "GARNET",
+            "url": "https://key-drop.com/pl/skins/category/garnet",
+            "odds": 15
         }
     ],
 
