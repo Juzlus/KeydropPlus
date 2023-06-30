@@ -1,0 +1,2817 @@
+{
+    "LIGHT": {
+        "casePrice": 0.88,
+        "items": [
+            {
+                "title": "Dying Light 2",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-300px-dying_light_2_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 61.59,
+                "chance": 1,
+                "intervalFrom": 99001,
+                "intervalTo": 100000
+            },
+            {
+                "title": "3SwitcheD",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/3542c84c64b90dd864f9e3819dbc7071.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.21,
+                "chance": 99,
+                "intervalFrom": 1,
+                "intervalTo": 99000
+            }
+        ]
+    },
+    "GOD": {
+        "casePrice": 1.76,
+        "items": [
+            {
+                "title": "Battlefield 2042",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-battlefield_2042_cover_art.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 66.01,
+                "chance": 0.37,
+                "intervalFrom": 99631,
+                "intervalTo": 100000
+            },
+            {
+                "title": "LEGO Star Wars: The Skywalker Saga",
+                "cover": "https://image.key-drop.com/games/item/2022-04-05/1562334-lego_star_wars_the_skywalker_saga.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 50.36,
+                "chance": 0.159,
+                "intervalFrom": 99472,
+                "intervalTo": 99630
+            },
+            {
+                "title": "Elden Ring",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-elden-ring-pc-game-steam-cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 50.21,
+                "chance": 0.288,
+                "intervalFrom": 99184,
+                "intervalTo": 99471
+            },
+            {
+                "title": "God of War",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-god_of_war_4_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 42.77,
+                "chance": 0.321,
+                "intervalFrom": 98863,
+                "intervalTo": 99183
+            },
+            {
+                "title": "Total War: Warhammer III",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-total-war-warhammer-iii-pc-game-steam-europe-cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 35.75,
+                "chance": 0.204,
+                "intervalFrom": 98483,
+                "intervalTo": 98686
+            },
+            {
+                "title": "Fifa 22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-r878390_864x1296_2-3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 27.84,
+                "chance": 0.227,
+                "intervalFrom": 98256,
+                "intervalTo": 98482
+            },
+            {
+                "title": "Back4Blood",
+                "cover": "https://image.key-drop.com/games/item/2022-03-09/1562334-fgtgwcuvmwi61.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 26.34,
+                "chance": 0.393,
+                "intervalFrom": 97863,
+                "intervalTo": 98255
+            },
+            {
+                "title": "Minecraft Java Edition",
+                "cover": "https://image.key-drop.com/games/item/2022-03-18/1562334-minecraft-java_keyart_255x383.jpg",
+                "color": "gold",
+                "platform": "minecraft.net",
+                "price": 22.37,
+                "chance": 0.139,
+                "intervalFrom": 97724,
+                "intervalTo": 97862
+            },
+            {
+                "title": "Assassin's Creed Odyssey",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/332f3fc31aba50bd7dc9c8ebda7d18ab.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 16.31,
+                "chance": 0.214,
+                "intervalFrom": 97510,
+                "intervalTo": 97723
+            },
+            {
+                "title": "NBA 2K22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-cover---standard-edition.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 11.91,
+                "chance": 0.492,
+                "intervalFrom": 97018,
+                "intervalTo": 97509
+            },
+            {
+                "title": "Far Cry: New Dawn",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/88f0b18c182c85ff90d9bccc8bbd2e40.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 9.75,
+                "chance": 2.549,
+                "intervalFrom": 94469,
+                "intervalTo": 97017
+            },
+            {
+                "title": "Ready Or Not",
+                "cover": "https://image.key-drop.com/games/item/2022-03-09/1562334-ready-or-not-early-access-early-access-pc-game-steam-cover.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 42.53,
+                "chance": 0.176,
+                "intervalFrom": 98687,
+                "intervalTo": 98862
+            },
+            {
+                "title": "Random Key",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daed61b485be7cb46faa58579bef54c3.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.52,
+                "chance": 18.568,
+                "intervalFrom": 57984,
+                "intervalTo": 76551
+            },
+            {
+                "title": "Battle vs Chess",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/2054009b93539ae7876ef5e56e8f4d0c.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.21,
+                "chance": 9.131,
+                "intervalFrom": 37107,
+                "intervalTo": 46237
+            },
+            {
+                "title": "Gorky 17",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/498d713ebdc0952ac49868d37697107a.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.2,
+                "chance": 16.802,
+                "intervalFrom": 20305,
+                "intervalTo": 37106
+            },
+            {
+                "title": "3SwitcheD",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/3542c84c64b90dd864f9e3819dbc7071.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.21,
+                "chance": 11.746,
+                "intervalFrom": 46238,
+                "intervalTo": 57983
+            },
+            {
+                "title": "Pixel Puzzles: UndeadZ",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/824f2e80400208d9a8bd4c103f3cfff1.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 17.917,
+                "intervalFrom": 76552,
+                "intervalTo": 94468
+            },
+            {
+                "title": "Guns of Icarus Alliance",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/a2ac209cb867e12962de9bc489612161.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.1,
+                "chance": 20.304,
+                "intervalFrom": 1,
+                "intervalTo": 20304
+            }
+        ]
+    },
+    "RING": {
+        "casePrice": 0.66,
+        "items": [
+            {
+                "title": "Elden Ring",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-elden-ring-pc-game-steam-cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 50.21,
+                "chance": 1,
+                "intervalFrom": 99001,
+                "intervalTo": 100000
+            },
+            {
+                "title": "X-Blades",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88cddb14a23d1398854da6af16fc278f.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.11,
+                "chance": 99,
+                "intervalFrom": 1,
+                "intervalTo": 99000
+            }
+        ]
+    },
+    "BOSS": {
+        "casePrice": 1.23,
+        "items": [
+            {
+                "title": "Far Cry 6",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/5bb8daedd65eb95c42cd73ae34addb22.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 32.28,
+                "chance": 0.15,
+                "intervalFrom": 99851,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Fifa 22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-r878390_864x1296_2-3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 27.84,
+                "chance": 0.15,
+                "intervalFrom": 99701,
+                "intervalTo": 99850
+            },
+            {
+                "title": "Assassin's Creed Valhalla",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/19cf3f896928b75c276dda6cfd787516.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 23.3,
+                "chance": 0.2,
+                "intervalFrom": 99501,
+                "intervalTo": 99700
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 4,
+                "intervalFrom": 95501,
+                "intervalTo": 99500
+            },
+            {
+                "title": "Planets Under Attack",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/0722adde4cc1f639cd82b115efe3fe88.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.13,
+                "chance": 95.5,
+                "intervalFrom": 1,
+                "intervalTo": 95500
+            }
+        ]
+    },
+    "REBEL": {
+        "casePrice": 0.75,
+        "items": [
+            {
+                "title": "Grand Theft Auto V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0200d1b78c8ccdbd3ae808919a14a73b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 10.48,
+                "chance": 4.5,
+                "intervalFrom": 95501,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Battle vs Chess",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/2054009b93539ae7876ef5e56e8f4d0c.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.21,
+                "chance": 95.5,
+                "intervalFrom": 1,
+                "intervalTo": 95500
+            }
+        ]
+    },
+    "PUNK": {
+        "casePrice": 1.05,
+        "items": [
+            {
+                "title": "Fifa 22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-r878390_864x1296_2-3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 27.84,
+                "chance": 0.082,
+                "intervalFrom": 99919,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 0.099,
+                "intervalFrom": 99820,
+                "intervalTo": 99918
+            },
+            {
+                "title": "Project CARS",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/b3e35b20ba732cf167e2ea90a5290d70.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 3.41,
+                "chance": 0.645,
+                "intervalFrom": 98974,
+                "intervalTo": 99618
+            },
+            {
+                "title": "Among Us",
+                "cover": "https://image.key-drop.com/games/item/2021-05-18/f54a363c83a6726051b0a7124b6ad648.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.45,
+                "chance": 0.201,
+                "intervalFrom": 99619,
+                "intervalTo": 99819
+            },
+            {
+                "title": "Little Nightmares",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/34a2f751f1e36dac7bb8ce3c14129380.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.19,
+                "chance": 0.384,
+                "intervalFrom": 98590,
+                "intervalTo": 98973
+            },
+            {
+                "title": "The Haunting of Billy",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daeb5d68ef4557fc6c336350991d6310.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.54,
+                "chance": 0.556,
+                "intervalFrom": 98034,
+                "intervalTo": 98589
+            },
+            {
+                "title": "War Heroes: Invasion",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/18fa2da319b938a7937a83687eb7f21e.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.45,
+                "chance": 1.074,
+                "intervalFrom": 96960,
+                "intervalTo": 98033
+            },
+            {
+                "title": "Headsnatchers",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/ddd422fb879a4edd7dc922c60eae1238.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.95,
+                "chance": 2.077,
+                "intervalFrom": 94883,
+                "intervalTo": 96959
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 4.923,
+                "intervalFrom": 89960,
+                "intervalTo": 94882
+            },
+            {
+                "title": "Between Me and The Night",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/7a767076f7d0b939a0270e5cdb0e9f81.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.72,
+                "chance": 0.69,
+                "intervalFrom": 89270,
+                "intervalTo": 89959
+            },
+            {
+                "title": "Luxuria Superbia",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/df4b64ac50e40629bd617bfc9aab32f1.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.71,
+                "chance": 4.02,
+                "intervalFrom": 85250,
+                "intervalTo": 89269
+            },
+            {
+                "title": "HandyCopter",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/8149e603e6933bdb0d640595786a351c.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.44,
+                "chance": 6.395,
+                "intervalFrom": 78855,
+                "intervalTo": 85249
+            },
+            {
+                "title": "Who's in the Box",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/10113fdcc61f2a6a6dc907af921f1e9a.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.31,
+                "chance": 7.168,
+                "intervalFrom": 71687,
+                "intervalTo": 78854
+            },
+            {
+                "title": "Fairyland: Incursion",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/2948c88e645f41a24b548afb22310482.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.27,
+                "chance": 7.433,
+                "intervalFrom": 64254,
+                "intervalTo": 71686
+            },
+            {
+                "title": "Mr Dubstep",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header4.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.04,
+                "chance": 0.458,
+                "intervalFrom": 63796,
+                "intervalTo": 64253
+            },
+            {
+                "title": "Neon Prism",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/d35cc5f1747a2584445afd2e62594017.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.79,
+                "chance": 7.607,
+                "intervalFrom": 48003,
+                "intervalTo": 55609
+            },
+            {
+                "title": "Cube Runner",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header9.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.64,
+                "chance": 8.217,
+                "intervalFrom": 36833,
+                "intervalTo": 45049
+            },
+            {
+                "title": "Memories of a Vagabond",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e3d638191cbfb5156e6ab0e5099293e9.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 8.186,
+                "intervalFrom": 55610,
+                "intervalTo": 63795
+            },
+            {
+                "title": "World War III: Black Gold",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/c62dee36511bc420aa24e40248bb0522.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.79,
+                "chance": 2.953,
+                "intervalFrom": 45050,
+                "intervalTo": 48002
+            },
+            {
+                "title": "Slash It",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-tlo22.png",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.59,
+                "chance": 4.81,
+                "intervalFrom": 24307,
+                "intervalTo": 29116
+            },
+            {
+                "title": "The Last Hope",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/303abfa8fe24b43e1f9c5de5cd9d696a.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.5,
+                "chance": 7.298,
+                "intervalFrom": 17009,
+                "intervalTo": 24306
+            },
+            {
+                "title": "Planets Under Attack",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/0722adde4cc1f639cd82b115efe3fe88.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.13,
+                "chance": 8.42,
+                "intervalFrom": 1,
+                "intervalTo": 8420
+            },
+            {
+                "title": "Pixel Puzzles: UndeadZ",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/824f2e80400208d9a8bd4c103f3cfff1.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 7.716,
+                "intervalFrom": 29117,
+                "intervalTo": 36832
+            },
+            {
+                "title": "The Culling Of The Cows",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/5ca3294e877606bee213fab65d581be2.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.29,
+                "chance": 8.588,
+                "intervalFrom": 8421,
+                "intervalTo": 17008
+            }
+        ]
+    },
+    "FORCE": {
+        "casePrice": 2.20,
+        "items": [
+            {
+                "title": "Total War: Warhammer III",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-total-war-warhammer-iii-pc-game-steam-europe-cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 35.75,
+                "chance": 0.16,
+                "intervalFrom": 99484,
+                "intervalTo": 99643
+            },
+            {
+                "title": "Minecraft: Dungeons",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-661486-minecraft-dungeons-windows-apps-front-cover.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 26.8,
+                "chance": 0.162,
+                "intervalFrom": 99322,
+                "intervalTo": 99483
+            },
+            {
+                "title": "DRAGON BALL Z: KAKAROT",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/12394bc9a6b7a0692e790abdf66cd02b.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.91,
+                "chance": 0.173,
+                "intervalFrom": 99149,
+                "intervalTo": 99321
+            },
+            {
+                "title": "Watch Dogs: Legion",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f3016204467e2e8731f4cdf662270d1d.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 14.9,
+                "chance": 0.137,
+                "intervalFrom": 99012,
+                "intervalTo": 99148
+            },
+            {
+                "title": "Need for Speed Heat",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/531d9c5d9fd79514b95d8952bb086b5f.png",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 13.57,
+                "chance": 0.302,
+                "intervalFrom": 98710,
+                "intervalTo": 99011
+            },
+            {
+                "title": "NBA 2K22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-cover---standard-edition.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 11.91,
+                "chance": 0.287,
+                "intervalFrom": 97589,
+                "intervalTo": 97875
+            },
+            {
+                "title": "Mortal Kombat 11",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/5fd0510a063b344233adbb5b71929881.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 9.53,
+                "chance": 0.292,
+                "intervalFrom": 97297,
+                "intervalTo": 97588
+            },
+            {
+                "title": "Project CARS",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/b3e35b20ba732cf167e2ea90a5290d70.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 3.41,
+                "chance": 5.164,
+                "intervalFrom": 91583,
+                "intervalTo": 96746
+            },
+            {
+                "title": "Overwatch",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7f6e5bc00f5b9d5a145f26eeb0463fd4.jpg",
+                "color": "red",
+                "platform": "Battle.net",
+                "price": 58.28,
+                "chance": 0.357,
+                "intervalFrom": 99644,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Watch Dogs 2",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/6e87abe0d2708ae763c20b242ed6f6ac.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 12.81,
+                "chance": 0.834,
+                "intervalFrom": 97876,
+                "intervalTo": 98709
+            },
+            {
+                "title": "Darksiders III",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/cec55e64e2ad38a05cb4d5e45a650e57.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 5.5,
+                "chance": 0.55,
+                "intervalFrom": 96747,
+                "intervalTo": 97296
+            },
+            {
+                "title": "PAYDAY 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/e7b9fc22272a67e03135ae24cd017cce.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.33,
+                "chance": 10.286,
+                "intervalFrom": 81297,
+                "intervalTo": 91582
+            },
+            {
+                "title": "The Haunting of Billy",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daeb5d68ef4557fc6c336350991d6310.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.54,
+                "chance": 7.988,
+                "intervalFrom": 73309,
+                "intervalTo": 81296
+            },
+            {
+                "title": "War Heroes: Invasion",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/18fa2da319b938a7937a83687eb7f21e.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.45,
+                "chance": 5.581,
+                "intervalFrom": 67728,
+                "intervalTo": 73308
+            },
+            {
+                "title": "Bits n Bullets",
+                "cover": "https://image.key-drop.com/games/item/2021-07-01/3-ezgifcom-gif-maker.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.1,
+                "chance": 1.268,
+                "intervalFrom": 66460,
+                "intervalTo": 67727
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 1.3,
+                "intervalFrom": 64946,
+                "intervalTo": 66245
+            },
+            {
+                "title": "Luxuria Superbia",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/df4b64ac50e40629bd617bfc9aab32f1.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.71,
+                "chance": 3.849,
+                "intervalFrom": 61097,
+                "intervalTo": 64945
+            },
+            {
+                "title": "Mr Dubstep",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header4.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.04,
+                "chance": 9.801,
+                "intervalFrom": 51296,
+                "intervalTo": 61096
+            },
+            {
+                "title": "Cube Runner",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header9.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.64,
+                "chance": 10.815,
+                "intervalFrom": 9940,
+                "intervalTo": 20754
+            },
+            {
+                "title": "F1 2018",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/2ebde6cc431e48be7ac6f005e2003276.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.95,
+                "chance": 0.214,
+                "intervalFrom": 66246,
+                "intervalTo": 66459
+            },
+            {
+                "title": "Whispering Willows",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/0b3e12be95c5db5fd9620a8250720348.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.98,
+                "chance": 9.971,
+                "intervalFrom": 41325,
+                "intervalTo": 51295
+            },
+            {
+                "title": "Mars or Die!",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/bc1a24626de7c6a48f8d46d75793a421.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.84,
+                "chance": 10.759,
+                "intervalFrom": 30566,
+                "intervalTo": 41324
+            },
+            {
+                "title": "Enclave",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e42d27696345c99cb4b5bc9c6307589.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.72,
+                "chance": 9.811,
+                "intervalFrom": 20755,
+                "intervalTo": 30565
+            },
+            {
+                "title": "The Troma Project",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/67c764b73e4bbe5b215387b4cdaf2a60.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.57,
+                "chance": 9.939,
+                "intervalFrom": 1,
+                "intervalTo": 9939
+            }
+        ]
+    },
+    "KING": {
+        "casePrice": 8.78,
+        "items": [
+            {
+                "title": "Battlefield 2042",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-battlefield_2042_cover_art.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 66.01,
+                "chance": 0.004,
+                "intervalFrom": 99997,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Dying Light 2",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-300px-dying_light_2_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 61.59,
+                "chance": 0.032,
+                "intervalFrom": 99965,
+                "intervalTo": 99996
+            },
+            {
+                "title": "Darksiders II",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/d044e1f68f150d879fb81f7b27aa7729.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 56.49,
+                "chance": 0.037,
+                "intervalFrom": 99918,
+                "intervalTo": 99954
+            },
+            {
+                "title": "Forza Horizon 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/b3bf65d47ec3a2e7d1feb2d695e4dab3.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 56.29,
+                "chance": 0.006,
+                "intervalFrom": 99912,
+                "intervalTo": 99917
+            },
+            {
+                "title": "F1 2021",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-f1_2021_cover_art.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 48.84,
+                "chance": 0.01,
+                "intervalFrom": 99902,
+                "intervalTo": 99911
+            },
+            {
+                "title": "God of War",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-god_of_war_4_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 42.77,
+                "chance": 0.021,
+                "intervalFrom": 99881,
+                "intervalTo": 99901
+            },
+            {
+                "title": "PUBG:BATTLEGROUNDS",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/ecc458707789fd3ec02921a344897036.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 35.38,
+                "chance": 0.027,
+                "intervalFrom": 99854,
+                "intervalTo": 99880
+            },
+            {
+                "title": "The Medium",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0007e65e8933d5dd45504ee1cfaf72ee.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 33.79,
+                "chance": 0.052,
+                "intervalFrom": 99802,
+                "intervalTo": 99853
+            },
+            {
+                "title": "Resident Evil Village",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0dd331417af3bc24cb0b8c6b20ebc48f.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 27.33,
+                "chance": 0.002,
+                "intervalFrom": 99800,
+                "intervalTo": 99801
+            },
+            {
+                "title": "FIFA 21",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/542b318f17a2a2e52fe2bb775360ecaa.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 26.8,
+                "chance": 0.111,
+                "intervalFrom": 99689,
+                "intervalTo": 99799
+            },
+            {
+                "title": "Minecraft: Dungeons",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-661486-minecraft-dungeons-windows-apps-front-cover.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 26.8,
+                "chance": 0.03,
+                "intervalFrom": 99659,
+                "intervalTo": 99688
+            },
+            {
+                "title": "Assassin's Creed Valhalla",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/19cf3f896928b75c276dda6cfd787516.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 23.3,
+                "chance": 0.038,
+                "intervalFrom": 99621,
+                "intervalTo": 99658
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 0.035,
+                "intervalFrom": 99586,
+                "intervalTo": 99620
+            },
+            {
+                "title": "Valheim",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-cb6vhjj30ap61.png",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 19.03,
+                "chance": 0.031,
+                "intervalFrom": 99555,
+                "intervalTo": 99585
+            },
+            {
+                "title": "Resident Evil 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/3b262357eb4b3add8fe7509e95496eb6.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 18.59,
+                "chance": 0.819,
+                "intervalFrom": 98736,
+                "intervalTo": 99554
+            },
+            {
+                "title": "FIFA 20",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/50de6362d920a906b7eaa2088a9b0ff3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 16.85,
+                "chance": 9.504,
+                "intervalFrom": 86525,
+                "intervalTo": 96028
+            },
+            {
+                "title": "Assassin's Creed Odyssey",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/332f3fc31aba50bd7dc9c8ebda7d18ab.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 16.31,
+                "chance": 1.113,
+                "intervalFrom": 85412,
+                "intervalTo": 86524
+            },
+            {
+                "title": "Far Cry Primal",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/336a9e5147f40d7850e7e836b142ab90.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 15.14,
+                "chance": 3.032,
+                "intervalFrom": 82380,
+                "intervalTo": 85411
+            },
+            {
+                "title": "Need for Speed Heat",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/531d9c5d9fd79514b95d8952bb086b5f.png",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 13.57,
+                "chance": 3.413,
+                "intervalFrom": 73743,
+                "intervalTo": 77155
+            },
+            {
+                "title": "HITMAN 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/1dbb2867ecf16f8d380454f8a4867d71.jpg",
+                "color": "gold",
+                "platform": "Epic Games",
+                "price": 11.08,
+                "chance": 2.114,
+                "intervalFrom": 71629,
+                "intervalTo": 73742
+            },
+            {
+                "title": "Far Cry: New Dawn",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/88f0b18c182c85ff90d9bccc8bbd2e40.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 9.75,
+                "chance": 12.58,
+                "intervalFrom": 59049,
+                "intervalTo": 71628
+            },
+            {
+                "title": "MotoGP™19",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/50b7859829230e9730c4fbd3fb709686.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 6.57,
+                "chance": 5.863,
+                "intervalFrom": 43594,
+                "intervalTo": 49456
+            },
+            {
+                "title": "Control",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/e902c8b164baa2ff242bf447485b5d0b.png",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 5.8,
+                "chance": 10.361,
+                "intervalFrom": 33233,
+                "intervalTo": 43593
+            },
+            {
+                "title": "RAGE 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f4306b45f1cdfc03914c87227fbb8239.jpg",
+                "color": "gold",
+                "platform": "Bethesda",
+                "price": 4.65,
+                "chance": 16.013,
+                "intervalFrom": 17220,
+                "intervalTo": 33232
+            },
+            {
+                "title": "Overwatch",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7f6e5bc00f5b9d5a145f26eeb0463fd4.jpg",
+                "color": "red",
+                "platform": "Battle.net",
+                "price": 58.28,
+                "chance": 0.01,
+                "intervalFrom": 99955,
+                "intervalTo": 99964
+            },
+            {
+                "title": "Far Cry 5",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/885578cd45f7dac168cf48f9555201b0.jpg",
+                "color": "red",
+                "platform": "Uplay",
+                "price": 14.63,
+                "chance": 3.112,
+                "intervalFrom": 79268,
+                "intervalTo": 82379
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/2d49641f0e513b46b3a7069eae587421.jpg",
+                "color": "red",
+                "platform": "GOG.com",
+                "price": 14.53,
+                "chance": 2.112,
+                "intervalFrom": 77156,
+                "intervalTo": 79267
+            },
+            {
+                "title": "Far Cry 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/39b6ea77040fa80db51d6a9774ba5eb2.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 17.47,
+                "chance": 2.707,
+                "intervalFrom": 96029,
+                "intervalTo": 98735
+            },
+            {
+                "title": "Tekken 7",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/689622266d918466a27521337ad70bea.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.29,
+                "chance": 9.592,
+                "intervalFrom": 49457,
+                "intervalTo": 59048
+            },
+            {
+                "title": "Random Key",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daed61b485be7cb46faa58579bef54c3.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.52,
+                "chance": 17.219,
+                "intervalFrom": 1,
+                "intervalTo": 17219
+            }
+        ]
+    },
+    "NEON": {
+        "casePrice": 2.20,
+        "items": [
+            {
+                "title": "Dying Light 2",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-300px-dying_light_2_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 61.59,
+                "chance": 0.024,
+                "intervalFrom": 99977,
+                "intervalTo": 100000
+            },
+            {
+                "title": "GhostWire: Tokyo",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-ghostwire-tokyo-pc-game-steam-europe-cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 55.03,
+                "chance": 0.055,
+                "intervalFrom": 99922,
+                "intervalTo": 99976
+            },
+            {
+                "title": "Need for Speed Heat",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/531d9c5d9fd79514b95d8952bb086b5f.png",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 13.57,
+                "chance": 0.046,
+                "intervalFrom": 99829,
+                "intervalTo": 99874
+            },
+            {
+                "title": "Grand Theft Auto V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0200d1b78c8ccdbd3ae808919a14a73b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 10.48,
+                "chance": 0.055,
+                "intervalFrom": 99707,
+                "intervalTo": 99761
+            },
+            {
+                "title": "Doom",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/b92d4526be54def63df1d0207d1edf4c.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 7.67,
+                "chance": 0.366,
+                "intervalFrom": 99341,
+                "intervalTo": 99706
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/2d49641f0e513b46b3a7069eae587421.jpg",
+                "color": "red",
+                "platform": "GOG.com",
+                "price": 14.53,
+                "chance": 0.047,
+                "intervalFrom": 99875,
+                "intervalTo": 99921
+            },
+            {
+                "title": "Fallout 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/55ad7dd72d9c606ccc54dce4150ed8e6.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.74,
+                "chance": 0.126,
+                "intervalFrom": 98832,
+                "intervalTo": 98957
+            },
+            {
+                "title": "Iron Sky Invasion",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/0921bcfcc394b19f389f3b6ba904c7db.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 0.78,
+                "chance": 11.271,
+                "intervalFrom": 1,
+                "intervalTo": 11271
+            },
+            {
+                "title": "Battlefield 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/b14d17dbe3d4f48a3dd47da7fcbe06cd.jpg",
+                "color": "pink",
+                "platform": "Origin",
+                "price": 10.73,
+                "chance": 0.067,
+                "intervalFrom": 99762,
+                "intervalTo": 99828
+            },
+            {
+                "title": "Outside",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/59191266d53fdc07658204693ef50ab8.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 2.93,
+                "chance": 8.932,
+                "intervalFrom": 69386,
+                "intervalTo": 78317
+            },
+            {
+                "title": "Typical Nightmare",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/7c5941f7b630b25390735be5a1c74b50.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 1.57,
+                "chance": 9.552,
+                "intervalFrom": 49990,
+                "intervalTo": 59541
+            },
+            {
+                "title": "DiRT 4",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/437bbe36c40fea912625884b9c8141cd.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 6.75,
+                "chance": 0.383,
+                "intervalFrom": 98958,
+                "intervalTo": 99340
+            },
+            {
+                "title": "Resident Evil 5",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/e941d4a1e7a6f153284b66f289d186e6.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 5.78,
+                "chance": 0.329,
+                "intervalFrom": 98503,
+                "intervalTo": 98831
+            },
+            {
+                "title": "Fallout: New Vegas",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/79278e62b45d051168ad7470473fa390.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.08,
+                "chance": 3.329,
+                "intervalFrom": 95174,
+                "intervalTo": 98502
+            },
+            {
+                "title": "Just Cause 3",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/5476a030b5719e2cdc2baaab0d13aced.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.94,
+                "chance": 1.514,
+                "intervalFrom": 93660,
+                "intervalTo": 95173
+            },
+            {
+                "title": "Two Worlds II",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/260542db83b4b7d5f6dca8c57bed47da.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.45,
+                "chance": 3.883,
+                "intervalFrom": 84588,
+                "intervalTo": 88470
+            },
+            {
+                "title": "Grid 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/4d8007dba57e60307f0d6f4e1d695f83.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.45,
+                "chance": 5.189,
+                "intervalFrom": 88471,
+                "intervalTo": 93659
+            },
+            {
+                "title": "Killing Floor 2",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/9491f771282414aabdc3585b06bb263c.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.14,
+                "chance": 6.27,
+                "intervalFrom": 78318,
+                "intervalTo": 84587
+            },
+            {
+                "title": "Space Farmers",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/25e48b1d5e34f9a2d4b4878a2ab8b960.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.74,
+                "chance": 7.251,
+                "intervalFrom": 62135,
+                "intervalTo": 69385
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 2.593,
+                "intervalFrom": 59542,
+                "intervalTo": 62134
+            },
+            {
+                "title": "Shadowrun Returns",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/26ad5ee99e1b6e7f6ada0c36269a71c5.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.3,
+                "chance": 9.565,
+                "intervalFrom": 40425,
+                "intervalTo": 49989
+            },
+            {
+                "title": "Vapour",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/bf2c86f0222b9e87acdd53ac7d863527.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.22,
+                "chance": 9.943,
+                "intervalFrom": 30482,
+                "intervalTo": 40424
+            },
+            {
+                "title": "Earth 2160",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/26a93748f88da22c92d56144fa5896f8.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.13,
+                "chance": 9.499,
+                "intervalFrom": 20983,
+                "intervalTo": 30481
+            },
+            {
+                "title": "Racer 8",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/3178fd767eb89d2a496e29a6d85da33a.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.05,
+                "chance": 9.711,
+                "intervalFrom": 11272,
+                "intervalTo": 20982
+            }
+        ]
+    },
+    "DETECT": {
+        "casePrice": 1.54,
+        "items": [
+            {
+                "title": "Dying Light 2",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-300px-dying_light_2_cover.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 61.59,
+                "chance": 0.134,
+                "intervalFrom": 99867,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Minecraft: Dungeons",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-661486-minecraft-dungeons-windows-apps-front-cover.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 26.8,
+                "chance": 0.113,
+                "intervalFrom": 99754,
+                "intervalTo": 99866
+            },
+            {
+                "title": "NBA 2K22",
+                "cover": "https://image.key-drop.com/games/item/2022-02-08/1562334-cover---standard-edition.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 11.91,
+                "chance": 0.134,
+                "intervalFrom": 99620,
+                "intervalTo": 99753
+            },
+            {
+                "title": "Tomb Raider",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/388a6e0cf8de55de10a498ca4be0140e.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.02,
+                "chance": 0.955,
+                "intervalFrom": 98160,
+                "intervalTo": 99114
+            },
+            {
+                "title": "Sid Meier's Civilization VI",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/1b11888fce0e2904bd6d3fe3a773fc21.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.14,
+                "chance": 0.505,
+                "intervalFrom": 99115,
+                "intervalTo": 99619
+            },
+            {
+                "title": "Sid Meier's Civilization V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/54f2bd2ea8662298977fc2b7bd0c7e93.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.91,
+                "chance": 5.32,
+                "intervalFrom": 92840,
+                "intervalTo": 98159
+            },
+            {
+                "title": "The Haunting of Billy",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daeb5d68ef4557fc6c336350991d6310.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.54,
+                "chance": 6.705,
+                "intervalFrom": 86135,
+                "intervalTo": 92839
+            },
+            {
+                "title": "Bits n Bullets",
+                "cover": "https://image.key-drop.com/games/item/2021-07-01/3-ezgifcom-gif-maker.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.1,
+                "chance": 7.954,
+                "intervalFrom": 78181,
+                "intervalTo": 86134
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 9.475,
+                "intervalFrom": 68706,
+                "intervalTo": 78180
+            },
+            {
+                "title": "Mr Dubstep",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header4.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 1.04,
+                "chance": 4.823,
+                "intervalFrom": 63883,
+                "intervalTo": 68705
+            },
+            {
+                "title": "Cube Runner",
+                "cover": "https://image.key-drop.com/games/item/2021-07-12/3-header9.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.64,
+                "chance": 11.053,
+                "intervalFrom": 15953,
+                "intervalTo": 27005
+            },
+            {
+                "title": "Random Key",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daed61b485be7cb46faa58579bef54c3.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.52,
+                "chance": 5.775,
+                "intervalFrom": 1,
+                "intervalTo": 5775
+            },
+            {
+                "title": "Chicken Shoot Gold",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e11d43b15077742d1fccb2440831e8c.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 8.45,
+                "intervalFrom": 55433,
+                "intervalTo": 63882
+            },
+            {
+                "title": "KnightShift",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d43d04e84d2d348ad4d25720fb2e12ee.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.75,
+                "chance": 9.185,
+                "intervalFrom": 36457,
+                "intervalTo": 45641
+            },
+            {
+                "title": "Dream Pinball 3D",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/c97fba59b63307a5f4180b403f6e6cc5.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.75,
+                "chance": 9.791,
+                "intervalFrom": 45642,
+                "intervalTo": 55432
+            },
+            {
+                "title": "Enclave",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e42d27696345c99cb4b5bc9c6307589.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.72,
+                "chance": 9.451,
+                "intervalFrom": 27006,
+                "intervalTo": 36456
+            },
+            {
+                "title": "Pixel Puzzles: UndeadZ",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/824f2e80400208d9a8bd4c103f3cfff1.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 10.177,
+                "intervalFrom": 5776,
+                "intervalTo": 15952
+            }
+        ]
+    },
+    "HERO": {
+        "casePrice": 1.75,
+        "items": [
+            {
+                "title": "Red Dead Redemption 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/59a64023827bb01d60164211772ae53b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 32.04,
+                "chance": 0.01,
+                "intervalFrom": 99893,
+                "intervalTo": 99902
+            },
+            {
+                "title": "FIFA 20",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/50de6362d920a906b7eaa2088a9b0ff3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 16.85,
+                "chance": 0.113,
+                "intervalFrom": 99780,
+                "intervalTo": 99892
+            },
+            {
+                "title": "Resident Evil 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/fa87d0c2cd5b09e95c562c5151c4d5af.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.08,
+                "chance": 0.101,
+                "intervalFrom": 99679,
+                "intervalTo": 99779
+            },
+            {
+                "title": "HITMAN 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/1dbb2867ecf16f8d380454f8a4867d71.jpg",
+                "color": "gold",
+                "platform": "Epic Games",
+                "price": 11.08,
+                "chance": 0.023,
+                "intervalFrom": 99656,
+                "intervalTo": 99678
+            },
+            {
+                "title": "Metro Exodus",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/3f8a553506be549789fc336edca80590.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 9.79,
+                "chance": 0.083,
+                "intervalFrom": 99573,
+                "intervalTo": 99655
+            },
+            {
+                "title": "Overwatch",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7f6e5bc00f5b9d5a145f26eeb0463fd4.jpg",
+                "color": "red",
+                "platform": "Battle.net",
+                "price": 58.28,
+                "chance": 0.098,
+                "intervalFrom": 99903,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Fallout 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/55ad7dd72d9c606ccc54dce4150ed8e6.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.74,
+                "chance": 0.525,
+                "intervalFrom": 99048,
+                "intervalTo": 99572
+            },
+            {
+                "title": "Street Fighter V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/973c49b221ac7ae44fd1535ccfbff9d8.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 6.57,
+                "chance": 0.203,
+                "intervalFrom": 98845,
+                "intervalTo": 99047
+            },
+            {
+                "title": "Green Hell",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/76e2ad5520ddfaa653e061d4556df076.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 6.18,
+                "chance": 0.242,
+                "intervalFrom": 98603,
+                "intervalTo": 98844
+            },
+            {
+                "title": "Outlast II",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/21b87db2461adf14837a4d7278ab512a.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 5.02,
+                "chance": 2.309,
+                "intervalFrom": 96294,
+                "intervalTo": 98602
+            },
+            {
+                "title": "Outlast",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e77b799edbe49d930448961e5dbfb6f2.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.76,
+                "chance": 1.843,
+                "intervalFrom": 94451,
+                "intervalTo": 96293
+            },
+            {
+                "title": "Fallout: New Vegas",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/79278e62b45d051168ad7470473fa390.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.08,
+                "chance": 5.77,
+                "intervalFrom": 88681,
+                "intervalTo": 94450
+            },
+            {
+                "title": "Sid Meier's Civilization V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/54f2bd2ea8662298977fc2b7bd0c7e93.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.91,
+                "chance": 3.239,
+                "intervalFrom": 85442,
+                "intervalTo": 88680
+            },
+            {
+                "title": "Two Worlds II",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/260542db83b4b7d5f6dca8c57bed47da.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.45,
+                "chance": 2.87,
+                "intervalFrom": 82572,
+                "intervalTo": 85441
+            },
+            {
+                "title": "PAYDAY 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/e7b9fc22272a67e03135ae24cd017cce.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.33,
+                "chance": 9.063,
+                "intervalFrom": 73509,
+                "intervalTo": 82571
+            },
+            {
+                "title": "Borderlands 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2ed859f371e558ced98ec514940f0145.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 2.15,
+                "chance": 6.438,
+                "intervalFrom": 67071,
+                "intervalTo": 73508
+            },
+            {
+                "title": "Random Key",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daed61b485be7cb46faa58579bef54c3.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.52,
+                "chance": 5.339,
+                "intervalFrom": 12852,
+                "intervalTo": 18190
+            },
+            {
+                "title": "Memories of a Vagabond",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e3d638191cbfb5156e6ab0e5099293e9.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 6.122,
+                "intervalFrom": 60949,
+                "intervalTo": 67070
+            },
+            {
+                "title": "World War III: Black Gold",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/c62dee36511bc420aa24e40248bb0522.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.79,
+                "chance": 4.132,
+                "intervalFrom": 56817,
+                "intervalTo": 60948
+            },
+            {
+                "title": "KnightShift",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d43d04e84d2d348ad4d25720fb2e12ee.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.75,
+                "chance": 9.626,
+                "intervalFrom": 47191,
+                "intervalTo": 56816
+            },
+            {
+                "title": "Duke of Alpha Centauri",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/686000d610312817478776edabe19240.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 11.181,
+                "intervalFrom": 36010,
+                "intervalTo": 47190
+            },
+            {
+                "title": "The Guard of the Dungeon",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/b610299fcc0ccdc5d291bb6f3d338037.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.57,
+                "chance": 8.301,
+                "intervalFrom": 27709,
+                "intervalTo": 36009
+            },
+            {
+                "title": "Chicken Shoot 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/369687856848ece37012525a8a5901e3.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.55,
+                "chance": 9.518,
+                "intervalFrom": 18191,
+                "intervalTo": 27708
+            },
+            {
+                "title": "Planets Under Attack",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/0722adde4cc1f639cd82b115efe3fe88.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.13,
+                "chance": 12.851,
+                "intervalFrom": 1,
+                "intervalTo": 12851
+            }
+        ]
+    },
+    "STAR": {
+        "casePrice": 3.51,
+        "items": [
+            {
+                "title": "Rust",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/6fa27af7ffbe93bd6294302f703dfafa.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 54.78,
+                "chance": 0.155,
+                "intervalFrom": 99846,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Far Cry 6",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/5bb8daedd65eb95c42cd73ae34addb22.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 32.28,
+                "chance": 0.111,
+                "intervalFrom": 99505,
+                "intervalTo": 99615
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 0.214,
+                "intervalFrom": 98342,
+                "intervalTo": 98555
+            },
+            {
+                "title": "Borderlands 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/774aa41089b60d31922635288eb55ea5.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 13.98,
+                "chance": 0.165,
+                "intervalFrom": 97539,
+                "intervalTo": 97703
+            },
+            {
+                "title": "Control: Ultimate Edition",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/6b7a12aa5858e43bd5e1bc4a763abefa.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 6.98,
+                "chance": 0.177,
+                "intervalFrom": 93064,
+                "intervalTo": 93240
+            },
+            {
+                "title": "RAGE 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f4306b45f1cdfc03914c87227fbb8239.jpg",
+                "color": "gold",
+                "platform": "Bethesda",
+                "price": 4.65,
+                "chance": 7.871,
+                "intervalFrom": 71705,
+                "intervalTo": 79575
+            },
+            {
+                "title": "The Elder Scrolls V: Skyrim",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/bfefaae8639d4d0a9929f84bb2744497.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 33.08,
+                "chance": 0.23,
+                "intervalFrom": 99616,
+                "intervalTo": 99845
+            },
+            {
+                "title": "Battlefield V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/02ff883c1db737ae5a67401309bd7d07.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 17.42,
+                "chance": 0.29,
+                "intervalFrom": 97872,
+                "intervalTo": 98161
+            },
+            {
+                "title": "Far Cry 5",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/885578cd45f7dac168cf48f9555201b0.jpg",
+                "color": "red",
+                "platform": "Uplay",
+                "price": 14.63,
+                "chance": 0.168,
+                "intervalFrom": 97704,
+                "intervalTo": 97871
+            },
+            {
+                "title": "MotoGP 20",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/d17a73433e22cff11c3ada14e9ca9c5a.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 11.88,
+                "chance": 0.244,
+                "intervalFrom": 97127,
+                "intervalTo": 97370
+            },
+            {
+                "title": "Fallout 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/55ad7dd72d9c606ccc54dce4150ed8e6.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.74,
+                "chance": 3.993,
+                "intervalFrom": 89071,
+                "intervalTo": 93063
+            },
+            {
+                "title": "eFootball PES 2021 Season Update",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/3cc0c3a5483bf5d44893468fd3e539fe.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 22,
+                "chance": 0.18,
+                "intervalFrom": 98162,
+                "intervalTo": 98341
+            },
+            {
+                "title": "Battlefield 1",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d61576f55e10c8f3ce521dd5ed60ae80.jpg",
+                "color": "pink",
+                "platform": "Origin",
+                "price": 12.75,
+                "chance": 0.168,
+                "intervalFrom": 97371,
+                "intervalTo": 97538
+            },
+            {
+                "title": "Age of Empires II: Definitive Edition",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/be20a402e7cce983d6cbf317d5df558e.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 8.75,
+                "chance": 0.497,
+                "intervalFrom": 96630,
+                "intervalTo": 97126
+            },
+            {
+                "title": "Dead by Daylight",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e4e2d9d1a59ae9073de59644209d6824.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.56,
+                "chance": 0.509,
+                "intervalFrom": 96121,
+                "intervalTo": 96629
+            },
+            {
+                "title": "Tekken 7",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/689622266d918466a27521337ad70bea.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.29,
+                "chance": 1.314,
+                "intervalFrom": 93241,
+                "intervalTo": 94554
+            },
+            {
+                "title": "Green Hell",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/76e2ad5520ddfaa653e061d4556df076.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 6.18,
+                "chance": 1.579,
+                "intervalFrom": 87492,
+                "intervalTo": 89070
+            },
+            {
+                "title": "Far Cry 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/a5339d9444aa187e8f3104e1250a619d.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 5.75,
+                "chance": 7.916,
+                "intervalFrom": 79576,
+                "intervalTo": 87491
+            },
+            {
+                "title": "Human: Fall Flat",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7d3c3c594709d221f9c9f0908f867b4d.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 4.43,
+                "chance": 8.895,
+                "intervalFrom": 62810,
+                "intervalTo": 71704
+            },
+            {
+                "title": "Need for Speed: Undercover",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/76611c05458af9d22ed135500d8a23f0.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 23.29,
+                "chance": 0.949,
+                "intervalFrom": 98556,
+                "intervalTo": 99504
+            },
+            {
+                "title": "The Sims 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/8fbe953546b01e7bf4a1fd29838c5b10.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 15.13,
+                "chance": 1.566,
+                "intervalFrom": 94555,
+                "intervalTo": 96120
+            },
+            {
+                "title": "Two Worlds II",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/260542db83b4b7d5f6dca8c57bed47da.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.45,
+                "chance": 2.098,
+                "intervalFrom": 60712,
+                "intervalTo": 62809
+            },
+            {
+                "title": "PAYDAY 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-17/e7b9fc22272a67e03135ae24cd017cce.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.33,
+                "chance": 4.114,
+                "intervalFrom": 56598,
+                "intervalTo": 60711
+            },
+            {
+                "title": "Little Nightmares",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/34a2f751f1e36dac7bb8ce3c14129380.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.19,
+                "chance": 0.429,
+                "intervalFrom": 56169,
+                "intervalTo": 56597
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 3.986,
+                "intervalFrom": 52183,
+                "intervalTo": 56168
+            },
+            {
+                "title": "Orbital",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/9c7656c9d3b5a0054d1fa953e299cfb3.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.47,
+                "chance": 10.672,
+                "intervalFrom": 41511,
+                "intervalTo": 52182
+            },
+            {
+                "title": "Memories of a Vagabond",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e3d638191cbfb5156e6ab0e5099293e9.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 10.368,
+                "intervalFrom": 31143,
+                "intervalTo": 41510
+            },
+            {
+                "title": "World War III: Black Gold",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/c62dee36511bc420aa24e40248bb0522.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.79,
+                "chance": 10.426,
+                "intervalFrom": 20717,
+                "intervalTo": 31142
+            },
+            {
+                "title": "KnightShift",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d43d04e84d2d348ad4d25720fb2e12ee.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.75,
+                "chance": 10.478,
+                "intervalFrom": 10239,
+                "intervalTo": 20716
+            },
+            {
+                "title": "The Guard of the Dungeon",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/b610299fcc0ccdc5d291bb6f3d338037.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.57,
+                "chance": 10.238,
+                "intervalFrom": 1,
+                "intervalTo": 10238
+            }
+        ]
+    },
+    "CHAMPION": {
+        "casePrice": 14.92,
+        "items": [
+            {
+                "title": "Forza Horizon 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/b3bf65d47ec3a2e7d1feb2d695e4dab3.jpg",
+                "color": "gold",
+                "platform": "Microsoft Store",
+                "price": 56.29,
+                "chance": 0.301,
+                "intervalFrom": 96875,
+                "intervalTo": 97175
+            },
+            {
+                "title": "Far Cry 6",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/5bb8daedd65eb95c42cd73ae34addb22.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 32.28,
+                "chance": 0.501,
+                "intervalFrom": 95161,
+                "intervalTo": 95661
+            },
+            {
+                "title": "Red Dead Redemption 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/59a64023827bb01d60164211772ae53b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 32.04,
+                "chance": 0.301,
+                "intervalFrom": 94860,
+                "intervalTo": 95160
+            },
+            {
+                "title": "Resident Evil Village",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0dd331417af3bc24cb0b8c6b20ebc48f.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 27.33,
+                "chance": 0.501,
+                "intervalFrom": 94359,
+                "intervalTo": 94859
+            },
+            {
+                "title": "FIFA 21",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/542b318f17a2a2e52fe2bb775360ecaa.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 26.8,
+                "chance": 1.501,
+                "intervalFrom": 92858,
+                "intervalTo": 94358
+            },
+            {
+                "title": "Assassin's Creed Valhalla",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/19cf3f896928b75c276dda6cfd787516.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 23.3,
+                "chance": 2.201,
+                "intervalFrom": 90657,
+                "intervalTo": 92857
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 1.588,
+                "intervalFrom": 89069,
+                "intervalTo": 90656
+            },
+            {
+                "title": "Resident Evil 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/3b262357eb4b3add8fe7509e95496eb6.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 18.59,
+                "chance": 5.534,
+                "intervalFrom": 83535,
+                "intervalTo": 89068
+            },
+            {
+                "title": "MotoGP 21",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/40d0317a836aa243b01b96287544c281.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.88,
+                "chance": 4.344,
+                "intervalFrom": 71097,
+                "intervalTo": 75440
+            },
+            {
+                "title": "FIFA 20",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/50de6362d920a906b7eaa2088a9b0ff3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 16.85,
+                "chance": 7.355,
+                "intervalFrom": 63742,
+                "intervalTo": 71096
+            },
+            {
+                "title": "Resident Evil 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/fa87d0c2cd5b09e95c562c5151c4d5af.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.08,
+                "chance": 0.262,
+                "intervalFrom": 63480,
+                "intervalTo": 63741
+            },
+            {
+                "title": "Borderlands 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/774aa41089b60d31922635288eb55ea5.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 13.98,
+                "chance": 0.533,
+                "intervalFrom": 53800,
+                "intervalTo": 54332
+            },
+            {
+                "title": "HITMAN 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/1dbb2867ecf16f8d380454f8a4867d71.jpg",
+                "color": "gold",
+                "platform": "Epic Games",
+                "price": 11.08,
+                "chance": 1.252,
+                "intervalFrom": 49435,
+                "intervalTo": 50686
+            },
+            {
+                "title": "Grand Theft Auto V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0200d1b78c8ccdbd3ae808919a14a73b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 10.48,
+                "chance": 8.629,
+                "intervalFrom": 40806,
+                "intervalTo": 49434
+            },
+            {
+                "title": "Mortal Kombat 11",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/5fd0510a063b344233adbb5b71929881.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 9.53,
+                "chance": 9.898,
+                "intervalFrom": 30908,
+                "intervalTo": 40805
+            },
+            {
+                "title": "RAGE 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f4306b45f1cdfc03914c87227fbb8239.jpg",
+                "color": "gold",
+                "platform": "Bethesda",
+                "price": 4.65,
+                "chance": 10.611,
+                "intervalFrom": 1,
+                "intervalTo": 10611
+            },
+            {
+                "title": "Overwatch",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7f6e5bc00f5b9d5a145f26eeb0463fd4.jpg",
+                "color": "red",
+                "platform": "Battle.net",
+                "price": 58.28,
+                "chance": 2.825,
+                "intervalFrom": 97176,
+                "intervalTo": 100000
+            },
+            {
+                "title": "The Elder Scrolls V: Skyrim",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/bfefaae8639d4d0a9929f84bb2744497.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 33.08,
+                "chance": 1.213,
+                "intervalFrom": 95662,
+                "intervalTo": 96874
+            },
+            {
+                "title": "Battlefield V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/02ff883c1db737ae5a67401309bd7d07.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 17.42,
+                "chance": 8.094,
+                "intervalFrom": 75441,
+                "intervalTo": 83534
+            },
+            {
+                "title": "Far Cry 5",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/885578cd45f7dac168cf48f9555201b0.jpg",
+                "color": "red",
+                "platform": "Uplay",
+                "price": 14.63,
+                "chance": 4.659,
+                "intervalFrom": 58821,
+                "intervalTo": 63479
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/2d49641f0e513b46b3a7069eae587421.jpg",
+                "color": "red",
+                "platform": "GOG.com",
+                "price": 14.53,
+                "chance": 4.488,
+                "intervalFrom": 54333,
+                "intervalTo": 58820
+            },
+            {
+                "title": "Need for Speed: Heat",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/fb3ac394492a23811df64053046e9ad0.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 12.55,
+                "chance": 3.113,
+                "intervalFrom": 50687,
+                "intervalTo": 53799
+            },
+            {
+                "title": "Fallout 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/55ad7dd72d9c606ccc54dce4150ed8e6.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.74,
+                "chance": 9.56,
+                "intervalFrom": 21348,
+                "intervalTo": 30907
+            },
+            {
+                "title": "Need for Speed: Most Wanted",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/ff034bf4d1fbebf89e13db61bcf14f86.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 5.65,
+                "chance": 10.736,
+                "intervalFrom": 10612,
+                "intervalTo": 21347
+            }
+        ]
+    },
+    "WING": {
+        "casePrice": 7.90,
+        "items": [
+            {
+                "title": "Red Dead Redemption 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/59a64023827bb01d60164211772ae53b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 32.04,
+                "chance": 0.201,
+                "intervalFrom": 99503,
+                "intervalTo": 99703
+            },
+            {
+                "title": "FIFA 21",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/542b318f17a2a2e52fe2bb775360ecaa.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 26.8,
+                "chance": 0.381,
+                "intervalFrom": 99122,
+                "intervalTo": 99502
+            },
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 0.681,
+                "intervalFrom": 98441,
+                "intervalTo": 99121
+            },
+            {
+                "title": "DRAGON BALL Z: KAKAROT",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/12394bc9a6b7a0692e790abdf66cd02b.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.91,
+                "chance": 0.381,
+                "intervalFrom": 93919,
+                "intervalTo": 94299
+            },
+            {
+                "title": "FIFA 20",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/50de6362d920a906b7eaa2088a9b0ff3.jpg",
+                "color": "gold",
+                "platform": "Origin",
+                "price": 16.85,
+                "chance": 0.881,
+                "intervalFrom": 93038,
+                "intervalTo": 93918
+            },
+            {
+                "title": "Resident Evil 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/fa87d0c2cd5b09e95c562c5151c4d5af.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 16.08,
+                "chance": 0.051,
+                "intervalFrom": 92987,
+                "intervalTo": 93037
+            },
+            {
+                "title": "Watch Dogs: Legion",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f3016204467e2e8731f4cdf662270d1d.jpg",
+                "color": "gold",
+                "platform": "Uplay",
+                "price": 14.9,
+                "chance": 1.081,
+                "intervalFrom": 91906,
+                "intervalTo": 92986
+            },
+            {
+                "title": "Borderlands 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/774aa41089b60d31922635288eb55ea5.jpg",
+                "color": "gold",
+                "platform": "Steam",
+                "price": 13.98,
+                "chance": 1.681,
+                "intervalFrom": 88714,
+                "intervalTo": 90394
+            },
+            {
+                "title": "RAGE 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/f4306b45f1cdfc03914c87227fbb8239.jpg",
+                "color": "gold",
+                "platform": "Bethesda",
+                "price": 4.65,
+                "chance": 13.255,
+                "intervalFrom": 25649,
+                "intervalTo": 38903
+            },
+            {
+                "title": "Overwatch",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7f6e5bc00f5b9d5a145f26eeb0463fd4.jpg",
+                "color": "red",
+                "platform": "Battle.net",
+                "price": 58.28,
+                "chance": 0.085,
+                "intervalFrom": 99916,
+                "intervalTo": 100000
+            },
+            {
+                "title": "The Elder Scrolls V: Skyrim",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/bfefaae8639d4d0a9929f84bb2744497.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 33.08,
+                "chance": 0.212,
+                "intervalFrom": 99704,
+                "intervalTo": 99915
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/2d49641f0e513b46b3a7069eae587421.jpg",
+                "color": "red",
+                "platform": "GOG.com",
+                "price": 14.53,
+                "chance": 1.511,
+                "intervalFrom": 90395,
+                "intervalTo": 91905
+            },
+            {
+                "title": "HITMAN 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d1ab9f93c478d6964533880ba6add5fc.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 13.34,
+                "chance": 0.051,
+                "intervalFrom": 88663,
+                "intervalTo": 88713
+            },
+            {
+                "title": "Fallout 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/55ad7dd72d9c606ccc54dce4150ed8e6.jpg",
+                "color": "red",
+                "platform": "Steam",
+                "price": 6.74,
+                "chance": 7.947,
+                "intervalFrom": 68458,
+                "intervalTo": 76404
+            },
+            {
+                "title": "Far Cry 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/39b6ea77040fa80db51d6a9774ba5eb2.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 17.47,
+                "chance": 4.141,
+                "intervalFrom": 94300,
+                "intervalTo": 98440
+            },
+            {
+                "title": "Battlefield 1",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d61576f55e10c8f3ce521dd5ed60ae80.jpg",
+                "color": "pink",
+                "platform": "Origin",
+                "price": 12.75,
+                "chance": 3.861,
+                "intervalFrom": 84802,
+                "intervalTo": 88662
+            },
+            {
+                "title": "Tom Clancy's Rainbow Six Siege",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/674aa60642ccb1f1af736d87a58a1f3f.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 11.46,
+                "chance": 0.383,
+                "intervalFrom": 84419,
+                "intervalTo": 84801
+            },
+            {
+                "title": "Battlefield 4",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/b14d17dbe3d4f48a3dd47da7fcbe06cd.jpg",
+                "color": "pink",
+                "platform": "Origin",
+                "price": 10.73,
+                "chance": 4.65,
+                "intervalFrom": 79769,
+                "intervalTo": 84418
+            },
+            {
+                "title": "Tekken 7",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/689622266d918466a27521337ad70bea.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.29,
+                "chance": 3.364,
+                "intervalFrom": 76405,
+                "intervalTo": 79768
+            },
+            {
+                "title": "Street Fighter V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/973c49b221ac7ae44fd1535ccfbff9d8.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 6.57,
+                "chance": 9.832,
+                "intervalFrom": 58626,
+                "intervalTo": 68457
+            },
+            {
+                "title": "Euro Truck Simulator 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/618ef58c25d6783f4c8f743c54bef168.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 6.45,
+                "chance": 11.765,
+                "intervalFrom": 46861,
+                "intervalTo": 58625
+            },
+            {
+                "title": "Far Cry 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/a5339d9444aa187e8f3104e1250a619d.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 5.75,
+                "chance": 7.957,
+                "intervalFrom": 38904,
+                "intervalTo": 46860
+            },
+            {
+                "title": "Human: Fall Flat",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/7d3c3c594709d221f9c9f0908f867b4d.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 4.43,
+                "chance": 12.188,
+                "intervalFrom": 1,
+                "intervalTo": 12188
+            },
+            {
+                "title": "Among Us",
+                "cover": "https://image.key-drop.com/games/item/2021-05-18/f54a363c83a6726051b0a7124b6ad648.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.45,
+                "chance": 13.46,
+                "intervalFrom": 12189,
+                "intervalTo": 25648
+            }
+        ]
+    },
+    "RIVAL": {
+        "casePrice": 0.88,
+        "items": [
+            {
+                "title": "Cyberpunk 2077",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88c2a317dab04d81476f4d99459b4166.jpg",
+                "color": "gold",
+                "platform": "GOG.com",
+                "price": 22.38,
+                "chance": 0.031,
+                "intervalFrom": 99970,
+                "intervalTo": 100000
+            },
+            {
+                "title": "Grand Theft Auto V",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/0200d1b78c8ccdbd3ae808919a14a73b.jpg",
+                "color": "gold",
+                "platform": "Rockstar",
+                "price": 10.48,
+                "chance": 0.029,
+                "intervalFrom": 99847,
+                "intervalTo": 99875
+            },
+            {
+                "title": "FIFA 19",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d34ae920234f9486a93bafad246d7784.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 16.95,
+                "chance": 0.058,
+                "intervalFrom": 99912,
+                "intervalTo": 99969
+            },
+            {
+                "title": "Need for Speed: Heat",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/fb3ac394492a23811df64053046e9ad0.jpg",
+                "color": "red",
+                "platform": "Origin",
+                "price": 12.55,
+                "chance": 0.036,
+                "intervalFrom": 99876,
+                "intervalTo": 99911
+            },
+            {
+                "title": "Dead by Daylight",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e4e2d9d1a59ae9073de59644209d6824.jpg",
+                "color": "pink",
+                "platform": "Steam",
+                "price": 7.56,
+                "chance": 0.081,
+                "intervalFrom": 99766,
+                "intervalTo": 99846
+            },
+            {
+                "title": "Far Cry 3",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/a5339d9444aa187e8f3104e1250a619d.jpg",
+                "color": "pink",
+                "platform": "Uplay",
+                "price": 5.75,
+                "chance": 0.131,
+                "intervalFrom": 99635,
+                "intervalTo": 99765
+            },
+            {
+                "title": "Fallout: New Vegas",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/79278e62b45d051168ad7470473fa390.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 4.08,
+                "chance": 0.346,
+                "intervalFrom": 99289,
+                "intervalTo": 99634
+            },
+            {
+                "title": "Little Nightmares",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/34a2f751f1e36dac7bb8ce3c14129380.jpg",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 3.19,
+                "chance": 0.161,
+                "intervalFrom": 99128,
+                "intervalTo": 99288
+            },
+            {
+                "title": "Mass Effect 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-15/9b769ec208ee3706a22c71eb51436eff.jpg",
+                "color": "violet",
+                "platform": "Origin",
+                "price": 1.8,
+                "chance": 4.47,
+                "intervalFrom": 94658,
+                "intervalTo": 99127
+            },
+            {
+                "title": "Random Key",
+                "cover": "https://image.key-drop.com/games/item/2021-05-14/daed61b485be7cb46faa58579bef54c3.png",
+                "color": "violet",
+                "platform": "Steam",
+                "price": 0.52,
+                "chance": 7.805,
+                "intervalFrom": 17171,
+                "intervalTo": 24975
+            },
+            {
+                "title": "DiRT Rally",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e814ebdeab1f6204311faec6dd660ea.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.77,
+                "chance": 4.222,
+                "intervalFrom": 90436,
+                "intervalTo": 94657
+            },
+            {
+                "title": "Vapour",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/bf2c86f0222b9e87acdd53ac7d863527.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.22,
+                "chance": 9.234,
+                "intervalFrom": 81202,
+                "intervalTo": 90435
+            },
+            {
+                "title": "Earth 2160",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/26a93748f88da22c92d56144fa5896f8.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 1.13,
+                "chance": 9.837,
+                "intervalFrom": 71365,
+                "intervalTo": 81201
+            },
+            {
+                "title": "Chicken Shoot Gold",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e11d43b15077742d1fccb2440831e8c.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 3.659,
+                "intervalFrom": 67706,
+                "intervalTo": 71364
+            },
+            {
+                "title": "Memories of a Vagabond",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/e3d638191cbfb5156e6ab0e5099293e9.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.82,
+                "chance": 1.039,
+                "intervalFrom": 66667,
+                "intervalTo": 67705
+            },
+            {
+                "title": "KnightShift",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/d43d04e84d2d348ad4d25720fb2e12ee.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.75,
+                "chance": 3.424,
+                "intervalFrom": 63243,
+                "intervalTo": 66666
+            },
+            {
+                "title": "Enclave",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/2e42d27696345c99cb4b5bc9c6307589.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.72,
+                "chance": 4.718,
+                "intervalFrom": 58525,
+                "intervalTo": 63242
+            },
+            {
+                "title": "Upside Down",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/226fa115d9b98b06e4549ca4b2093ed9.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 5.756,
+                "intervalFrom": 38395,
+                "intervalTo": 44150
+            },
+            {
+                "title": "Duke of Alpha Centauri",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/686000d610312817478776edabe19240.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 6.472,
+                "intervalFrom": 52053,
+                "intervalTo": 58524
+            },
+            {
+                "title": "The Guard of the Dungeon",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/b610299fcc0ccdc5d291bb6f3d338037.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.57,
+                "chance": 7.297,
+                "intervalFrom": 31098,
+                "intervalTo": 38394
+            },
+            {
+                "title": "Chicken Shoot 2",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/369687856848ece37012525a8a5901e3.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.55,
+                "chance": 6.122,
+                "intervalFrom": 24976,
+                "intervalTo": 31097
+            },
+            {
+                "title": "3SwitcheD",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/3542c84c64b90dd864f9e3819dbc7071.jpg",
+                "color": "blue",
+                "platform": "Steam",
+                "price": 0.21,
+                "chance": 6.77,
+                "intervalFrom": 10401,
+                "intervalTo": 17170
+            },
+            {
+                "title": "Pixel Puzzles: UndeadZ",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/824f2e80400208d9a8bd4c103f3cfff1.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.61,
+                "chance": 7.902,
+                "intervalFrom": 44151,
+                "intervalTo": 52052
+            },
+            {
+                "title": "X-Blades",
+                "cover": "https://image.key-drop.com/games/item/2021-04-16/88cddb14a23d1398854da6af16fc278f.jpg",
+                "color": "gray",
+                "platform": "Steam",
+                "price": 0.11,
+                "chance": 10.4,
+                "intervalFrom": 1,
+                "intervalTo": 10400
+            }
+        ]
+    }
+}
