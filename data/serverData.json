@@ -961,6 +961,31 @@
             "name": "RIVAL",
             "url": "https://key-drop.com/pl/category/rival",
             "odds": 29
+        },
+        {
+            "name": "HUNTRESS",
+            "url": "https://key-drop.com/pl/category/huntress",
+            "odds": 16
+        },
+        {
+            "name": "NIGHTSTALKER",
+            "url": "https://key-drop.com/pl/category/nightstalker",
+            "odds": 15
+        },
+        {
+            "name": "MAGE",
+            "url": "https://key-drop.com/pl/category/mage-2",
+            "odds": 14
+        },
+        {
+            "name": "TENDERIZER",
+            "url": "https://key-drop.com/pl/category/tenderizer",
+            "odds": 15
+        },
+        {
+            "name": "ELIMINATOR",
+            "url": "https://key-drop.com/pl/category/eliminator",
+            "odds": 15
         }
     ],
 
