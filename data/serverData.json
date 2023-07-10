@@ -986,6 +986,87 @@
             "name": "ELIMINATOR",
             "url": "https://key-drop.com/pl/category/eliminator",
             "odds": 15
+        },
+
+
+
+
+
+
+        {
+            "name": "GRIZ",
+            "url": "https://key-drop.com/pl/category/griz",
+            "odds": 15
+        },
+        {
+            "name": "FEX",
+            "url": "https://key-drop.com/pl/category/fex",
+            "odds": 14
+        },
+        {
+            "name": "STARFLICK",
+            "url": "https://key-drop.com/pl/category/starflick",
+            "odds": 15
+        },
+        {
+            "name": "INSPECTOR",
+            "url": "https://key-drop.com/pl/category/inspector",
+            "odds": 15
+        },
+        {
+            "name": "DUSK DASHER",
+            "url": "https://key-drop.com/pl/category/dusk-dasher",
+            "odds": 15
+        },
+        {
+            "name": "ARMOR",
+            "url": "https://key-drop.com/pl/category/armor",
+            "odds": 15
+        },
+        {
+            "name": "FLUX",
+            "url": "https://key-drop.com/pl/category/flux",
+            "odds": 15
+        },
+        {
+            "name": "CYBERTECH",
+            "url": "https://key-drop.com/pl/category/cybertech",
+            "odds": 15
+        },
+        {
+            "name": "GALACTUS",
+            "url": "https://key-drop.com/pl/category/galactus",
+            "odds": 15
+        },
+        {
+            "name": "OCEAN ORACLE",
+            "url": "https://key-drop.com/pl/category/ocean-oracle",
+            "odds": 15
+        },
+        {
+            "name": "MEGALO",
+            "url": "https://key-drop.com/pl/category/megalo",
+            "odds": 15
+        },
+        {
+            "name": "DIPLO",
+            "url": "https://key-drop.com/pl/category/diplo",
+            "odds": 15
+        },
+        {
+            "name": "OVIRAPTOR",
+            "url": "https://key-drop.com/pl/category/oviraptor",
+            "odds": 16
+        },
+        {
+            "name": "GIGANT",
+            "url": "https://key-drop.com/pl/category/gigant",
+            "odds": 16
+        },
+        {
+            "name": "REX",
+            "url": "https://key-drop.com/pl/category/rex",
+            "odds": 16
         }
     ],
 
