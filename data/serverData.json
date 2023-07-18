@@ -987,12 +987,6 @@
             "url": "https://key-drop.com/pl/category/eliminator",
             "odds": 15
         },
-
-
-
-
-
-
         {
             "name": "GRIZ",
             "url": "https://key-drop.com/pl/category/griz",
@@ -1066,6 +1060,31 @@
         {
             "name": "REX",
             "url": "https://key-drop.com/pl/category/rex",
+            "odds": 16
+        },
+        {
+            "name": "DESTROYER",
+            "url": "https://key-drop.com/pl/category/destroyer",
+            "odds": 16
+        },
+        {
+            "name": "GOLDEN ACE",
+            "url": "https://key-drop.com/pl/category/golden-ace",
+            "odds": 15
+        },
+        {
+            "name": "BLACK QUEEN",
+            "url": "https://key-drop.com/pl/category/black-queen",
+            "odds": 15
+        },
+        {
+            "name": "THE RIDDLER",
+            "url": "https://key-drop.com/pl/category/the-riddler",
+            "odds": 18
+        },
+        {
+            "name": "RED HOOD",
+            "url": "https://key-drop.com/pl/category/red-hood",
             "odds": 16
         }
     ],
