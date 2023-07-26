@@ -192,5 +192,6 @@
     "accessDenied_userName": "Aversen ModMail#0931",
 
     "dailyCase_waitTime": "IN",
-    "dailyCase_readyTime": "READY!"
+    "dailyCase_readyTime": "READY!",
+    "dailyCase_dailyCase": "Daily Case"
 }
