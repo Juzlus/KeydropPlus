@@ -22,7 +22,7 @@
     ],
 
     "userGiveaways": ["g2jrki17523", "XqJuHi17194", "Mtn8Pi19199", "bBGlki16755", "zERoXi18170"],
-    "userGiveawaysWaiting": [],
+    "userGiveawaysWaiting": ["0m8Hii19773"],
 
     "allCases": [
         {
@@ -929,6 +929,31 @@
             "name": "RIVAL",
             "url": "https://key-drop.com/pl/category/rival",
             "odds": 29
+        },
+        {
+            "name": "IVAR",
+            "url": "https://key-drop.com/pl/category/ivar",
+            "odds": 16
+        },
+        {
+            "name": "HOLY",
+            "url": "https://key-drop.com/pl/category/holy",
+            "odds": 15
+        },
+        {
+            "name": "FROSTBINDER",
+            "url": "https://key-drop.com/pl/category/frostbinder",
+            "odds": 16
+        },
+        {
+            "name": "EDALF",
+            "url": "https://key-drop.com/pl/category/edalf",
+            "odds": 15
+        },
+        {
+            "name": "LIVIA",
+            "url": "https://key-drop.com/pl/category/livia",
+            "odds": 16
         }
     ],
 
