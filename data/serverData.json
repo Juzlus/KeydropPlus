@@ -817,6 +817,81 @@
             "name": "HALLVARD",
             "url": "https://key-drop.com/pl/skins/category/hallvard",
             "odds": 32
+        },
+        {
+            "name": "RING",
+            "url": "https://key-drop.com/pl/category/ring",
+            "odds": 1
+        },
+        {
+            "name": "BOSS",
+            "url": "https://key-drop.com/pl/category/boss",
+            "odds": 5
+        },
+        {
+            "name": "LIGHT",
+            "url": "https://key-drop.com/pl/category/light",
+            "odds": 1
+        },
+        {
+            "name": "GOD",
+            "url": "https://key-drop.com/pl/category/god",
+            "odds": 6
+        },
+        {
+            "name": "REBEL",
+            "url": "https://key-drop.com/pl/category/rebel",
+            "odds": 5
+        },
+        {
+            "name": "PUNK",
+            "url": "https://key-drop.com/pl/category/punk",
+            "odds": 36
+        },
+        {
+            "name": "FORCE",
+            "url": "https://key-drop.com/pl/category/force",
+            "odds": 32
+        },
+        {
+            "name": "KING",
+            "url": "https://key-drop.com/pl/category/king",
+            "odds": 41
+        },
+        {
+            "name": "NEON",
+            "url": "https://key-drop.com/pl/category/neon",
+            "odds": 38
+        },
+        {
+            "name": "DETECT",
+            "url": "https://key-drop.com/pl/category/detect",
+            "odds": 31
+        },
+        {
+            "name": "HERO",
+            "url": "https://key-drop.com/pl/category/hero",
+            "odds": 33
+        },
+        {
+            "name": "STAR",
+            "url": "https://key-drop.com/pl/category/star",
+            "odds": 37
+        },
+        {
+            "name": "CHAMPION",
+            "url": "https://key-drop.com/pl/category/champion",
+            "odds": 37
+        },
+        {
+            "name": "WING",
+            "url": "https://key-drop.com/pl/category/wing",
+            "odds": 20
+        },
+        {
+            "name": "RIVAL",
+            "url": "https://key-drop.com/pl/category/rival",
+            "odds": 29
         }
     ],
 
