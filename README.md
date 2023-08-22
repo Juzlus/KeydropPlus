@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/Juzlus/omega-strikers-overlay/blob/main/image/Keydrop+Server_Icon.png?raw=true)
+![Logo](https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/Keydrop%2BServer_Icon.png?raw=true)
 
 
 # About - KeydropPlus Server Data
