@@ -1,7 +1,8 @@
 {
     "current_versions": ["F2.2", "T2.2"],
     "keydropGiveawaysPort": 2061,
-    
+    "customCaseInfoReplace": [],
+
     "iconsPath": "/icons/",
     "soundsPath": "/sounds/",
 
@@ -21,7 +22,7 @@
         {"name": "PROGRESS", "cover": "ANEW.png"}
     ],
 
-    "userGiveaways": ["xW5afi20560", "0m8Hii19773", "Mtn8Pi19199", "bBGlki16755", "Dc4Nei20211"],
+    "userGiveaways": ["Dc4Nei20211", "0m8Hii19773", "BWPyji20686", "Mtn8Pi19199", "bBGlki16755"],
     "userGiveawaysWaiting": ["pg9ENi19420"],
 
     "allCases": [
@@ -979,6 +980,56 @@
             "name": "TROX",
             "url": "https://key-drop.com/pl/category/trox",
             "odds": 15
+        },
+        {
+            "name": "HLIFE",
+            "url": "https://key-drop.com/pl/category/hlife",
+            "odds": 15
+        },
+        {
+            "name": "ROLLO",
+            "url": "https://key-drop.com/pl/category/rollo",
+            "odds": 16
+        },
+        {
+            "name": "SKARD",
+            "url": "https://key-drop.com/pl/category/skard",
+            "odds": 16
+        },
+        {
+            "name": "VIGSTERK",
+            "url": "https://key-drop.com/pl/category/vigsterk",
+            "odds": 15
+        },
+        {
+            "name": "KADLIN",
+            "url": "https://key-drop.com/pl/category/kadlin",
+            "odds": 15
+        },
+        {
+            "name": "EDGAR",
+            "url": "https://key-drop.com/pl/category/edgar",
+            "odds": 18
+        },
+        {
+            "name": "RAGNAR",
+            "url": "https://key-drop.com/pl/category/ragnar",
+            "odds": 25
+        },
+        {
+            "name": "LAGERTHA",
+            "url": "https://key-drop.com/pl/category/lagertha",
+            "odds": 18
+        },
+        {
+            "name": "HALDIS",
+            "url": "https://key-drop.com/pl/category/haldis",
+            "odds": 22
+        },
+        {
+            "name": "HALLVARD",
+            "url": "https://key-drop.com/pl/category/hallvard",
+            "odds": 32
         }
     ],
 
