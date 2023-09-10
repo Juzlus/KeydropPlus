@@ -1,7 +1,7 @@
 {
     "current_versions": ["F2.2", "T2.2"],
     "keydropGiveawaysPort": 2061,
-    "customCaseInfoReplace": [],
+    "customCaseInfoReplace": [ "sellMany|\"sellMany\"" ],
 
     "iconsPath": "/icons/",
     "soundsPath": "/sounds/",
