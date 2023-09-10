@@ -22,8 +22,8 @@
         {"name": "PROGRESS", "cover": "ANEW.png"}
     ],
 
-    "userGiveaways": ["Dc4Nei20211", "35W86i21208", "0m8Hii19773", "BWPyji20686", "bBGlki16755"],
-    "userGiveawaysWaiting": ["pg9ENi19420"],
+    "userGiveaways": ["pg9ENi19420", "mRctHi21690", "0m8Hii19773", "QT5xEi21841", "bBGlki16755"],
+    "userGiveawaysWaiting": [],
 
     "allCases": [
         {
@@ -892,6 +892,56 @@
             "name": "RIVAL",
             "url": "https://key-drop.com/pl/category/rival",
             "odds": 29
+        },
+        {
+            "name": "JAINA",
+            "url": "https://key-drop.com/pl/category/jaina",
+            "odds": 16
+        },
+        {
+            "name": "ANDERS",
+            "url": "https://key-drop.com/pl/category/anders",
+            "odds": 26
+        },
+        {
+            "name": "STRANGE",
+            "url": "https://key-drop.com/pl/category/strange",
+            "odds": 22
+        },
+        {
+            "name": "MANTIS",
+            "url": "https://key-drop.com/pl/category/mantis",
+            "odds": 16
+        },
+        {
+            "name": "KATANA",
+            "url": "https://key-drop.com/pl/category/katana",
+            "odds": 15
+        },
+        {
+            "name": "RAINE",
+            "url": "https://key-drop.com/pl/category/raine",
+            "odds": 16
+        },
+        {
+            "name": "SOLT",
+            "url": "https://key-drop.com/pl/category/solt",
+            "odds": 18
+        },
+        {
+            "name": "ASHER",
+            "url": "https://key-drop.com/pl/category/asher",
+            "odds": 18
+        },
+        {
+            "name": "EMBER",
+            "url": "https://key-drop.com/pl/category/ember",
+            "odds": 19
+        },
+        {
+            "name": "CADE",
+            "url": "https://key-drop.com/pl/category/cade",
+            "odds": 16
         }
     ],
 
