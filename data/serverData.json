@@ -1,5 +1,5 @@
 {
-    "current_versions": ["F2.2", "T2.2"],
+    "current_versions": ["F2.3", "T2.3"],
     "keydropGiveawaysPort": 2061,
     "customCaseInfoReplace": [ "sellMany|\"sellMany\"" ],
 
