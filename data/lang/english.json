@@ -193,5 +193,6 @@
 
     "dailyCase_waitTime": "IN",
     "dailyCase_readyTime": "READY!",
-    "dailyCase_dailyCase": "Daily Case"
+    "dailyCase_dailyCase": "Daily Case",
+    "dailyCase_skinsValue": "Value of skins"
 }
