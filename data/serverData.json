@@ -1,7 +1,7 @@
 {
     "current_versions": ["F2.5", "T2.5"],
     "keydropGiveawaysPort": 2061,
-    "customCaseInfoReplace": [ "sellMany|\"sellMany\"" ],
+    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"}," ],
     "skinsValueEnable": true,
 
     "iconsPath": "/icons/",
