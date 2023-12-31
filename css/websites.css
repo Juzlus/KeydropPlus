@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(31 30 39);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#bg {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/background.png?raw=true');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px) contrast(110%);
+}
+
+div#panel, div#panel2 {
+    margin: auto;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(17 17 20);
+    color: rgba(255, 255, 255, 0.884);
+    text-align: center;
+}
+
+div#panel {
+    width: 45%;
+}
+
+div#panel2 {
+    width: 60%;
+}
+
+p {
+    font-style: italic;
+    font-size: 16px;
+    color: #666666;
+}
+
+a, a:link, a:visited {
+    color: #777;
+}
+
+h3 {
+    color: rgb(152, 152, 153);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#loading_bar {
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgba(152, 152, 153, 0.514);
+    margin-bottom: 20px;
+}
+
+#loading_bar_fill {
+    background-color: rgba(152, 152, 153, 0.514);
+    height: 100%;
+    width: 1%;
+    height: 24px;
+    transition: all ease-in-out 2s;
+}

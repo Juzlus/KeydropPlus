@@ -1,0 +1,161 @@
+{
+    "manifest_version": 3,
+    "name": "Keydrop+ v2",
+    "version": "2.6",
+    "short_name": "kd+",
+    "author": ["🇯🅤🇿🅛🇺🅢#0420"],
+    "icons": {
+        "128": "icons/128.png" 
+    },
+    "description": "Nieoficjalne rozszerzenie do serwisu key-drop.",
+    "permissions": [ 
+        "storage",
+        "unlimitedStorage"
+    ],
+    "homepage_url": "https://key-drop.com/pl/#keydrop_plus",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://key-drop.com/*"
+            ],
+            "js": [
+                "js/jquery/jquery-3.6.1.min.js",
+                "js/crypto/crypto-js.js",
+                "js/caseOdds.js",
+                "js/main.js",
+                "js/joinGiveaway.js",
+                "js/dailyCaseTimer.js",
+                "js/alertBanner.js",
+                "js/paymentPromocode.js",
+                "js/settingsPanel.js"
+            ],
+            "css":[
+                "css/style.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://key-drop.com/pl/apiData/Cases?index=*"
+            ],
+            "js": [
+                "js/jquery/js-cookie.js",
+                "js/YTcasesData.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/empty"
+            ],
+            "js": [
+                "js/empty.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/giveaways",
+                "*://key-drop.com/*/giveaways/list"
+            ],
+            "js": [
+                "js/giveawaysList.js",
+                "js/giveawaysUsers.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/giveaways/user/*"
+            ],
+            "js": [
+                "js/giveawayBack.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/panel/profil/statistics*"
+            ],
+            "js": [
+                "js/statistics.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/panel/profil*"
+            ],
+            "js": [
+                "js/statisticsButton.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/panel/profil/fast-case-battle*"
+            ],
+            "js": [
+                "js/joinCaseBattle.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/case-battle/list*",
+                "*://key-drop.com/*/case-battle*"
+            ],
+            "js": [
+                "js/caseBattleButton.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://api.skinport.com/keydrop+?currency=*"
+            ],
+            "js": [
+                "js/jquery/jquery-3.6.1.min.js",
+                "js/crypto/crypto-js.js",
+                "js/main.js",
+                "js/websites/skinport.js"
+            ],
+            "css": [
+                "css/websites.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/skins/category/*"
+            ],
+            "js": [
+                "js/roll.js",
+                "js/freeOpen.js",
+                "js/caseInfo.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/category/*"
+            ],
+            "js": [
+                "js/roll.js",
+                "js/freeOpenGames.js",
+                "js/caseInfoGames.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://steamcommunity.com/market/search/render/?appid=730&norender=1&currency=6&count=0&start=50000/keydrop+"
+            ],
+            "js": [
+                "js/jquery/jquery-3.6.1.min.js",
+                "js/crypto/crypto-js.js",
+                "js/main.js",
+                "js/websites/steam.js"
+            ],
+            "css": [
+                "css/websites.css"
+            ]
+        },
+        {
+            "matches": [
+                "*://key-drop.com/*/skin-changer*"
+            ],
+            "js": [
+                "js/skinChanger.js"
+            ]
+        }
+    ]
+}

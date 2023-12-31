@@ -1,0 +1,707 @@
+div.relative div.pb-8.border-b.bg-navy-900.relative.z-10 {
+  z-index: 0;
+}
+
+.toast-type-info {
+    background-color: #44B6FF !important;
+}
+
+.toast-type-success {
+    background-color: #44FF4E !important;
+}
+
+.toast-type-error {
+    background-color: #FF445D !important;
+}
+
+.toast-type-warning {
+    background-color: #FFD544 !important;
+}
+
+.globalAlert-color-info {
+    background-color: #44B6FF1f !important;
+}
+
+.globalAlert-color-success {
+    background-color: #44FF4E1f !important;
+}
+
+.globalAlert-color-error {
+    background-color: #FF445D1f !important;
+}
+
+.globalAlert-color-warning {
+    background-color: #FFD5441f !important;
+}
+
+.toast__content {
+    opacity: 92%;
+    transition: all 0.5s;
+}
+
+.toast__content:hover {
+    opacity: 82%;
+    transition: all 0.5s;
+}
+
+.toast-svg-info img {
+    filter: invert(61%) sepia(95%) saturate(1832%) hue-rotate(179deg) brightness(102%) contrast(106%);
+}
+
+.toast-svg-success img {
+    filter: invert(69%) sepia(90%) saturate(399%) hue-rotate(65deg) brightness(99%) contrast(107%);
+}
+
+.toast-svg-error img {
+    filter: invert(37%) sepia(100%) saturate(2758%) hue-rotate(330deg) brightness(109%) contrast(101%);
+}
+
+.toast-svg-warning img {
+    filter: invert(87%) sepia(48%) saturate(2919%) hue-rotate(324deg) brightness(112%) contrast(102%);
+}
+
+.kdp-button {
+    opacity: .7;
+    transition: all 0.5s;
+}
+
+.kdp-button:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+@keyframes searchGiveawy {
+	from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+.desc {
+    color: #606060;
+    display: block;
+    font-size: 13px;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff2a;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: rgb(44, 90, 54);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+label.caseCard div {
+    opacity: 0.8;
+    filter: grayscale(0.8);
+    transition: all 0.5s;
+}
+
+label.caseCard div:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+input:checked + .caseData {
+    filter: grayscale(0);
+    border: 1px solid goldenrod;
+    opacity: 1;
+}
+
+a.playersData {
+    transition: all 0.5s;
+}
+
+input:checked + .playersData {
+    border: 1px solid rgb(220 174 100);
+    background-color: rgb(25 24 30);
+}
+
+div.group.relative.flex.w-full.select-none.flex-col.items-center.justify-between.rounded-lg.border.border-solid.border-navy-500.bg-navy-600.bg-cover.bg-center.cursor-pointer
+div.relative.flex-1.css-lx3yvj {
+    position: initial;
+}
+
+.steam-price, .skinport-price {
+    z-index: 2;
+}
+
+.steam-price-icon, .skinport-price-icon, .keydrop-price-icon {
+    display: inline-block;
+    width: 10px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.steam-price-icon {
+    content: url("https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/steam_Icon.png?raw=true");
+}
+
+.skinport-price-icon {
+    content: url("https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/skinport_Icon.png?raw=true");
+}
+
+.keydrop-price-icon {
+    margin-top: -1px;
+    content: url("https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/keydrop_Icon.png?raw=true");
+}
+
+.refreshPriceButton {
+    margin-left: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: grab;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 6px;
+    transition: all 0.5s;
+}
+
+.refreshPriceButton:hover {
+    background-color: #4b4b4b44;
+}
+
+.customPrice:checked ~ div {
+    background-color: rgb(106 109 129/.2);
+}
+
+.customPrice:checked ~ div svg {
+    opacity: 1;
+}
+
+#skinChanger-best-skins-panel {
+    border-radius: 15px;
+    position: fixed;
+    z-index: 99;
+    margin-top: 15%;
+    top: 0;
+    width: 70%;
+    left: calc(50% - 35%);
+    transition: all 0.5s;
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgb(39 37 46);
+}
+
+#skinChanger-best-skins-panel::after {
+    content: ' ';
+    position: fixed;
+    z-index: -2;
+    background-color: #080a0d;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+#giveawayMinPrice {
+    outline: none;
+    background: transparent;
+    color: darkseagreen;
+    width: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table.container {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+#statistics_caseInfoTable, #statistics_skinsStatusInfoTable {
+    text-align: center;
+}
+
+#statistics_caseInfoTable tr:first-child, #statistics_skinsStatusInfoTable tr:first-child {
+    line-height: 80px;
+    background-color: #ffffff13;
+}
+
+#statistics_caseInfoTable tr, #statistics_skinsStatusInfoTable tr {
+    line-height: 45px;
+    background-color: #ffffff0a;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+#statistics_caseInfoTable tr:hover, #statistics_skinsStatusInfoTable tr:hover {
+    background-color: #ffffff13;
+}
+
+tbody .firstTd {
+    border-radius: 10px 0px 0px 10px;
+}
+
+tbody .lastTd {
+    border-radius: 0px 10px 10px 0px;
+}
+
+tbody .fullTd {
+    border-radius: 10px 10px 10px 10px;
+}
+
+#statisctics_startTime {
+    margin-right: 40px;
+}
+
+#statisctics_startTime, #statisctics_endTime {
+    background: transparent;
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #ffffff17;
+    border-radius: 10px;
+    margin-left: 5px;
+    outline: none;
+}
+
+#globalAlert {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 10px;
+    background: #00a6ff29;
+    text-transform: uppercase;
+    animation: hideGlobalAlert 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 15s both;
+}
+
+@keyframes hideGlobalAlert {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -35px;
+    }
+}
+
+.keydorp-plus-change-language {
+    transition: 0.25s;
+}
+
+.keydorp-plus-change-language:hover {
+    filter: opacity(1) !important;
+}
+
+div.hidden.overflow-hidden.md\:block.bg-navy-700 {
+    height: 76px;
+}
+
+a[data-testid="nav-link-daily-case"] span.inline-block.mt-0\.5 {
+    margin-top: 16px;
+}
+
+div.flex.flex-col div.mt-4.grid.grid-cols-2.gap-3 label {
+    margin-right: 15px;
+}
+
+#header-root {
+    z-index: 1;
+    position: inherit;
+}
+
+header.bg-navy-800 div.flex.items-center.bg-navy-700.md\:mb-3:first-child
+{
+    z-index: 20;
+    position: relative;
+}
+
+section.container-p-0.mb-8.mt-1 div.relative.overflow-hidden.md\:overflow-visible {
+    z-index: 0;
+}
+
+.css-gray, .css-gold, .css-red, .css-pink, .css-violet, .css-blue {
+    background-image: url("https://key-drop.com/web/KD/static/images/winner-top-drop-bg.png?v117");
+}
+
+.css-gray::after, .css-gold::after, .css-red::after, .css-pink::after, .css-violet::after, .css-blue::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    width: calc(100% - 2px);
+    border-radius: 10px;
+    height: 20px;
+    z-index: -1;
+}
+
+.css-gray::after {
+    border-top: 1px solid rgb(115, 115, 115);
+}
+
+.css-gold::after {
+    border-top: 1px solid rgb(220, 174, 100);
+}
+
+.css-red::after {
+    border-top: 1px solid rgb(255, 68, 93);
+}
+
+.css-pink::after {
+    border-top: 1px solid rgb(223, 93, 238);
+}
+
+.css-violet::after {
+    border-top: 1px solid rgb(164, 26, 255);
+}
+
+.css-blue::after {
+    border-top: 1px solid rgb(68, 130, 255);
+}
+
+
+
+
+
+
+nav[aria-label="Primary"] {
+    opacity: 0;
+    animation-duration: 0.9s;
+}
+
+img[alt="KeyDrop"] {
+    filter: opacity(0);
+    animation-duration: 0.9s;
+}
+
+@keyframes show {
+    0% { filter: opacity(0); }
+    50% { filter: opacity(0); }
+    100% { filter: opacity(100); }
+}
+
+@keyframes show2 {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.open-keydrop-plus-modal, .open-keydrop-plus-modal img {
+    transition: ease-in-out 200ms;
+}
+
+.open-keydrop-plus-modal:hover img {
+    filter: invert(98%) sepia(1%) saturate(318%) hue-rotate(107deg) brightness(118%) contrast(100%) !important;
+    transition: ease-in-out 200ms;
+}
+
+.open-keydrop-plus-modal:hover {
+    color: white !important;
+}
+
+.keydrop-plus-svg {
+    filter: invert(98%) sepia(1%) saturate(318%) hue-rotate(107deg) brightness(118%) contrast(100%);
+}
+
+.toast-keydrop-plus {
+    filter: opacity(100);
+    user-select: none;
+    animation-name: showToast;
+    animation-duration: 1s;
+}
+
+@keyframes showToast {
+    0% { filter: opacity(0); }
+    80% { filter: opacity(60); }
+    100% { filter: opacity(100); }
+}
+
+@keyframes hideToast {
+    0% { filter: opacity(100); }
+    20% { filter: opacity(60); }
+    100% { filter: opacity(0); }
+}
+
+#autoJoinLabel {
+    background-color: #141414;
+}
+
+#autoJoinLabel:hover a {
+    color: rgb(8 10 13);
+    background-color: rgb(147 120 78);
+}
+
+#autoJoin:checked + label a {
+    color: rgb(8 10 13);
+    background-color: rgb(220 174 100) !important;
+}
+
+.keydrop-plus-freeOpen-nonce:checked {
+    box-shadow: rgb(220 174 100 / 40%) 0px 0px 6px, rgb(220 174 100 / 40%) 0px 0px 6px inset;
+    background-color: rgba(220, 174, 100, 0.03) !important;
+    border: 1px solid rgb(220 174 100);
+    color: rgb(220 174 100);
+    cursor: unset;
+}
+
+.keydrop-plus-freeOpen-nonce:checked + p {
+    color: rgb(220 174 100);
+    cursor: unset !important;
+}
+
+.keydorop-show-menu + label {
+    user-select: none;
+}
+
+.keydorop-show-menu:checked + label {
+    box-shadow: rgb(220 174 100 / 40%) 0px 0px 6px, rgb(220 174 100 / 40%) 0px 0px 6px inset;
+    background-color: rgba(220, 174, 100, 0.03) !important;
+    border: 1px solid rgb(220 174 100);
+    color: rgb(220 174 100);
+}
+
+#keydrop-plus-remove-data {
+    opacity: 0.7;
+    border: 1px solid darkred;
+    color: darkred;
+    transition: all ease-in-out 200ms;
+}
+
+#keydrop-plus-remove-data:hover {
+    opacity: 0.8;
+    color: red;
+    border: 1px solid red;
+}
+
+.css-kd-p-fo {
+    background: url("https://key-drop.com/web/KD/static/images/case-item-bg.png?v52");
+}
+
+.css-kd-p-fa {
+    height: 380px;
+}
+
+.keydrop-plus-abbreviation {
+    margin-right: 0px !important;
+}
+
+.absolute.inset-px.bg-navy-600.css-rigzk2 {
+    margin: 1px;
+}
+
+.relative.my-16.xl\:px-24.xl\:pt-13 img.pointer-events-none.absolute.inset-0.hidden {
+    max-height: 600px;
+}
+
+.relative.my-16.xl\:px-24.xl\:pt-13 img.pointer-events-none.absolute.inset-0.hidden:hover {
+    max-height: 600px;
+}
+
+.keydrop-websites-logo {
+    float: left;
+    width: 9px;
+    margin-right: 5px;
+}
+
+#keydrop-plus-case-battle-button-range {
+    position: fixed;
+    width: 100%;
+    height: 43px;
+    z-index: 1;
+    top: 540px;
+    left: 0;
+    border: 2px dashed darkred;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    pointer-events: none;
+}
+
+#keydrop-plus-case-battle-button-range::after {
+    content: 'W tej striefie pojawiają się przyciski do dołączenia!';
+}
+
+#dropRate {
+    width: 100%;
+    height: 3px;
+    margin: 50px 0px 120px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,241,0,1) 50%, rgba(20,255,0,1) 100%);
+    text-align: center;
+}
+
+#dropRate abbr {
+    text-decoration: none;
+    cursor: help;
+}
+
+.dropRate-range-1 {
+    width: 200px;
+    height: 20px;
+    margin-left: -100px;
+    text-align: center;
+    color: red;
+    float: left;
+}
+
+.dropRate-range-3 {
+    width: 200px;
+    height: 20px;
+    margin-left: calc(100% - 100px);
+    margin-top: -20px;
+    text-align: center;
+    color: rgb(20,255,0);
+    float: left;
+}
+
+.dropRate-range-points {
+    height: 12px;
+    width: 3px;
+    margin-bottom: 5px;
+    margin-left: calc(50% - 1.5px);
+}
+
+.dropRate-range-2 b {
+    font-size: 20px;
+    margin-top: -51px;
+    display: block;
+    margin-left: 13px;
+}
+
+#keydrop-plus-statistics-main::before {
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 660px;
+    content: attr(data-before);
+}
+
+#keydrop-plus-chart-1 {
+    margin-left: 50px;
+}
+
+.keydrop-plus-skins-list {
+    margin: 41px;
+    width: 300px;
+    text-align: center;
+}
+
+.keydrop-plus-skins-list h5 {
+    margin-bottom: 18px;
+    margin-top: -9px;
+}
+
+.keydrop-plus-skins-list.from h5 {
+    margin-left: -300px;
+}
+
+.keydrop-plus-skins-list.type h5 {
+    margin-left: -350px;
+}
+
+.keydrop-plus-skins-list table {
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    color: rgb(106 109 129);
+    height: 145px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 20px;
+    padding: 13px;
+    width: 260px;
+    font-size: 12px;
+    display: inline-grid;
+    height: 140px;
+}
+
+.keydrop-plus-skins-list tr:not(:last-child) {
+    border-bottom: 1px solid rgb(40, 40, 51);
+}
+
+.keydrop-plus-skins-list table::-webkit-scrollbar {
+    display: none;
+}
+
+.e404-child.z-10.flex.flex-col.justify-center.items-center {
+    filter: opacity(0);
+}
+
+.e404-child.z-10.flex.flex-col.justify-center.items-center {
+    filter: opacity(100);
+    user-select: none;
+    animation-name: show;
+    animation-duration: 1s;
+}
+
+div#header-root div.flex.self-stretch.rounded-l-2xl.order-5.ml-auto {
+    filter: opacity(100);
+    animation-name: show;
+    animation-duration: 1s;
+}
+
+.autoCodesSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    border-radius: 5px;
+    background: rgb(17 17 20);
+    outline: none;
+    opacity: 0.7;
+}
+  
+  
+.autoCodesSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d7a34f;
+    cursor: pointer;
+}
+  
+.autoCodesSlider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d7a34f;
+    cursor: pointer;
+}
