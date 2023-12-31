@@ -1,20 +1,56 @@
 
-![Logo](https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/Keydrop%2BServer_Icon.png?raw=true)
+![Logo](https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/Keydrop%2B_Icon.svg)
 
 
-# About - KeydropPlus Server Data
-
-This github project only contains **server data** for the KeydropPlus v2 website extension. 
-
-
-## Download - KeydropPlus v2
+## About
 
 KeydropPlus v2 is an unofficial extension for [keydrop.com](https://key-drop.com/) that adds new features and improves the user interface.
-<br>
-This extension can only be downloaded from [TeamAversen's](https://discord.gg/6XS4AXRKSB) Discord server, it is in the category ["⎯⎯┊𝐒𝐊𝐑𝐘𝐏𝐓𝐘 𝐈 𝐖𝐈𝐄𝐂𝐄𝐉┊⎯"](https://discord.com/channels/345932678647775232/1097920187040284712).
 
 
-## Screenshots - KeydropPlus v2
+## List of current functions
+
+- Automatic joining of 'Amateur' giveaways [Does not work on reCATCH].
+- Extra prices for skin changer (STEAM and Skinport).
+- Automatic joining of case battles for 1 ticket.
+- Countdown timer for daily case.
+- Test drops for each case.
+- Profit chance percentage for each case.
+- Account statistics in the 'My Account' tab.
+- Display of all youtuber's cases no matter which country is selected.
+- Ability to hide livedrop and case battles on the homepage.
+- Display of pre-selected user giveaways.
+- Automatic clicking on the receive gold code button at the 'direct link' (?code=).
+
+
+## How to add an extension
+
+1. Extract the files to a folder
+2. Go to the extensions page: chrome://extensions
+3. Enable developer mode
+4. Click the "Upload unzipped" button
+5. Select the folder with the extracted extension
+
+
+## Works on these browsers
+
+- Google Chrome
+- Microsoft Edge
+- Opera/Opera GX
+- Vivaldi Browser
+- Brave Browser
+- And others based on Chromium
+
+
+## Configuration - Correctly setting prices from Steam
+
+To get everything working without a problem, you need to:
+- Set the currency on the key-drop page to PLN, EUR or USD
+- Log in to Steam in your browser and set the currency to PLN, EUR or USD
+
+_Refreshing prices too often can temporarily block the Steam Market API._
+
+
+## Screenshots
 
 ![Case Stats](https://media.discordapp.net/attachments/888958910621429832/1122657619769823302/image.png?width=1174&height=657)
 ![Custom Price - Skin Changer](https://media.discordapp.net/attachments/888958910621429832/1122657243159072808/image.png?width=1151&height=656)
@@ -42,4 +78,6 @@ If you have any Feedback or questions, please contact me at juzlus.biznes@gmail.
 ## Disclaimer
 
 _The KeydropPlus v2 is an independent project developed by an individual and is not endorsed or affiliated with [key-drop.com](https://key-drop.com/)._
+
+_The author of the extension is not responsible for any consequences resulting from its use._
 
