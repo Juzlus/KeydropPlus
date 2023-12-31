@@ -25,7 +25,7 @@ KeydropPlus v2 is an unofficial extension for [keydrop.com](https://key-drop.com
 ## How to add an extension
 
 1. Extract the files to a folder
-2. Go to the extensions page: chrome://extensions
+2. Go to the extensions page: `chrome://extensions`
 3. Enable developer mode
 4. Click the "Upload unzipped" button
 5. Select the folder with the extracted extension
