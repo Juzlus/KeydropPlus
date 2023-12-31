@@ -326,7 +326,7 @@ const caseDataCombine = async(caseJSON, languageText) => {
         profitPercentText = `${goldAreaData[caseJSON?.title]?.lvl}/5`;
     }
     
-    waitForElm('#main-view .container section.mb-8.py-8').then(async() => {
+    waitForElm('.flex.grid-cols-3.flex-col.items-center.space-y-4.border-b.border-solid.border-navy-500').then(async() => {
         $('#main-view .container section.mb-8.py-8').remove();
         $('#main-view .container section').eq(0)
             .before($(document?.createElement('section'))
