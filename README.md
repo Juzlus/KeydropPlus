@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/Keydrop%2B_Icon.svg)
+<img width="2200px" src="https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/Keydrop%2B_Icon.svg">
 
 
 ## About
