@@ -2,7 +2,7 @@
     "current_versions": ["F2.6"],
     "keydropGiveawaysPort": 2061,
     "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"}," ],
-    "skinsValueEnable": true,
+    "skinsValueEnable": false,
 
     "iconsPath": "/icons/",
     "soundsPath": "/sounds/",
@@ -108,6 +108,57 @@
 
 
 
+
+        {
+            "name": "KRYPTON NATIVE",
+            "url": "https://key-drop.com/pl/category/krypton-native",
+            "odds": 15
+        },
+        {
+            "name": "CATMA",
+            "url": "https://key-drop.com/pl/category/catma",
+            "odds": 15
+        },
+        {
+            "name": "RICH PRIVILEGE",
+            "url": "https://key-drop.com/pl/category/rich-privilege",
+            "odds": 15
+        },
+        {
+            "name": "NIGHTFLYER",
+            "url": "https://key-drop.com/pl/category/nightflyer",
+            "odds": 15
+        },
+        {
+            "name": "EMERALD LAMP",
+            "url": "https://key-drop.com/pl/category/emerald-lamp",
+            "odds": 15
+        },
+        {
+            "name": "FLASHBANG",
+            "url": "https://key-drop.com/pl/category/flashbang",
+            "odds": 15
+        },
+        {
+            "name": "JUNGLE ACTION",
+            "url": "https://key-drop.com/pl/category/jungle-action",
+            "odds": 15
+        },
+        {
+            "name": "ARACHNOBOY",
+            "url": "https://key-drop.com/pl/category/arachnoboy",
+            "odds": 18
+        },
+        {
+            "name": "JESTER",
+            "url": "https://key-drop.com/pl/category/jester",
+            "odds": 24
+        },
+        {
+            "name": "THUNDERER",
+            "url": "https://key-drop.com/pl/category/thunderer",
+            "odds": 30
+        },
         {
             "name": "NITOCRIS",
             "url": "https://key-drop.com/pl/category/nitocris",
