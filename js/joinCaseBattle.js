@@ -52,7 +52,7 @@ const createAutoCaseBattlePanel = async() => {
 
 let lastCaseBattleId;
 const findFreeCaseBattle = async(fastCaseBattleConfig) => {
-    const fetch = await fetchUrl('GET', 'https://kdrp2.com/CaseBattle/battle?type=active&page=0&priceFrom=0&priceTo=undefined&searchText=&sort=latest&players=all&roundsCount=all', null, true);
+    const fetch = await fetchUrl('GET', 'https://key-drop.app/v2/battle?type=active&page=0&priceFrom=0&priceTo=undefined&searchText=&sort=latest&roundsCount=all', null, true);
     if(!fetch || !fetch?.data) return 'end';
 
     const filtered = await fetch?.data?.filter(el => el?.status == 'new' && el?.freeBattleTicketCost == 1 && el?.roundsCount >= fastCaseBattleConfig?.minCaseCount && el?.users?.length == 0 && fastCaseBattleConfig?.players?.includes(`${el?.maxUserCount}`) && el?.isFreeBattle == true && (fastCaseBattleConfig?.casesName?.includes(el?.cases[0]?.name) || fastCaseBattleConfig?.casesName?.includes(el?.cases[1]?.name)));
