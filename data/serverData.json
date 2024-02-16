@@ -15,19 +15,19 @@
         { 
             "langName": "auto",
             "langCode": null,
-            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_auto.png",
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag-auto.png",
             "langBy": null
         },
         { 
             "langName": "english",
             "langCode": "en",
-            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_en.png", 
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag-en.png", 
             "langBy": null 
         }, 
         { 
             "langName": "polish",
             "langCode": "pl",
-            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_pl.png",
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag-pl.png",
             "langBy": null 
         }
     ],
