@@ -60,22 +60,6 @@
     "autoJoinFreeCaseBattle_lostBattle": "Ostatnia bitwa została przegrana!",
     "autoJoinFreeCaseBattle_caseCount": "Liczba skrzynek",
 
-    "userGiveaways_days": "dni",
-    "userGiveaways_hours": "godz.",
-    "userGiveaways_minutes": "min",
-    "userGiveaways_seconds": "sek.",
-    "userGiveaways_join": "Dołącz",
-    "userGiveaways_prizesPrice": "Wartość nagrody",
-    "userGiveaways_prizes": "NAGRODY",
-    "userGiveaways_promocode": "KOD PROMOCYJNY",
-    "userGiveaways_joined": "Dołączyłeś",
-    "userGiveaways_waitingPlayers": "OCZEKWIANIE NA {MINUSERS} GRACZY",
-    "userGiveaways_userGiveaway": "Konkursy użytkowników",
-    "userGiveaways_info_1": "Jeśli masz link do konkursu, który chciałbyś nam przekazać, bardzo byśmy to docenili.",
-    "userGiveaways_info_2": "Wystarczy kliknąć na poniższy link i wypełnić formularz, aby przesłać nam swoje informacje.",
-    "userGiveaways_info_3": "Jeszcze raz dziękujemy za zaangażowanie!",
-    "userGiveaways_info_4": "FORMULARZ",
-
     "statistics_title": "STATYSTYKI",
     "statistics_from": "Od",
     "statistics_to": "Do",
@@ -123,7 +107,6 @@
     "caseInfo_bestSkinTitle": "Najlepszy",
     "caseInfo_possibleText": "Możliwy drop",
     "caseInfo_chance": "SZANSA",
-
     "favouriteCases_favourite": "ULUBIONE",
     "paymentPromocode_useCode": "Użyj kodu",
 
@@ -150,6 +133,7 @@
     "settingsPanel_help": "POMOC",
     "settingsPanel_discord": "OFICJALNY SERWER",
     "settingsPanel_findBug": "ZNALAZŁEM BŁĄD",
+    "settingsPanel_by": "By",
 
     "freeOpen_testDrops": "Testowe Dropy",
     "freeOpen_caseCount": "ILOŚĆ SKRZNEK",
@@ -180,7 +164,6 @@
     "skinChanger_diff_err2": "Musisz wybrać dodatkową cene!",
     "skinChanger_diff_err3": "Waluta cen dodatkowych nie może być inna niż waluta na keydrop'ie!",
     "skinChanger_diff_err4": "Przed wyszukaniem największej róźnicy cen musisz pobrać dodatkową cene!",
-
     "skinChanger_img": "Zdjęcie",
     "skinChanger_name": "Nazwa",
     "skinChanger_priceText": "Cena",

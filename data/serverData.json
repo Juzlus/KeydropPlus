@@ -11,20 +11,33 @@
     "globalAlertType": "error",
     "globalAlertLangText": "",
     
+    "languages": [
+        { 
+            "langName": "auto",
+            "langCode": null,
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_auto.png",
+            "langBy": null
+        },
+        { 
+            "langName": "english",
+            "langCode": "en",
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_en.png", 
+            "langBy": null 
+        }, 
+        { 
+            "langName": "polish",
+            "langCode": "pl",
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag_pl.png",
+            "langBy": null 
+        }
+    ],
+    
+
     "freeCaseBattle": [
         {"name": "ADVANCE", "cover": "ADVANCE.png"},
         {"name": "STACK", "cover": "STACK.png"},
         {"name": "KICK", "cover": "KICK.png"}
     ],
-
-    "oldFreeCaseBattle": [
-        {"name": "SERENITY", "cover": "SERENITY.png"},
-        {"name": "JOY", "cover": "NEW2.png"},
-        {"name": "PROGRESS", "cover": "ANEW.png"}
-    ],
-
-    "userGiveaways": ["NsLsvi24864","4E6zGi24622"],
-    "userGiveawaysWaiting": [],
 
     "allCases": [
         {
