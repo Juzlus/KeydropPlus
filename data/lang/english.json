@@ -5,7 +5,7 @@
     "warning_dateManipulated": "Date manipulation detected!",
     "warning_mustLogin": "You must log in before using the extension!",
     "info_update": "A new version is now available!",
-    "info_updateCheck": "[CHECK]",
+    "info_updateDownload": "[DOWNLOAD]",
     
     "autogiveaway_joined": "Joined the giveaway!",
     "autogiveaway_error": "Failed to join the giveaway:",

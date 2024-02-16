@@ -5,7 +5,7 @@
 	"warning_dateManipulated": "Wykryto manipolowanie daty!",
     "warning_mustLogin": "Przed korzystaniem z rozszerzenie musisz się zalogować!",
     "info_update": "Nowa wersją jest już dostępna!",
-    "info_updateCheck": "[ZOBACZ]",
+    "info_updateDownload": "[POBIERZ]",
 
 	"autogiveaway_joined": "Dołączono do giveaway'u!",
 	"autogiveaway_error": "Nie udało się dołaczyć do giveaway'u:",
