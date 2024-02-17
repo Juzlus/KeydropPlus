@@ -1,5 +1,5 @@
 const active = true;
-const version = "F2.6";
+const version = "F2.7";
 const toastCooldown = 4 * 1000
 const tokenExpiresTime = 90 * 1000;
 const extensionName = "Keydrop+";
@@ -37,30 +37,13 @@ const fetchUrl = async(type, url, token, noTime, data) => {
 
 const getStorageData = async(type, name) => {
     try {
-        const preferredUserLanguage = getCookie('lang');
         const storageData = 
             (type === 'local' || type === 0) ? await chrome.storage.local.get([name]).then((result) => { return result[name]; })
                                     : await chrome.storage.sync.get([name]).then((result) => { return result[name] });
-
-        return {
-            ...storageData,
-            lang: preferredUserLanguage || "english"
-        };
+        return storageData;
     } catch(e) {
         return;// console.log(e);
     };
-}
-
-function getCookie(name) {
-    try {
-        const value = "; " + document.cookie
-        const parts = value.split("; " + name + "=")
-
-        if (parts.length == 2) return parts.pop().split(";").shift()
-    } catch (error) {
-        console.error(error)
-        return
-    }
 }
 
 const getIndexData = async() => {
@@ -82,10 +65,8 @@ const getIndexData = async() => {
 
 const getConfigData = async() => {
     const storageData = await getStorageData(1, 'config');
-    const preferredUserLanguage = getCookie('lang');
-
     const configData = {
-        lang: preferredUserLanguage || "english",
+        lang: "auto",
         active: active,
         token: null,
         tokenExp: null,
@@ -133,9 +114,21 @@ const getServerData = async() => {
 };
 
 const getLanguageData = async(lang) => {
-    const fetch = JSON.parse(await fetchUrl('GET', `${githubUrl}/lang/${lang}.json`));
+    if (lang == "auto") {
+        lang = "english";
+        const pathnames = window.location?.pathname?.split('/');
+        const server = await getServerData();
+
+        if (pathnames.length >= 1 && server) {
+            const pathlang = pathnames[1];
+            lang = server?.languages?.find(el => el?.langCode == pathlang)?.langFileName || "english";
+        }
+    }
+
+    const fetch = await fetchUrl('GET', `${githubUrl}/lang/${lang}.json`);
     if(!fetch || fetch?.length <= 0) return;
-    return fetch;
+    const json = JSON.parse(fetch);
+    return json;
 };
 
 const getAutoGiveawayConfigData = async() => {
@@ -176,7 +169,7 @@ const getUserSkinsData = async(token) => {
 const createToast = async(type, text, urlText, url, altText) => {
     const config = await getConfigData();
     const server = await getServerData();
-    const language = await getLanguageData(config?.lang || 'polish');
+    const language = await getLanguageData(config?.lang || 'english');
 
     const soundEnabled = 
         (type == "error" && config?.toastSoundEnable_error) ? true
@@ -197,6 +190,12 @@ const createToast = async(type, text, urlText, url, altText) => {
         : (type == "success") ? "#245d20 lightgreen"
         : "#5d4a20 gold";
     
+    let langText = "UNDEFINED";
+    
+    try {
+        langText = language[text];
+    } catch {}; 
+
     const toast = await $(document.createElement('div'))
         .addClass(`toast toast-keydrop-plus z-[9999] flex w-screen origin-bottom overflow-hidden rounded border-y-2 border-l-2 border-r-4 bg-gradient-to-r py-6 pl-4 pr-14 md:w-auto md:max-w-lg md:origin-top-left border-y-red-500/20 border-l-red-500/20 border-r-red-500 from-[#46212A] via-[#261B21] to-[#18181D]" style="position: fixed; left: 1505px; top: 466px; transition-property: opacity, transform; transition-duration: 200ms;`)
         .attr({ 'tabindex': -1, 'data-time': new Date().getTime() })
@@ -207,7 +206,7 @@ const createToast = async(type, text, urlText, url, altText) => {
             'border-bottom': `2px solid ${borderColor.split(' ')[0]}`,
             'background' : `linear-gradient(90deg, ${borderColor.split(' ')[0]} 49%, rgba(28,28,28,0) 89%)`
         })
-        .html(`<audio id="toast_sound" preload="none" autoplay=''><source type='audio/mpeg' src="${soundEnabled ? `${githubUrl}${server?.soundsPath}toast_${type}.mp3?raw=true` : ''}"></source></audio><svg class="absolute -bottom-8 right-10 h-24 w-24 rotate-[30deg] opacity-10 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><svg class="mr-2 h-11 w-11 flex-shrink-0 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><div class="flex flex-col"><span class="text-xl font-bold leading-tight ${imgColorClass}">Keydrop+</span><p class="text-sm leading-6 text-navy-100">${altText || language[text] || errorText} <a href="${url}" style="text-decoration: underline">${urlText || ''}</a></p></div>`)
+        .html(`<audio id="toast_sound" preload="none" autoplay=''><source type='audio/mpeg' src="${soundEnabled ? `${githubUrl}${server?.soundsPath}toast_${type}.mp3?raw=true` : ''}"></source></audio><svg class="absolute -bottom-8 right-10 h-24 w-24 rotate-[30deg] opacity-10 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><svg class="mr-2 h-11 w-11 flex-shrink-0 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><div class="flex flex-col"><span class="text-xl font-bold leading-tight ${imgColorClass}">Keydrop+</span><p class="text-sm leading-6 text-navy-100">${altText || langText || errorText} <a href="${url}" style="text-decoration: underline">${urlText || ''}</a></p></div>`)
         .click(function() {
             const thisEl = $(this);
             thisEl.css({ "animation-name": "hideToast", "filter": "opacity(0)" })

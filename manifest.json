@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Keydrop+ v2",
-    "version": "2.6",
+    "version": "2.7",
     "short_name": "kd+",
     "author": ["🇯🅤🇿🅛🇺🅢#0420"],
     "icons": {
@@ -56,8 +56,7 @@
                 "*://key-drop.com/*/giveaways/list"
             ],
             "js": [
-                "js/giveawaysList.js",
-                "js/giveawaysUsers.js"
+                "js/giveawaysList.js"
             ]
         },
         {

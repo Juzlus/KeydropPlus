@@ -6,7 +6,7 @@ $(document).ready(async() => {
     if(!language || !server) return;
 
     if(!server?.current_versions?.includes(version))
-        createToast('info', 'info_update', language['info_updateCheck'], 'https://github.com/Juzlus/KeydropPlus');
+        createToast('info', 'info_update', language['info_updateDownload'], server?.updateLink || 'https://www.github.com/Juzlus/KeydropPlus/releases/latest/');
 
     if(server?.globalAlertVersion?.includes(config?.version))
         $('div#header-root')?.eq(0)

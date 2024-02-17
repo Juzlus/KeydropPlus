@@ -15,6 +15,7 @@ $( document ).ready(async() => {
         "HU", // Hungary",
         "RO", // Romania
         "TR", // Turkey
+        "FR", // France",
 /*
         "AD", // Andorra
         "AE", // United Arab Emirates
@@ -64,7 +65,6 @@ $( document ).ready(async() => {
         "ET", // Ethiopia",
         "FI", // Finland",
         "FO", // Faroe Islands",
-        "FR", // France",
         "GA", // Gabon",
         "GB", // United Kingdom",
         "GE", // Georgia",
@@ -242,7 +242,10 @@ $( document ).ready(async() => {
                     return;
                 }
                 let caseSite = await fetchUrl('GET', allCases[i].url);
-                if(!caseSite) return;
+                if(!caseSite) {
+                    console.log(allCases[i]);
+                    return getCaseOdds(allCases, i + 1);
+                }
 
                 caseSite = JSON?.stringify(caseSite);
                 let _caseInfo = caseSite?.split("var __case = ")[1]

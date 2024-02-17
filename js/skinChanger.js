@@ -79,7 +79,7 @@ const refreshPrices = async() => {
 const refreshPriceText = async(tihsElement, skinData, market, language, cssName, hidden) => {
     const skinHashName = `${skinData?.stattrak ? 'StatTrak™ ' : ''}${skinData?.name_second} | ${skinData?.name?.slice(0, -2)}${skinData?.type ? ` (${skinData?.type})` : ''}`;
     const skinInfo = market?.skins?.filter(v => v.name === skinHashName);
-console.log(skinHashName)
+
     const priceText = skinInfo[0]?.price ? `${(skinInfo[0]?.price?.toFixed(2))?.toString()?.replace('.', ',')?.replace(/^(.{2})(.{6})(.*)$/, "$1 $2")} ${market?.currency || 'PLN'}` : 'N/A';
     const hrefUrl = skinInfo[0]?.slink ? `https://skinport.com/item/${skinInfo[0]?.slink}` : `https://steamcommunity.com/market/listings/730/${skinInfo[0]?.name}`;
     let color = "whitesmoke";

@@ -27,7 +27,7 @@ const refreshOdds = async(config, server) => {
         createCaseOdds(server, this, false);
     });
 
-    $('div.case__content')?.each(function() {
+    $('div[data-testid="case-card-container"]')?.each(function() {
         createCaseOdds(server, this, true);
     });
 
@@ -52,9 +52,9 @@ const refreshOdds = async(config, server) => {
 }
 
 const createCaseOdds = async(server, thisElement, eventCase) => {
-    const caseName = $(thisElement)?.find(eventCase ? 'div.case__name' : 'div[data-testid=case-card-badge-btn] p')?.text();
+    const caseName = $(thisElement)?.find('div[data-testid=case-card-badge-btn] p')?.text();
     if(!caseName) return;
-console.log(caseName)
+
     let odds;
     const thisCase = server?.allCases?.filter(el => el?.name == caseName);
     if(!thisCase || !thisCase?.length) {
@@ -87,17 +87,16 @@ console.log(caseName)
     } else
         odds = `${thisCase[0]?.odds}%`;
 
-    $(thisElement)?.find(eventCase ? 'div.case__label.case__price-label' : 'div.absolute.right-3.rounded.bg-navy-900.px-3.text-xs.font-semibold.text-gold-500')
+    $(thisElement)?.find(eventCase ? 'div[data-testid="case-card-price-btn"]' : 'div.absolute.right-3.rounded.bg-navy-900.px-3.text-xs.font-semibold.text-gold-500')
         ?.eq(0)?.after($(document?.createElement('div'))
-            ?.addClass(eventCase ? 'case__label case__price-label' : 'absolute right-3 rounded bg-navy-900 px-3 py-1.5 text-xs font-semibold text-gold-500')
+            ?.addClass(eventCase ? 'absolute right-3 top-3 rounded bg-navy-900 px-3 py-1.5 text-xs font-semibold text-white' : 'absolute right-3 rounded bg-navy-900 px-3 py-1.5 text-xs font-semibold text-gold-500')
             ?.css({ 'margin-top': eventCase ? '35px' : '45px' })
             ?.text($(thisElement)?.attr('case-orginal') ? odds : (thisCase[0]?.lang || odds))
         );
 
-    $(thisElement)?.find(eventCase ? 'div.case__name' : 'div[data-testid=case-card-badge-btn] p')
+    $(thisElement)?.find('div[data-testid=case-card-badge-btn] p')
         ?.eq(0)
         ?.removeClass('min-w-[8rem] max-w-full rounded-lg bg-navy-700 p-2 text-center text-sm font-normal uppercase leading-none text-white')
-        ?.css({ 'background-color': eventCase ? 'transparent' : '' })
         ?.html(`<p style="text-align: center;width: 60px;margin-left: calc(50% - 30px);border-radius: 10px 10px 0px 0px;color: rgb(220, 174, 100);height: 20px;" class="rounded-lg bg-navy-700 p-2 text-center text-sm font-normal uppercase leading-none text-white">${odds}</p><p class="rounded-lg bg-navy-700 min-w-[8rem] max-w-full p-2 text-center text-sm font-normal uppercase leading-none text-white">${caseName}</p>`)
 };
 
