@@ -8,9 +8,9 @@
     "soundsPath": "/sounds/",
     "updateLink": "https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip",
 
-    "globalAlertVersion": [0],
-    "globalAlertType": "error",
-    "globalAlertLangText": "",
+    "globalAlertVersion": ["F2.7"],
+    "globalAlertType": "info",
+    "globalAlertLangText": "correct_link_update",
     
     "languages": [
         { 

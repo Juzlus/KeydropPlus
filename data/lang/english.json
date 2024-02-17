@@ -179,5 +179,7 @@
     "dailyCase_waitTime": "IN",
     "dailyCase_readyTime": "READY!",
     "dailyCase_dailyCase": "Daily Case",
-    "dailyCase_skinsValue": "Value of skins"
+    "dailyCase_skinsValue": "Value of skins",
+
+    "correct_link_update": "New version available. <a href=\"https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip\">Download</a>"
 }

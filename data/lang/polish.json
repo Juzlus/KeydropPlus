@@ -179,5 +179,7 @@
     "dailyCase_waitTime": "ZA",
     "dailyCase_readyTime": "GOTOWE!",
     "dailyCase_dailyCase": "Codzienna Skrzynia",
-    "dailyCase_skinsValue": "Wartość skinów"
+    "dailyCase_skinsValue": "Wartość skinów",
+
+    "correct_link_update": "New version available. <a href=\"https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip\">Download</a>"
 }
