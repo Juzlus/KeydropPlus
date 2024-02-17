@@ -30,6 +30,12 @@
             "langCode": "pl",
             "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag-pl.png",
             "langBy": null 
+        },
+        { 
+            "langName": "Português (PT-BR)",
+            "langCode": "br",
+            "langImg": "https://raw.githubusercontent.com/Juzlus/KeydropPlus/main/data/icons/flag-ptbr.png",
+            "langBy": null 
         }
     ],
     
