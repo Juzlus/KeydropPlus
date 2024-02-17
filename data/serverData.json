@@ -1,5 +1,5 @@
 {
-    "current_versions": ["F2.6"],
+    "current_versions": ["F2.7"],
     "keydropGiveawaysPort": 2061,
     "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"}," ],
     "skinsValueEnable": false,
@@ -8,9 +8,9 @@
     "soundsPath": "/sounds/",
     "updateLink": "https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip",
 
-    "globalAlertVersion": ["F2.7"],
-    "globalAlertType": "info",
-    "globalAlertLangText": "correct_link_update",
+    "globalAlertVersion": [0],
+    "globalAlertType": "error",
+    "globalAlertLangText": "",
     
     "languages": [
         { 
