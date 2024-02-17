@@ -37,13 +37,30 @@ const fetchUrl = async(type, url, token, noTime, data) => {
 
 const getStorageData = async(type, name) => {
     try {
+        const preferredUserLanguage = getCookie('lang');
         const storageData = 
             (type === 'local' || type === 0) ? await chrome.storage.local.get([name]).then((result) => { return result[name]; })
                                     : await chrome.storage.sync.get([name]).then((result) => { return result[name] });
-        return storageData;
+
+        return {
+            ...storageData,
+            lang: preferredUserLanguage || "english"
+        };
     } catch(e) {
         return;// console.log(e);
     };
+}
+
+function getCookie(name) {
+    try {
+        const value = "; " + document.cookie
+        const parts = value.split("; " + name + "=")
+
+        if (parts.length == 2) return parts.pop().split(";").shift()
+    } catch (error) {
+        console.error(error)
+        return
+    }
 }
 
 const getIndexData = async() => {
@@ -65,8 +82,10 @@ const getIndexData = async() => {
 
 const getConfigData = async() => {
     const storageData = await getStorageData(1, 'config');
+    const preferredUserLanguage = getCookie('lang');
+
     const configData = {
-        lang: "english",
+        lang: preferredUserLanguage || "english",
         active: active,
         token: null,
         tokenExp: null,
