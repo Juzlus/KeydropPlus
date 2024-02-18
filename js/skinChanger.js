@@ -48,11 +48,12 @@ const refreshPrices = async() => {
                     else if(typeText?.includes('BS'))
                         skinEx = 'Battle-Scarred';
 
+                    skinCurrencyAndPrice = getCurrencyAndPrice(keydrop_price_text);
                     const skinData = {
                         type: skinEx || null,
                         stattrak: typeText?.includes('ST') ? true : false,
-                        price_keydrop: parseFloat(keydrop_price_text?.split(' ')[0]?.replace(/,/g, '.')) || 0,
-                        currency_keydrop: keydrop_price_text?.split(' ')[1] || 'PLN',
+                        price_keydrop: skinCurrencyAndPrice[1],
+                        currency_keydrop: skinCurrencyAndPrice[0],
                         price_steam: 0,
                         price_skinport: 0,
                         name: $(this)?.find('p.w-full.flex-shrink-0.truncate.px-1.text-center.font-bold.uppercase.leading-tight.text-white')?.text() || null,
@@ -76,11 +77,58 @@ const refreshPrices = async() => {
                 })?.end();
 };
 
+const getCurrencyAndPrice = (text) => {
+    text = text.trim();
+
+    if(text.indexOf(',') != -1 && text.indexOf('.') != -1)
+        text = text.replace(/\./g, '');
+    else
+        text = text.replace(/,/g, '.');
+
+    currency = "";
+    text.split('').forEach(el => {
+        if(isNaN(el) && ![',', '.'].includes(el))
+            currency += el;
+    });
+
+    return [currency || "USD", parseFloat(text.replace(currency, "")) || 0]
+};
+
+const convertPriceText = (currency, price) => {
+    const leftSideLang = ["en", "pt", "br", "tr", "nl", "cn"];
+    const langCode = window.location?.pathname?.split('/')[1];
+    const priceText = price?.toFixed(2)?.toString()?.replace('.', ',')?.replace(/^(.{2})(.{6})(.*)$/, "$1 $2")
+
+    if(!leftSideLang.includes(langCode))
+        return `${priceText} ${currency}`;
+
+    if(currency.length == 3)
+        return `${currency} ${priceText}`;
+
+    return `${currency}${priceText}`;
+};
+
 const refreshPriceText = async(tihsElement, skinData, market, language, cssName, hidden) => {
     const skinHashName = `${skinData?.stattrak ? 'StatTrak™ ' : ''}${skinData?.name_second} | ${skinData?.name?.slice(0, -2)}${skinData?.type ? ` (${skinData?.type})` : ''}`;
     const skinInfo = market?.skins?.filter(v => v.name === skinHashName);
 
-    const priceText = skinInfo[0]?.price ? `${(skinInfo[0]?.price?.toFixed(2))?.toString()?.replace('.', ',')?.replace(/^(.{2})(.{6})(.*)$/, "$1 $2")} ${market?.currency || 'PLN'}` : 'N/A';
+    if (skinData?.currency_keydrop?.length != 3)
+        switch(market?.currency) {
+            case "USD":
+                market.currency = "$";
+                break;
+            case "EUR":
+                market.currency = "€";
+                break;
+            case "BRL":
+                market.currency = "R$";
+                break;
+            case "GBP":
+                market.currency = "£";
+                break;
+        }
+
+    const priceText = skinInfo[0]?.price ? `${convertPriceText(market?.currency, skinInfo[0]?.price)}` : 'N/A';
     const hrefUrl = skinInfo[0]?.slink ? `https://skinport.com/item/${skinInfo[0]?.slink}` : `https://steamcommunity.com/market/listings/730/${skinInfo[0]?.name}`;
     let color = "whitesmoke";
 
@@ -90,15 +138,6 @@ const refreshPriceText = async(tihsElement, skinData, market, language, cssName,
     };
 
     $(`#refreshButton${cssName?.charAt(0)?.toUpperCase()}${cssName?.slice(1)}`)?.attr('title', `${langText?.currency}${market?.currency || '-'}\n${langText?.refresh}${new Date(parseInt(market?.updateTime)).toLocaleString() || '-'}`)
-
-    switch(market?.currency) {
-        case "EUR":
-            market.currency = "€";
-            break;
-        case "BRL":
-            market.currency = "R$";
-            break;
-    }
 
     if(skinInfo?.length && skinData?.currency_keydrop == market?.currency) {
         if(skinData?.price_keydrop * 1.1 < skinInfo[0]?.price)
