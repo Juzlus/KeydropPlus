@@ -52,6 +52,31 @@
 
     "allCases": [
         {
+            "name": "HEIST",
+            "url": "https://key-drop.com/pl/category/heist",
+            "odds": 15
+        },
+        {
+            "name": "OTAKU",
+            "url": "https://key-drop.com/pl/category/otaku",
+            "odds": 17
+        },
+        {
+            "name": "HAVOC",
+            "url": "https://key-drop.com/pl/category/havoc",
+            "odds": 22
+        },
+        {
+            "name": "SPEED DEMON",
+            "url": "https://key-drop.com/pl/category/speed-demon",
+            "odds": 20
+        },
+        {
+            "name": "DEVILISH DUO",
+            "url": "https://key-drop.com/pl/category/devilish-duo",
+            "odds": 15
+        },
+        {
             "name": "RING",
             "url": "https://key-drop.com/pl/category/ring",
             "odds": 1
@@ -59,12 +84,12 @@
         {
             "name": "BOSS",
             "url": "https://key-drop.com/pl/category/boss",
-            "odds": 5
+            "odds": 3
         },
         {
             "name": "LIGHT",
             "url": "https://key-drop.com/pl/category/light",
-            "odds": 1
+            "odds": 2
         },
         {
             "name": "GOD",
@@ -74,7 +99,7 @@
         {
             "name": "REBEL",
             "url": "https://key-drop.com/pl/category/rebel",
-            "odds": 5
+            "odds": 3
         },
         {
             "name": "PUNK",
