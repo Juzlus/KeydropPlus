@@ -1,7 +1,7 @@
 {
     "current_versions": ["F2.7"],
     "keydropGiveawaysPort": 2061,
-    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants: []}|}]}],\"variants\": []}" ],
+    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants:|}]}],\"variants\":", "collect:|\"collect\":", "noFreeCases:|\"noFreeCases\":", "eventPointsRange:|\"eventPointsRange\":", "droppedAt:|\"droppedAt\":", "variants:|\"variants\":" ],
     "skinsValueEnable": false,
 
     "iconsPath": "/icons/",
