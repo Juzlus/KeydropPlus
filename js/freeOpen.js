@@ -90,7 +90,7 @@ const getCaseDrop = async(dropList, casePrice, profitEnable, languageText) => {
         itemDrops.push(drop[0]);
     }
 
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+    const currency = getCookieValue('currency');
     $('#caseDropCaseCount')?.text(maxNonce+1);
     $('#caseDropCaseSum')?.text(`${(casePrice * (maxNonce+1))?.toFixed(profitEnable ? 2 : 0)} ${profitEnable ? currency : 'Gold'}`);
     $('#caseDropSkinsSum')?.text(`${skinsSum?.toFixed(2)} ${currency}`);

@@ -19,7 +19,7 @@
     "autogiveaway_settings_p1": "Notificação de vitórias",
     "autogiveaway_settings_a1": "Você deve permitir notificações do site",
     "autogiveaway_settings_p2": "Contagem de adesão",
-    "autogiveaway_settings_a2": "Você só pode participar de até 10 sorteios por dia",
+    "autogiveaway_settings_a2": "Você só pode participar de até 20 sorteios por dia",
     "autogiveaway_settings_p5": "Quantidade mínima",
     "autogiveaway_settings_a5": "Quantidade mínima do sorteio",
     "autogiveaway_settings_p3": "Sorteios Ganhos",
@@ -169,6 +169,7 @@
     "skinChanger_priceText": "Preço",
     "skinChanger_priceDiff": "Diferença de Preço",
     "skinChanger_priceDiffButtonText": "Busque skins com maior diferença de preço",
+    "skinChanger_inventoryNull": "Não há skins para exibir!",
 
     "accessDenied_title": "PROBLEMA DE VERIFICAÇÃO DE CÓPIA",
     "accessDenied_desc": "ESTA CÓPIA DE EXTENSÃO NÃO ESTÁ INTEGRADA COM ESTA CONTA STEAM",
@@ -179,5 +180,8 @@
     "dailyCase_waitTime": "EM",
     "dailyCase_readyTime": "PRONTO!",
     "dailyCase_dailyCase": "Caixa diária",
-    "dailyCase_skinsValue": "Valor das skins"
+    "dailyCase_skinsValue": "Valor das skins",
+
+    "disclosurePanels_lastDeposit": "Último depósito",
+    "disclosurePanels_never": "nunca"
 }

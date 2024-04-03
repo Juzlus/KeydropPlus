@@ -24,5 +24,6 @@ const createStatisticsButton = async() => {
 };
 
 waitForElm('div.sticky.top-0.z-40.mx-auto.max-w-screen-xxl.p-0').then(() => {
+    $('section div.mx-auto.max-w-screen-xxl.xl\\:px-5 div.mr-auto.w-1\\/2.p-4.sm\\:w-auto.md\\:px-3.xl\\:w-auto').css('margin-left', '60px');
     createStatisticsButton();
 });

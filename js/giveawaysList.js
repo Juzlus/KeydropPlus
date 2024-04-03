@@ -104,7 +104,7 @@ const refreshGiveawaysPanel = async(panelText) => {
   
   let sumPrice = 0;
   await giveawayWinnersTab.forEach(el => sumPrice += el?.price);
-  const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+  const currency = getCookieValue('currency');
   $('#giveawayMinPriceCurrency').text(` ${currency}`);
   const giveawayWinnersPrice = `${sumPrice?.toFixed(2)} ${currency || ''}`;
   const giveawayWinnersCount = giveawayWinnersTab?.length || 0;
@@ -120,7 +120,7 @@ const refreshGiveawaysPanel = async(panelText) => {
     try { chrome.storage.local.set({ giveawaysHistory: giveawaysHistory }); } catch(e) {};
   }
 
-  let joinsCount = 10;
+  let joinsCount = 20;
   let lastResetTime;
   const myDate = new Date();
   const resetDate = new Date();

@@ -89,7 +89,7 @@ const getGamesCaseDrop = async(dropList, casePrice, languageText) => {
         itemDrops.push(drop[0]);
     }
 
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+    const currency = getCookieValue('currency');
     $('#caseDropCaseCount')?.text(gamesMaxNonce+1);
     $('#caseDropCaseSum')?.text(`${(casePrice * (gamesMaxNonce+1))?.toFixed(2)} ${currency}`);
     $('#caseDropSkinsSum')?.text(`${(skinsSum)?.toFixed(2)} ${currency}`);

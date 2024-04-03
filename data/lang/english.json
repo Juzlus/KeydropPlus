@@ -19,7 +19,7 @@
     "autogiveaway_settings_p1": "Win Notifications",
     "autogiveaway_settings_a1": "You must allow notifications from the site",
     "autogiveaway_settings_p2": "Join Count",
-    "autogiveaway_settings_a2": "You can only join up to 10 giveaways per day",
+    "autogiveaway_settings_a2": "You can only join up to 20 giveaways per day",
     "autogiveaway_settings_p5": "Minimum Amount",
     "autogiveaway_settings_a5": "Minimum amount of the giveaway",
     "autogiveaway_settings_p3": "Won Giveaways",
@@ -169,6 +169,7 @@
     "skinChanger_priceText": "Price",
     "skinChanger_priceDiff": "Price Difference",
     "skinChanger_priceDiffButtonText": "Search for skins with the largest price difference",
+    "skinChanger_inventoryNull": "No skins to display!",
 
     "accessDenied_title": "COPY VERIFICATION ISSUE",
     "accessDenied_desc": "THIS EXTENSION COPY IS NOT INTEGRATED WITH THIS STEAM ACCOUNT",
@@ -180,6 +181,9 @@
     "dailyCase_readyTime": "READY!",
     "dailyCase_dailyCase": "Daily Case",
     "dailyCase_skinsValue": "Value of skins",
+
+    "disclosurePanels_lastDeposit": "Last deposit",
+    "disclosurePanels_never": "never",
 
     "correct_link_update": "New version available. <a href=\"https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip\">Download</a>"
 }

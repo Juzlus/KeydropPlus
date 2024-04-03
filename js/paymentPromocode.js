@@ -4,8 +4,8 @@ $( document ).ready(async() => {
     const language = await getLanguageData(config?.lang);
 
     setTimeout(async() => {
-        $(`button[data-testid="refill-deposit-button"]`)?.on('click', async() => {
-            waitForElm('div.mt-5 button.button.button-light-green.h-13.text-lightgreen-100.ml-auto').then(()=>{
+        $('[data-testid="refill-deposit-btn"]')?.on('click', async() => {
+            waitForElm('[data-testid="deposit-modal-submit-promocode"]').then(()=>{
                 createPromocodeButton(language?.paymentPromocode_useCode, true);
             });
         });

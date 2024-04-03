@@ -167,7 +167,7 @@ function getCaseData(languageText, server) {
                 if(target && newValue)
                     _caseInfo = _caseInfo?.replace(new RegExp(target, 'g'), newValue);
             });
-            
+        
             _caseInfo = `${_caseInfo?.slice(0, _caseInfo?.search('.\n"lang": {'))}}`;
             caseJSON = JSON?.parse(_caseInfo);
         }
@@ -176,7 +176,7 @@ function getCaseData(languageText, server) {
 };
 
 const caseDataCombine = async(caseJSON, languageText) => {
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+    const currency = getCookieValue('currency');
     const casePrice = caseJSON?.price || 999999;
     const dropList = [];
     let betterSkinsOdds = 0;
@@ -273,53 +273,46 @@ const caseDataCombine = async(caseJSON, languageText) => {
     let profitPercentText = `${Math?.round(betterSkinsOdds) || 0}%`;
 
     if(caseJSON?.priceFrom == "gold") {
-        if(false) {
-            let skinsPriceSum = 0;
-            let gold = 350000000000;
-            while(gold > casePrice) {
-                gold -= casePrice;
-                const roll = Math?.floor(Math?.random() * 100000) + 1;
-                const drop = dropList?.filter(item => {
-                    return (roll >= item?.intervalFrom && roll <= item?.intervalTo)
-                });
-                skinsPriceSum += parseFloat(drop[0]?.price);
-            }
-            console.log(`${caseJSON?.title} | ${skinsPriceSum?.toFixed(2)} ${currency}`);
-        }
-
         const goldAreaData = [];
-        const server = await getServerData();
-        if(!server?.goldArea) return;
-        server?.goldArea?.sort((a, b) => b.profit - a.profit);
-        for(i = 0; i < server?.goldArea?.length; i++) {
+
+        const casesFetch = await fetchUrl('GET', `${githubUrl}/cases.json`)
+        if(!casesFetch) return;
+        const cases = JSON.parse(`{"cases": ${casesFetch}}`)?.cases;
+        if(!cases?.length) return;
+
+        const goldenCases = cases?.filter(el => el?.goldProfit !== undefined);
+        if(!goldenCases || !goldenCases?.length) return;
+
+        goldenCases?.sort((a, b) => b.goldProfit - a.goldProfit);
+        for(i = 0; i < goldenCases?.length; i++) {
             const data = {
                 rank: i+1,
                 lvl: 0
             };
-            const profit = server?.goldArea[i]?.profit;
-            if(profit <= 45454545)
+            const profit = goldenCases[i]?.goldProfit;
+            if(profit <= 11111111)
                 data.lvl = 0;
-            else if(profit <= 90909091)
+            else if(profit <= 13209876)
                 data.lvl = 0.5;
-            else if(profit <= 136363636)
+            else if(profit <= 15308641)
                 data.lvl = 1;
-            else if(profit <= 181818182)
+            else if(profit <= 17407407)
                 data.lvl = 1.5;
-            else if(profit <= 227272727)
+            else if(profit <= 19506172)
                 data.lvl = 2;
-            else if(profit <= 272727273)
+            else if(profit <= 21604937)
                 data.lvl = 2.5;
-            else if(profit <= 318181818)
+            else if(profit <= 23703703)
                 data.lvl = 3;
-            else if(profit <= 363636364)
+            else if(profit <= 25802468)
                 data.lvl = 3.5;
-            else if(profit <= 409090909)
+            else if(profit <= 27901233)
                 data.lvl = 4;
-            else if(profit <= 454545455)
+            else if(profit <= 29999999)
                 data.lvl = 4.5;
             else
                 data.lvl = 5;
-            goldAreaData[server?.goldArea[i]?.name] = data;
+            goldAreaData[goldenCases[i]?.name] = data;
         };
         languageText.profitTitle = languageText?.profitTitleGold,
         languageText.profitDesc = `#${goldAreaData[caseJSON?.title]?.rank} ${languageText?.profitDescGold}`,

@@ -188,7 +188,7 @@ const getGamesCaseData = async(languageText, server) => {
         }
     });
 
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString() || 'USD';
+    const currency = getCookieValue('currency') || 'USD';
     gamesCaseDataCombine(caseData, languageText, currency);
 };
 

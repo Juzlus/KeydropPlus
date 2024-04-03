@@ -5,13 +5,15 @@ $( document ).ready(async() => {
     if(!config?.active || !config?.token) return;
     const language = await getLanguageData(config?.lang);
 
-    waitForElm('div.my-4.flex.items-center.justify-between').then(async() => {
+    waitForElm('[data-testid="items-browser-item-card"]').then(async() => {
         await createMenu(language);
-        const panel1 = document?.getElementsByClassName('lg:w-2/5 px-8 mt-8 transition-opacity duration-300')[0];
-        const panel2 = document?.getElementsByClassName('grid gap-3')[0];
+        const panel1 = document?.querySelectorAll('.grid.gap-3')[0];
+        const panel2 = document?.querySelectorAll('.grid.gap-3')[2];
         const observer = new MutationObserver(refreshPrices);
-        observer.observe(panel1, { attributes: true });
-        observer.observe(panel2,  { childList: true, attributes: false });
+        if (panel1 instanceof Node && panel2 instanceof Node) {
+            observer.observe(panel1, { attributes: true, childList: true });
+            observer.observe(panel2,  { attributes: true, childList: true  });
+        }
 
         const skinChangerPanel = $('#skinChanger-best-skins-panel');
         $(document).on('click', async(e) => {
@@ -29,56 +31,54 @@ const refreshPrices = async() => {
     const steamMarket = await getStorageData('local', 'steamMarketJSON');
     const skinportMarket = await getStorageData('local', 'skinportMarketJSON');
 
-    $('div.w-full')
-        ?.find('div.grid.gap-3')
-            ?.find('div.group.relative.flex.w-full.select-none.flex-col.items-center.justify-between.rounded-lg.border.border-solid.border-navy-500.bg-navy-600.bg-cover.bg-center.cursor-pointer')
-                ?.each(function() {
-                    const keydrop_price_text = $(this)?.find('.ml-auto.min-w-0.whitespace-nowrap.rounded-md.bg-navy-900.font-bold.leading-none.text-gold div')?.eq(0)?.text();
-                    const typeText = $(this)?.find('.ml-2.font-bold.uppercase.leading-none.text-white')?.text();
-                    let skinEx = null;
-                    
-                    if(typeText?.includes('FN'))
-                        skinEx = "Factory New";
-                    else if(typeText?.includes('MW'))
-                        skinEx = 'Minimal Wear';
-                    else if(typeText?.includes('FT'))
-                        skinEx = 'Field-Tested';
-                    else if(typeText?.includes('WW'))
-                        skinEx = 'Well-Worn';
-                    else if(typeText?.includes('BS'))
-                        skinEx = 'Battle-Scarred';
+    $('div[data-testid="items-browser-item-card"]')
+        ?.each(function() {
+            const keydrop_price_text = $(this)?.find('div[data-testid="items-browser-item-price"] div')?.eq(0)?.text().trim();
+            const typeText = $(this)?.find('[data-testid="items-browser-item-condition"]')?.text().trim();
+            let skinEx = null;
+            
+            if(typeText?.includes('FN'))
+                skinEx = "Factory New";
+            else if(typeText?.includes('MW'))
+                skinEx = 'Minimal Wear';
+            else if(typeText?.includes('FT'))
+                skinEx = 'Field-Tested';
+            else if(typeText?.includes('WW'))
+                skinEx = 'Well-Worn';
+            else if(typeText?.includes('BS'))
+                skinEx = 'Battle-Scarred';
 
-                    skinCurrencyAndPrice = getCurrencyAndPrice(keydrop_price_text);
-                    const skinData = {
-                        type: skinEx || null,
-                        stattrak: typeText?.includes('ST') ? true : false,
-                        price_keydrop: skinCurrencyAndPrice[1],
-                        currency_keydrop: skinCurrencyAndPrice[0],
-                        price_steam: 0,
-                        price_skinport: 0,
-                        name: $(this)?.find('p.w-full.flex-shrink-0.truncate.px-1.text-center.font-bold.uppercase.leading-tight.text-white')?.text() || null,
-                        name_second: $(this)?.find('p.mb-2.w-full.flex-shrink-0.truncate.text-center.uppercase.leading-tight.text-navy-300')?.text()?.trim() || null
-                    };
+            skinCurrencyAndPrice = getCurrencyAndPrice(keydrop_price_text);
+            const skinData = {
+                type: skinEx || null,
+                stattrak: typeText?.includes('ST') ? true : false,
+                price_keydrop: skinCurrencyAndPrice[1],
+                currency_keydrop: skinCurrencyAndPrice[0],
+                price_steam: 0,
+                price_skinport: 0,
+                name: $(this)?.find('[data-testid="items-browser-item-name"]')?.text()?.trim() || null,
+                name_second: $(this)?.find('[data-testid="items-browser-item-category"]')?.text()?.trim() || null
+            };
 
-                    if(config?.skinportPrice)
-                        $('.customPrice.skinport')?.prop('checked', true);
+            if(config?.skinportPrice)
+                $('.customPrice.skinport')?.prop('checked', true);
 
-                    if(config?.steamPrice)
-                        $('.customPrice.steam')?.prop('checked', true);
+            if(config?.steamPrice)
+                $('.customPrice.steam')?.prop('checked', true);
 
-                    if(!$(this)?.find('.keydrop-price')?.length)
-                        $(this)?.find('div.text-gold')?.eq(0)?.addClass('keydrop-price flex')?.prepend($(document.createElement('img'))?.addClass('keydrop-price-icon'));
+            if(!$(this)?.find('.keydrop-price')?.length)
+                $(this)?.find('div.text-gold')?.eq(0)?.addClass('keydrop-price flex')?.prepend($(document.createElement('img'))?.addClass('keydrop-price-icon'));
 
-                    if(skinportMarket?.skins?.length)
-                        refreshPriceText(this, skinData, skinportMarket, language, 'skinport', !config?.skinportPrice);
+            if(skinportMarket?.skins?.length)
+                refreshPriceText(this, skinData, skinportMarket, language, 'skinport', !config?.skinportPrice);
 
-                    if(steamMarket?.skins?.length)
-                        refreshPriceText(this, skinData, steamMarket, language, 'steam', !config?.steamPrice);
-                })?.end();
+            if(steamMarket?.skins?.length)
+                refreshPriceText(this, skinData, steamMarket, language, 'steam', !config?.steamPrice);
+        })?.end();
 };
 
 const getCurrencyAndPrice = (text) => {
-    text = text.trim();
+    text = text.trim().replace(/ /g, '');
 
     if(text.indexOf(',') != -1 && text.indexOf('.') != -1)
         text = text.replace(/\./g, '');
@@ -109,7 +109,7 @@ const convertPriceText = (currency, price) => {
 };
 
 const refreshPriceText = async(tihsElement, skinData, market, language, cssName, hidden) => {
-    const skinHashName = `${skinData?.stattrak ? 'StatTrak™ ' : ''}${skinData?.name_second} | ${skinData?.name?.slice(0, -2)}${skinData?.type ? ` (${skinData?.type})` : ''}`;
+    const skinHashName = `${skinData?.stattrak ? 'StatTrak™ ' : ''}${skinData?.name_second} | ${skinData?.name}${skinData?.type ? ` (${skinData?.type})` : ''}`;
     const skinInfo = market?.skins?.filter(v => v.name === skinHashName);
 
     if (skinData?.currency_keydrop?.length != 3)
@@ -198,7 +198,7 @@ const createMenu = (language) => {
         } catch(e) {};
     });
 
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+    const currency = getCookieValue('currency');
     $('#refreshButtonSkinport')?.on('click', () => {
         if(currency == "UAH" || currency == "ARS")
             return createToast('warning', 'skinport_currencyError');
@@ -257,9 +257,9 @@ const findBestSkins = async(market, platform, language) => {
             skinChanger_base_url = content?.split("API_BASE_URL: '")[1]?.split("'")[0];
     });
 
-    const currency = $('button.hidden.items-center.justify-center.gap-2.whitespace-nowrap.text-xs.uppercase.leading-none.text-navy-100 span.font-bold').eq(0).text()?.toString();
+    const currency = getCookieValue('currency');
     const fetch = await fetchUrl('GET', `${skinChanger_base_url}/InventoryItem?itemsPerPage=4000&currency=${currency?.toLowerCase()}&order=desc`);
-    
+
     if(!fetch?.data?.elements?.length || !market?.skins?.length) return createToast('warning', 'skinChanger_inventoryError');
     let newItemTab = [];
     fetch?.data?.elements?.forEach(el => {
@@ -298,7 +298,7 @@ const findBestSkins = async(market, platform, language) => {
     });
 
     if(!newItemTab?.length)
-        return createToast('warning', 'skinChanger_inventoryError');
+        return createToast('warning', 'skinChanger_inventoryNull');
     let tableTr, aboved100;
     newItemTab.sort((b,a) => a.diff - b.diff);
     if(newItemTab?.length > 100) {

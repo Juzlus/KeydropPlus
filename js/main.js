@@ -1,5 +1,5 @@
 const active = true;
-const version = "F2.7";
+const version = "F2.8";
 const toastCooldown = 4 * 1000
 const tokenExpiresTime = 90 * 1000;
 const extensionName = "Keydrop+";
@@ -130,6 +130,16 @@ const getLanguageData = async(lang) => {
     const json = JSON.parse(fetch);
     return json;
 };
+
+const getCookieValue = (cookieName) => {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.startsWith(cookieName + '='))
+            return cookie.substring(cookieName.length + 1);
+    }
+    return null;
+}
 
 const getAutoGiveawayConfigData = async() => {
     const storageData = await getStorageData(1, 'autoGiveawayConfig');
@@ -290,7 +300,7 @@ const showNav = async() => {
                 )
             .end();
 
-        $('div.mr-2.flex.flex-col.items-start span.text-2xs.lg\\:text-\\[11px\\]')?.eq(0)?.html('<a href="/giveaways/list">GIVEAWAYS</a>')
+        $('div.mr-2.flex.flex-col.items-start span.text-2xs.font-semibold.lg\\:text-xs')?.eq(0)?.html('<a href="/giveaways/list">GIVEAWAYS</a>')
 
         $(".open-keydrop-plus-modal").on('click', async() => {
             $('#keydrop-plus-modal')

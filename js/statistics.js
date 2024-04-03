@@ -42,6 +42,16 @@ const createStatisticsPanel = async() => {
         exchanged: language?.statistics_exchanged,
     };
 
+    $('div.flex.min-h-screen.flex-col.items-center.justify-center.text-center').remove();
+
+    $('a[data-testid="user-btn-tabs-my-account"]').on('click', () => window.location = "https://key-drop.com/pl/panel/profil/");
+    $('a[data-testid="user-btn-tabs-add-funds"]').on('click', () => window.location = "deposit-money");
+    $('a[data-testid="user-btn-tabs-contracts"]').on('click', () => window.location = "contracts");
+    $('a[data-testid="user-btn-tabs-free-gold"]').on('click', () => window.location = "free-gold");
+    $('a[data-testid="user-btn-tabs-affiliate-system"]').on('click', () => window.location = "affiliate-system");
+    $('a[data-testid="user-btn-tabs-support"]').on('click', () => window.location = "support-chat");
+    $('a[data-testid="user-btn-tabs-settings"]').on('click', () => window.location = "settings");
+
     $('div.sticky.top-0.z-40.mx-auto.max-w-screen-xxl.p-0')
         ?.after($(document.createElement('table'))
             ?.addClass('container statistics_container')

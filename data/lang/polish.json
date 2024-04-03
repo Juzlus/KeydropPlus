@@ -19,7 +19,7 @@
     "autogiveaway_settings_p1": "Powiadomienia o wygranej",
     "autogiveaway_settings_a1": "Musisz zezwolić na powiadomienia ze strony",
     "autogiveaway_settings_p2": "Ilość dołączeń",
-    "autogiveaway_settings_a2": "Codziennie można dołączyć tylko do 10 konkursów",
+    "autogiveaway_settings_a2": "Codziennie można dołączyć tylko do 20 konkursów",
     "autogiveaway_settings_p5": "Minimalna kwota",
     "autogiveaway_settings_a5": "Minimalna kwota konkursu",
     "autogiveaway_settings_p3": "Wygrane konkursy",
@@ -169,6 +169,7 @@
     "skinChanger_priceText": "Cena",
     "skinChanger_priceDiff": "Różnica Cen",
     "skinChanger_priceDiffButtonText": "Wyszukaj skiny z największą róznicą cen",
+    "skinChanger_inventoryNull": "Brak skinów do wyświetlenia!",
 
     "accessDenied_title": "PROBLEM Z WERYFIKACJĄ KOPII",
     "accessDenied_desc": "TA KOPIA ROZSZERZENIA NIE JEST ZINTEGROWANA Z TYM KONTEM STEAM",
@@ -180,6 +181,9 @@
     "dailyCase_readyTime": "GOTOWE!",
     "dailyCase_dailyCase": "Codzienna Skrzynia",
     "dailyCase_skinsValue": "Wartość skinów",
+
+    "disclosurePanels_lastDeposit": "Ostatnia wpłata",
+    "disclosurePanels_never": "nigdy",
 
     "correct_link_update": "New version available. <a href=\"https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.zip\">Download</a>"
 }
