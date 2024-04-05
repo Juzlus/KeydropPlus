@@ -13,7 +13,7 @@ const giveawayStart = async(isFirst) => {
     if(isFirst) createToast('info', 'autogiveaway_active');
     const index = await getIndexData();
     const currencyRates = index?.currencyRates;
-    const currency = getCookieValue('currency');
+    const currency = await getCurrency();
     const currentRate = currencyRates?.filter(el => el?.id == currency)[0]?.rate || 1;
     runAutoGiveaway(language, port, currentRate, isFirst);
 };

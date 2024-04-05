@@ -104,7 +104,7 @@ const refreshGiveawaysPanel = async(panelText) => {
   
   let sumPrice = 0;
   await giveawayWinnersTab.forEach(el => sumPrice += el?.price);
-  const currency = getCookieValue('currency');
+  const currency = await getCurrency();
   $('#giveawayMinPriceCurrency').text(` ${currency}`);
   const giveawayWinnersPrice = `${sumPrice?.toFixed(2)} ${currency || ''}`;
   const giveawayWinnersCount = giveawayWinnersTab?.length || 0;

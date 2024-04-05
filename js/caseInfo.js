@@ -176,7 +176,7 @@ function getCaseData(languageText, server) {
 };
 
 const caseDataCombine = async(caseJSON, languageText) => {
-    const currency = getCookieValue('currency');
+    const currency = await getCurrency();
     const casePrice = caseJSON?.price || 999999;
     const dropList = [];
     let betterSkinsOdds = 0;

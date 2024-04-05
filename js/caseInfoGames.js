@@ -188,7 +188,7 @@ const getGamesCaseData = async(languageText, server) => {
         }
     });
 
-    const currency = getCookieValue('currency') || 'USD';
+    const currency = await getCurrency();
     gamesCaseDataCombine(caseData, languageText, currency);
 };
 

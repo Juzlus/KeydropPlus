@@ -106,7 +106,7 @@ const createYTcases = async(cases) => {
     if(!YTcases || !YTcases?.length) return;
     const index = await getIndexData();
     const currencyRates = index?.currencyRates;
-    const currency = getCookieValue('currency') || 'USD';
+    const currency = await getCurrency();
     const currentRate = currencyRates?.filter(el => el?.id == currency)[0]?.rate || 1;
 
     YTcases?.forEach(el => {

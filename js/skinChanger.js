@@ -158,7 +158,7 @@ const refreshPriceText = async(tihsElement, skinData, market, language, cssName,
     }
 };
 
-const createMenu = (language) => {
+const createMenu = async(language) => {
     const langText = {
         price: language?.skinChanger_price,
         refresh: `${language?.skinChanger_refresh}: `,
@@ -198,7 +198,7 @@ const createMenu = (language) => {
         } catch(e) {};
     });
 
-    const currency = getCookieValue('currency');
+    const currency = await getCurrency();
     $('#refreshButtonSkinport')?.on('click', () => {
         if(currency == "UAH" || currency == "ARS")
             return createToast('warning', 'skinport_currencyError');
@@ -238,6 +238,7 @@ const createMenu = (language) => {
 
         const platform = steamChecked ? 'steam' : 'skinport';
         const market = await getStorageData('local', `${platform}MarketJSON`);
+
         if(!market?.currency)
             return createToast('warning', 'skinChanger_diff_err4');
         else if(market?.currency !== currency)
@@ -257,7 +258,7 @@ const findBestSkins = async(market, platform, language) => {
             skinChanger_base_url = content?.split("API_BASE_URL: '")[1]?.split("'")[0];
     });
 
-    const currency = getCookieValue('currency');
+    const currency = await getCurrency();
     const fetch = await fetchUrl('GET', `${skinChanger_base_url}/InventoryItem?itemsPerPage=4000&currency=${currency?.toLowerCase()}&order=desc`);
 
     if(!fetch?.data?.elements?.length || !market?.skins?.length) return createToast('warning', 'skinChanger_inventoryError');

@@ -89,7 +89,7 @@ const getGamesCaseDrop = async(dropList, casePrice, languageText) => {
         itemDrops.push(drop[0]);
     }
 
-    const currency = getCookieValue('currency');
+    const currency = await getCurrency();
     $('#caseDropCaseCount')?.text(gamesMaxNonce+1);
     $('#caseDropCaseSum')?.text(`${(casePrice * (gamesMaxNonce+1))?.toFixed(2)} ${currency}`);
     $('#caseDropSkinsSum')?.text(`${(skinsSum)?.toFixed(2)} ${currency}`);

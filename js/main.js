@@ -141,6 +141,15 @@ const getCookieValue = (cookieName) => {
     return null;
 }
 
+const getCurrency = async() => {
+    let currency = getCookieValue('currency');
+    if (currency == null) {
+        fetch = await fetchUrl('GET', 'https://key-drop.com/pl/balance?skinsValue=true');
+        currency = JSON.parse(fetch)?.currency;
+    }
+    return currency || 'USD';
+}
+
 const getAutoGiveawayConfigData = async() => {
     const storageData = await getStorageData(1, 'autoGiveawayConfig');
     if(storageData) return storageData;
