@@ -5,7 +5,7 @@
   <a href="https://GitHub.com/Juzlus/KeydropPlus/releases/"><img alt="GitHub release" src="https://img.shields.io/github/release/Juzlus/KeydropPlus.svg?style=social"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://GitHub.com/Juzlus/KeydropPlus/commit/"><img alt="GitHub latest commit" src="https://img.shields.io/github/last-commit/Juzlus/KeydropPlus.svg?style=social&logo=github"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://GitHub.com/Juzlus/KeydropPlus/releases/"><img alt="Github all releases" src="https://img.shields.io/github/downloads/Juzlus/KeydropPlus/total.svg?style=social"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://GitHub.com/Juzlus/KeydropPlus/watchers/"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Juzlus/KeydropPlus.svg?style=social"></a>
+  <a href="https://GitHub.com/Juzlus/KeydropPlus/stargazers/"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Juzlus/KeydropPlus.svg?style=social"></a>
 </div>
 
 # 🤔 About
