@@ -106,29 +106,20 @@
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
-        "name": "Sweety",
-        "odds": 15
+        "name": "AGILI",
+        "odds": 22
     },
-    {
-        "name": "Delicious",
-        "odds": 15
-    },
-    {
-        "name": "Crispy",
-        "odds": 15
-    },
-    {
-        "name": "Creamy Dream",
-        "odds": 16
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
         "name": "FROFFICER",
         "odds": 15
@@ -672,10 +663,13 @@
     null,
     null,
     null,
-    null,
+    {
+        "name": "ASSAULT",
+        "goldProfit": "14487888.10"
+    },
     {
         "name": "RECON",
-        "goldProfit": "15261691.01"
+        "goldProfit": "15200301.14"
     },
     null,
     null,
@@ -683,17 +677,17 @@
     null,
     {
         "name": "WIND",
-        "goldProfit": "21530692.24"
+        "goldProfit": "21522106.95"
     },
     null,
     null,
     {
         "name": "WRAP",
-        "goldProfit": "21474097.54"
+        "goldProfit": "21483923.01"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23169083.34"
+        "goldProfit": "23188353.23"
     },
     null,
     null,
@@ -701,11 +695,11 @@
     null,
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23286013.03"
+        "goldProfit": "23308537.34"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21731587.73"
+        "goldProfit": "21724818.62"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -903,5 +897,22 @@
         "price_USD": 8.69,
         "youtuber": true,
         "odds": 13
-    }
+    },
+    null,
+    null,
+    null,
+    {
+        "name": "AGILI",
+        "odds": 22
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
 ]
