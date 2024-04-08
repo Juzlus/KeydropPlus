@@ -142,7 +142,7 @@
     },
     {
         "name": "JAINA",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "ANDERS",
@@ -302,7 +302,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 45.85,
         "youtuber": true,
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "WICADIA",
@@ -665,11 +665,11 @@
     null,
     {
         "name": "ASSAULT",
-        "goldProfit": "14487888.10"
+        "goldProfit": "14526433.96"
     },
     {
         "name": "RECON",
-        "goldProfit": "15200301.14"
+        "goldProfit": "15158020.53"
     },
     null,
     null,
@@ -677,17 +677,17 @@
     null,
     {
         "name": "WIND",
-        "goldProfit": "21522106.95"
+        "goldProfit": "21536847.44"
     },
     null,
     null,
     {
         "name": "WRAP",
-        "goldProfit": "21483923.01"
+        "goldProfit": "21431975.86"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23188353.23"
+        "goldProfit": "23141015.54"
     },
     null,
     null,
@@ -695,11 +695,11 @@
     null,
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23308537.34"
+        "goldProfit": "23273303.55"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21724818.62"
+        "goldProfit": "21705918.79"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -707,7 +707,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 16
+        "odds": 15
     },
     {
         "name": "TIAGOVSKI",
@@ -795,7 +795,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 7.5,
         "youtuber": true,
-        "odds": 19
+        "odds": 17
     },
     {
         "name": "ZOLIK22",
@@ -898,6 +898,23 @@
         "youtuber": true,
         "odds": 13
     },
+    null,
+    null,
+    null,
+    {
+        "name": "AGILI",
+        "odds": 22
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
