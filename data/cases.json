@@ -665,11 +665,11 @@
     null,
     {
         "name": "ASSAULT",
-        "goldProfit": "14526433.96"
+        "goldProfit": "14536942.82"
     },
     {
         "name": "RECON",
-        "goldProfit": "15158020.53"
+        "goldProfit": "15087700.83"
     },
     null,
     null,
@@ -677,17 +677,17 @@
     null,
     {
         "name": "WIND",
-        "goldProfit": "21536847.44"
+        "goldProfit": "21539217.83"
     },
     null,
     null,
     {
         "name": "WRAP",
-        "goldProfit": "21431975.86"
+        "goldProfit": "21427872.11"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23141015.54"
+        "goldProfit": "23124281.26"
     },
     null,
     null,
@@ -695,11 +695,11 @@
     null,
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23273303.55"
+        "goldProfit": "23261406.89"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21705918.79"
+        "goldProfit": "21705089.68"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -898,6 +898,23 @@
         "youtuber": true,
         "odds": 13
     },
+    null,
+    null,
+    null,
+    {
+        "name": "AGILI",
+        "odds": 22
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null,
