@@ -434,7 +434,7 @@
     },
     {
         "name": "OMEGA",
-        "odds": 18
+        "odds": 14
     },
     {
         "name": "DREAM",
@@ -550,7 +550,7 @@
     },
     {
         "name": "AGENT",
-        "odds": 18
+        "odds": 19
     },
     {
         "name": "GLOCK-18",
@@ -574,11 +574,11 @@
     },
     {
         "name": "RESTRICTED",
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "COVERT",
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "HEIST",
@@ -662,14 +662,17 @@
     },
     null,
     null,
-    null,
+    {
+        "name": "MAGENT",
+        "goldProfit": "12624796.11"
+    },
     {
         "name": "ASSAULT",
-        "goldProfit": "14536942.82"
+        "goldProfit": "14562129.24"
     },
     {
         "name": "RECON",
-        "goldProfit": "15087700.83"
+        "goldProfit": "15236835.10"
     },
     null,
     null,
@@ -677,17 +680,17 @@
     null,
     {
         "name": "WIND",
-        "goldProfit": "21539217.83"
+        "goldProfit": "21424018.34"
     },
     null,
     null,
     {
         "name": "WRAP",
-        "goldProfit": "21427872.11"
+        "goldProfit": "21342164.83"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23124281.26"
+        "goldProfit": "23048379.21"
     },
     null,
     null,
@@ -695,11 +698,11 @@
     null,
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23261406.89"
+        "goldProfit": "23233499.47"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21705089.68"
+        "goldProfit": "21665317.67"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -945,6 +948,50 @@
     null,
     null,
     null,
+    null,
+    null,
+    null,
+    null,
+    {
+        "name": "KNUCKLE FURY",
+        "odds": 15
+    },
+    {
+        "name": "LOTUS",
+        "odds": 15
+    },
+    {
+        "name": "KONG STRONG",
+        "odds": 15
+    },
+    {
+        "name": "TANK CITY",
+        "odds": 15
+    },
+    {
+        "name": "COLIN",
+        "odds": 17
+    },
+    {
+        "name": "COUNTERATTACK",
+        "odds": 16
+    },
+    {
+        "name": "SKIN RUNNER",
+        "odds": 16
+    },
+    {
+        "name": "NINJA TORTOISE",
+        "odds": 15
+    },
+    {
+        "name": "HAVANA",
+        "odds": 20
+    },
+    {
+        "name": "RENEGADE",
+        "odds": 25
+    },
     null,
     null,
     null,
