@@ -170,7 +170,7 @@
     },
     {
         "name": "ALPHA",
-        "odds": 32
+        "odds": 20
     },
     {
         "name": "HEXAR",
@@ -238,7 +238,7 @@
     },
     {
         "name": "BLOODSHOT",
-        "odds": 31
+        "odds": 30
     },
     {
         "name": "SNUGTOES",
@@ -442,7 +442,7 @@
     },
     {
         "name": "DIABLO",
-        "odds": 19
+        "odds": 17
     },
     {
         "name": "SHADOW",
@@ -522,7 +522,7 @@
     },
     {
         "name": "BULLET",
-        "odds": 14
+        "odds": 17
     },
     {
         "name": "BANANA",
@@ -662,17 +662,14 @@
     },
     null,
     null,
-    {
-        "name": "MAGENT",
-        "goldProfit": "12624796.11"
-    },
+    null,
     {
         "name": "ASSAULT",
-        "goldProfit": "14562129.24"
+        "goldProfit": "14501458.12"
     },
     {
         "name": "RECON",
-        "goldProfit": "15236835.10"
+        "goldProfit": "15207928.33"
     },
     null,
     null,
@@ -680,17 +677,17 @@
     null,
     {
         "name": "WIND",
-        "goldProfit": "21424018.34"
+        "goldProfit": "21483152.24"
     },
     null,
     null,
     {
         "name": "WRAP",
-        "goldProfit": "21342164.83"
+        "goldProfit": "21316728.46"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23048379.21"
+        "goldProfit": "23083906.09"
     },
     null,
     null,
@@ -698,11 +695,11 @@
     null,
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23233499.47"
+        "goldProfit": "23186618.13"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21665317.67"
+        "goldProfit": "21700014.23"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -718,7 +715,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 7.89,
         "youtuber": true,
-        "odds": 18
+        "odds": 16
     },
     {
         "name": "LUGIN",
@@ -750,7 +747,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 7.89,
         "youtuber": true,
-        "odds": 18
+        "odds": 17
     },
     {
         "name": "KROWNY",
@@ -823,7 +820,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 7.89,
         "youtuber": true,
-        "odds": 19
+        "odds": 18
     },
     {
         "name": "NARANCS",
@@ -851,7 +848,7 @@
         "url": "https://key-drop.com/en/panel/profil/deposit-money",
         "price_USD": 7.89,
         "youtuber": true,
-        "odds": 17
+        "odds": 15
     },
     {
         "name": "GENERALU",
@@ -948,6 +945,50 @@
     null,
     null,
     null,
+    null,
+    null,
+    null,
+    null,
+    {
+        "name": "KNUCKLE FURY",
+        "odds": 15
+    },
+    {
+        "name": "LOTUS",
+        "odds": 15
+    },
+    {
+        "name": "KONG STRONG",
+        "odds": 15
+    },
+    {
+        "name": "TANK CITY",
+        "odds": 15
+    },
+    {
+        "name": "COLIN",
+        "odds": 17
+    },
+    {
+        "name": "COUNTERATTACK",
+        "odds": 16
+    },
+    {
+        "name": "SKIN RUNNER",
+        "odds": 16
+    },
+    {
+        "name": "NINJA TORTOISE",
+        "odds": 15
+    },
+    {
+        "name": "HAVANA",
+        "odds": 20
+    },
+    {
+        "name": "RENEGADE",
+        "odds": 25
+    },
     null,
     null,
     null,
