@@ -8,7 +8,12 @@
         "odds": 15
     },
     {
-        "odds": 0
+        "name": "FOREVER",
+        "img": "https://key-drop.com/uploads/skins/FOREVER1.png",
+        "url": "https://key-drop.com/pl/skins/category/forever",
+        "price_USD": 9,
+        "youtuber": true,
+        "odds": 15
     },
     {
         "name": "NEXE",
@@ -19,13 +24,28 @@
         "odds": 11
     },
     {
-        "odds": 0
+        "name": "DMG",
+        "img": "https://key-drop.com/uploads/skins/DMG_.png",
+        "url": "https://key-drop.com/pl/skins/category/dmg",
+        "price_USD": 37,
+        "youtuber": true,
+        "odds": 12
     },
     {
-        "odds": 0
+        "name": "INNOCENT",
+        "img": "https://key-drop.com/uploads/skins/INNOCENT_.png",
+        "url": "https://key-drop.com/pl/skins/category/innocent",
+        "price_USD": 5.53,
+        "youtuber": true,
+        "odds": 22
     },
     {
-        "odds": 0
+        "name": "MEDUSA",
+        "img": "https://key-drop.com/uploads/skins/MEDUSA1.png",
+        "url": "https://key-drop.com/pl/skins/category/medusa",
+        "price_USD": 6.7,
+        "youtuber": true,
+        "odds": 14
     },
     {
         "name": "ISAMU",
@@ -44,10 +64,20 @@
         "odds": 9
     },
     {
-        "odds": 0
+        "name": "KACPER RIETZ",
+        "img": "https://key-drop.com/uploads/skins/KACPER_RIETZ1.png",
+        "url": "https://key-drop.com/pl/skins/category/kacper-rietz",
+        "price_USD": 3.94,
+        "youtuber": true,
+        "odds": 23
     },
     {
-        "odds": 0
+        "name": "MOPO",
+        "img": "https://key-drop.com/uploads/skins/MOPO1.png",
+        "url": "https://key-drop.com/pl/skins/category/mopo",
+        "price_USD": 10.8,
+        "youtuber": true,
+        "odds": 13
     },
     {
         "name": "XM1NN",
@@ -58,39 +88,56 @@
         "odds": 15
     },
     {
-        "odds": 0
+        "name": "RENNOW",
+        "img": "https://key-drop.com/uploads/skins/RENNOW.png",
+        "url": "https://key-drop.com/pl/skins/category/rennow",
+        "price_USD": 5.13,
+        "youtuber": true,
+        "odds": 23
     },
     {
-        "odds": 0
+        "name": "ENERQIA",
+        "img": "https://key-drop.com/uploads/skins/ENERQIA1.png",
+        "url": "https://key-drop.com/pl/skins/category/enerqia",
+        "price_USD": 4.95,
+        "youtuber": true,
+        "odds": 19
     },
     {
-        "odds": 0
+        "name": "KNUCKLE FURY",
+        "odds": 15
     },
     {
-        "odds": 0
+        "name": "LOTUS",
+        "odds": 15
     },
     {
-        "odds": 0
+        "name": "KONG STRONG",
+        "odds": 15
     },
     {
         "name": "TANK CITY",
         "odds": 15
     },
     {
-        "odds": 0
+        "name": "COLIN",
+        "odds": 17
     },
     {
-        "odds": 0
+        "name": "COUNTERATTACK",
+        "odds": 16
     },
     {
-        "odds": 0
+        "name": "SKIN RUNNER",
+        "odds": 16
     },
     {
-        "odds": 0
+        "name": "NINJA TORTOISE",
+        "odds": 15
     },
     {
         "name": "HAVANA",
-        "odds": 20
+        "odds": 19
     },
     {
         "name": "RENEGADE",
@@ -109,19 +156,44 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "FROOBY",
+        "odds": 15
     },
     {
-        "odds": 0
+        "name": "ALBURRITO",
+        "odds": 15
     },
     {
-        "odds": 0
+        "name": "MIRONIAC",
+        "odds": 16
     },
     {
-        "odds": 0
+        "name": "SINISTER",
+        "odds": 24
     },
     {
-        "odds": 0
+        "name": "KATEZILLA",
+        "odds": 10
+    },
+    {
+        "name": "TELEGRAM",
+        "odds": 10
+    },
+    {
+        "name": "FACEBOOK",
+        "odds": 8
+    },
+    {
+        "name": "DISCORD",
+        "odds": 18
+    },
+    {
+        "name": "INSTAGRAM",
+        "odds": 10
+    },
+    {
+        "name": "X",
+        "odds": 10
     },
     {
         "name": "JAINA",
@@ -145,7 +217,7 @@
     },
     {
         "name": "DOMINATOR",
-        "odds": 27
+        "odds": 28
     },
     {
         "name": "LUXOR",
@@ -157,7 +229,7 @@
     },
     {
         "name": "HEXAR",
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "LAGOON",
@@ -205,7 +277,7 @@
     },
     {
         "name": "VEST",
-        "odds": 20
+        "odds": 19
     },
     {
         "name": "SERPENT",
@@ -372,11 +444,11 @@
         "odds": 14
     },
     {
-        "name": "ROYAL",
-        "odds": 18
+        "name": "SPACE",
+        "odds": 17
     },
     {
-        "name": "COBRA",
+        "name": "FOCUS",
         "odds": 16
     },
     {
@@ -384,12 +456,12 @@
         "odds": 20
     },
     {
-        "name": "FOCUS",
+        "name": "COBRA",
         "odds": 16
     },
     {
-        "name": "SPACE",
-        "odds": 15
+        "name": "ROYAL",
+        "odds": 18
     },
     {
         "name": "TOOTH",
@@ -397,11 +469,11 @@
     },
     {
         "name": "BUBBLE",
-        "odds": 14
+        "odds": 15
     },
     {
         "name": "HIVE",
-        "odds": 13
+        "odds": 14
     },
     {
         "name": "STRIKE",
@@ -433,15 +505,15 @@
     },
     {
         "name": "SHADOW",
-        "odds": 20
+        "odds": 18
     },
     {
         "name": "ICE BLAST",
-        "odds": 21
+        "odds": 26
     },
     {
         "name": "TERRORIST",
-        "odds": 16
+        "odds": 15
     },
     {
         "name": "NICE SHOT",
@@ -457,7 +529,7 @@
     },
     {
         "name": "MARKER",
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "CRIMSON EMERALD",
@@ -481,7 +553,7 @@
     },
     {
         "name": "TEETH",
-        "odds": 16
+        "odds": 17
     },
     {
         "name": "MAFIA",
@@ -493,7 +565,7 @@
     },
     {
         "name": "BEAST",
-        "odds": 18
+        "odds": 17
     },
     {
         "name": "BUMBLEBEE",
@@ -557,7 +629,7 @@
     },
     {
         "name": "MILSPEC",
-        "odds": 20
+        "odds": 18
     },
     {
         "name": "RESTRICTED",
@@ -649,83 +721,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13440113.52"
+        "goldProfit": "13413968.25"
     },
     {
         "name": "BONY",
-        "goldProfit": "12417407.59"
+        "goldProfit": "12271379.52"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12452280.49"
+        "goldProfit": "12501734.08"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14455598.90"
+        "goldProfit": "14501955.63"
     },
     {
         "name": "RECON",
-        "goldProfit": "15174543.09"
+        "goldProfit": "15189935.53"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18384718.21"
+        "goldProfit": "18401788.25"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28173985.17"
+        "goldProfit": "28120717.83"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24277520.01"
+        "goldProfit": "24323314.26"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21096568.40"
+        "goldProfit": "21039783.18"
     },
     {
         "name": "WIND",
-        "goldProfit": "21338386.90"
+        "goldProfit": "21323761.41"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22222218.60"
+        "goldProfit": "22149987.15"
     },
     {
         "name": "SHARK",
-        "goldProfit": "23860439.04"
+        "goldProfit": "23849967.91"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21109490.29"
+        "goldProfit": "20988794.25"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22919786.03"
+        "goldProfit": "22824961.65"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20571154.64"
+        "goldProfit": "20565708.90"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "24344368.54"
+        "goldProfit": "24300809.66"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20829728.61"
+        "goldProfit": "20759773.14"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27835742.12"
+        "goldProfit": "27673828.98"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23322741.46"
+        "goldProfit": "23230890.62"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21642243.68"
+        "goldProfit": "21500261.97"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -733,7 +805,7 @@
         "url": "https://key-drop.com/en/skins/category/jamiedrakehd",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "TIAGOVSKI",
@@ -765,20 +837,20 @@
         "url": "https://key-drop.com/en/skins/category/krowny",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 12
-    },
-    {
-        "name": "JORGO",
-        "img": "https://key-drop.com/uploads/skins/JORGO.png",
-        "url": "https://key-drop.com/en/skins/category/jorgo",
-        "price_USD": 7.89,
-        "youtuber": true,
-        "odds": 17
+        "odds": 11
     },
     {
         "name": "DADOSCH",
         "img": "https://key-drop.com/uploads/skins/DADOSCH_.png",
         "url": "https://key-drop.com/en/skins/category/dadosch",
+        "price_USD": 7.89,
+        "youtuber": true,
+        "odds": 18
+    },
+    {
+        "name": "JORGO",
+        "img": "https://key-drop.com/uploads/skins/JORGO.png",
+        "url": "https://key-drop.com/en/skins/category/jorgo",
         "price_USD": 7.89,
         "youtuber": true,
         "odds": 17
@@ -895,12 +967,12 @@
         "odds": 16
     },
     {
-        "name": "XFL0UD",
-        "img": "https://key-drop.com/uploads/skins/XFL0UD1.png",
-        "url": "https://key-drop.com/en/skins/category/xfl0ud",
+        "name": "ERAY",
+        "img": "https://key-drop.com/uploads/skins/ERAY.png",
+        "url": "https://key-drop.com/en/skins/category/eray",
         "price_USD": 45,
         "youtuber": true,
-        "odds": 26
+        "odds": 20
     },
     {
         "name": "XANTARES",
@@ -925,252 +997,5 @@
         "price_USD": 8.69,
         "youtuber": true,
         "odds": 13
-    },
-    {
-        "name": "KNUCKLE FURY",
-        "odds": 15
-    },
-    {
-        "name": "LOTUS",
-        "odds": 15
-    },
-    {
-        "name": "KONG STRONG",
-        "odds": 15
-    },
-    {
-        "name": "TANK CITY",
-        "odds": 15
-    },
-    {
-        "name": "COLIN",
-        "odds": 17
-    },
-    {
-        "name": "COUNTERATTACK",
-        "odds": 16
-    },
-    {
-        "name": "SKIN RUNNER",
-        "odds": 16
-    },
-    {
-        "name": "NINJA TORTOISE",
-        "odds": 15
-    },
-    {
-        "name": "HAVANA",
-        "odds": 20
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "FROOBY",
-        "odds": 15
-    },
-    {
-        "name": "ALBURRITO",
-        "odds": 15
-    },
-    {
-        "name": "MIRONIAC",
-        "odds": 16
-    },
-    {
-        "name": "SINISTER",
-        "odds": 24
-    },
-    {
-        "name": "KATEZILLA",
-        "odds": 10
-    },
-    {
-        "name": "KNUCKLE FURY",
-        "odds": 15
-    },
-    {
-        "name": "LOTUS",
-        "odds": 15
-    },
-    {
-        "name": "KONG STRONG",
-        "odds": 15
-    },
-    {
-        "name": "TANK CITY",
-        "odds": 15
-    },
-    {
-        "name": "COLIN",
-        "odds": 17
-    },
-    {
-        "name": "COUNTERATTACK",
-        "odds": 16
-    },
-    {
-        "name": "SKIN RUNNER",
-        "odds": 16
-    },
-    {
-        "name": "NINJA TORTOISE",
-        "odds": 15
-    },
-    {
-        "name": "HAVANA",
-        "odds": 20
-    },
-    {
-        "name": "RENEGADE",
-        "odds": 25
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "KNUCKLE FURY",
-        "odds": 15
-    },
-    {
-        "name": "LOTUS",
-        "odds": 15
-    },
-    {
-        "name": "KONG STRONG",
-        "odds": 15
-    },
-    {
-        "name": "TANK CITY",
-        "odds": 15
-    },
-    {
-        "name": "COLIN",
-        "odds": 17
-    },
-    {
-        "name": "COUNTERATTACK",
-        "odds": 16
-    },
-    {
-        "name": "SKIN RUNNER",
-        "odds": 16
-    },
-    {
-        "name": "NINJA TORTOISE",
-        "odds": 15
-    },
-    {
-        "name": "HAVANA",
-        "odds": 20
-    },
-    {
-        "name": "RENEGADE",
-        "odds": 25
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "KNUCKLE FURY",
-        "odds": 15
-    },
-    {
-        "name": "LOTUS",
-        "odds": 15
-    },
-    {
-        "name": "KONG STRONG",
-        "odds": 15
-    },
-    {
-        "name": "TANK CITY",
-        "odds": 15
-    },
-    {
-        "name": "COLIN",
-        "odds": 17
-    },
-    {
-        "name": "COUNTERATTACK",
-        "odds": 16
-    },
-    {
-        "name": "SKIN RUNNER",
-        "odds": 16
-    },
-    {
-        "name": "NINJA TORTOISE",
-        "odds": 15
-    },
-    {
-        "name": "HAVANA",
-        "odds": 20
-    },
-    {
-        "name": "RENEGADE",
-        "odds": 25
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "TELEGRAM",
-        "odds": 10
-    },
-    {
-        "name": "FACEBOOK",
-        "odds": 8
-    },
-    {
-        "name": "DISCORD",
-        "odds": 18
-    },
-    {
-        "name": "INSTAGRAM",
-        "odds": 8
-    },
-    {
-        "name": "X",
-        "odds": 10
     }
 ]
