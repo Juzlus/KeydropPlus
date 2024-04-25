@@ -105,7 +105,7 @@
     },
     {
         "name": "KNUCKLE FURY",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "LOTUS",
@@ -225,7 +225,7 @@
     },
     {
         "name": "ALPHA",
-        "odds": 18
+        "odds": 20
     },
     {
         "name": "HEXAR",
@@ -277,7 +277,7 @@
     },
     {
         "name": "VEST",
-        "odds": 20
+        "odds": 19
     },
     {
         "name": "SERPENT",
@@ -517,7 +517,7 @@
     },
     {
         "name": "NICE SHOT",
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "VIPER",
@@ -721,83 +721,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13359936.03"
+        "goldProfit": "13340769.70"
     },
     {
         "name": "BONY",
-        "goldProfit": "12202840.26"
+        "goldProfit": "12234769.35"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12403166.65"
+        "goldProfit": "12385214.07"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14456422.37"
+        "goldProfit": "14385930.56"
     },
     {
         "name": "RECON",
-        "goldProfit": "15125346.55"
+        "goldProfit": "15092792.03"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18134022.72"
+        "goldProfit": "18118946.76"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28193851.61"
+        "goldProfit": "28211902.42"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24335999.56"
+        "goldProfit": "24327227.06"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21046991.20"
+        "goldProfit": "21044467.19"
     },
     {
         "name": "WIND",
-        "goldProfit": "21280124.01"
+        "goldProfit": "21162435.14"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22197416.62"
+        "goldProfit": "22195210.46"
     },
     {
         "name": "SHARK",
-        "goldProfit": "23693165.51"
+        "goldProfit": "23675581.00"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21036670.66"
+        "goldProfit": "21034193.41"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22797983.20"
+        "goldProfit": "22706869.06"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20519791.10"
+        "goldProfit": "20505973.70"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "24155171.02"
+        "goldProfit": "24058412.53"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20557949.12"
+        "goldProfit": "20523941.91"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27561557.35"
+        "goldProfit": "27539297.81"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23367886.93"
+        "goldProfit": "23419617.63"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21543740.66"
+        "goldProfit": "21579887.28"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -877,7 +877,7 @@
         "url": "https://key-drop.com/en/skins/category/sajucsgo",
         "price_USD": 8.85,
         "youtuber": true,
-        "odds": 25
+        "odds": 26
     },
     {
         "name": "ELPIBECS1",
@@ -1000,7 +1000,7 @@
     },
     {
         "name": "KNUCKLE FURY",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "LOTUS",
@@ -1052,7 +1052,7 @@
     },
     {
         "name": "KNUCKLE FURY",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "LOTUS",
@@ -1104,7 +1104,7 @@
     },
     {
         "name": "KNUCKLE FURY",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "LOTUS",
@@ -1153,5 +1153,113 @@
     },
     {
         "odds": 0
+    },
+    {
+        "name": "KNUCKLE FURY",
+        "odds": 14
+    },
+    {
+        "name": "LOTUS",
+        "odds": 15
+    },
+    {
+        "name": "KONG STRONG",
+        "odds": 15
+    },
+    {
+        "name": "TANK CITY",
+        "odds": 15
+    },
+    {
+        "name": "COLIN",
+        "odds": 17
+    },
+    {
+        "name": "COUNTERATTACK",
+        "odds": 16
+    },
+    {
+        "name": "SKIN RUNNER",
+        "odds": 16
+    },
+    {
+        "name": "NINJA TORTOISE",
+        "odds": 17
+    },
+    {
+        "name": "HAVANA",
+        "odds": 19
+    },
+    {
+        "name": "RENEGADE",
+        "odds": 25
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "HEATONCS",
+        "img": "https://key-drop.com/uploads/skins/HEATONCS.png",
+        "url": "https://key-drop.com/en/skins/category/heatoncs",
+        "price_USD": 25,
+        "youtuber": true,
+        "odds": 21
+    },
+    {
+        "name": "FBBTV",
+        "img": "https://key-drop.com/uploads/skins/fbbtv.png",
+        "url": "https://key-drop.com/en/skins/category/fbbtv",
+        "price_USD": 6,
+        "youtuber": true,
+        "odds": 15
+    },
+    {
+        "name": "WOXIC",
+        "img": "https://key-drop.com/uploads/skins/woxic.png",
+        "url": "https://key-drop.com/en/skins/category/woxic",
+        "price_USD": 5,
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "XM1NN",
+        "img": "https://key-drop.com/uploads/skins/XM1NN1.png",
+        "url": "https://key-drop.com/en/skins/category/xm1nn",
+        "price_USD": 7.1,
+        "youtuber": true,
+        "odds": 15
+    },
+    {
+        "name": "ENERQIA",
+        "img": "https://key-drop.com/uploads/skins/ENERQIA1.png",
+        "url": "https://key-drop.com/en/skins/category/enerqia",
+        "price_USD": 4.95,
+        "youtuber": true,
+        "odds": 19
+    },
+    {
+        "name": "VURAL UCAR",
+        "img": "https://key-drop.com/uploads/skins/VULAR_UCAR.png",
+        "url": "https://key-drop.com/en/skins/category/vural-ucar",
+        "price_USD": 6.32,
+        "youtuber": true,
+        "odds": 13
+    },
+    {
+        "name": "RENNOW",
+        "img": "https://key-drop.com/uploads/skins/RENNOW.png",
+        "url": "https://key-drop.com/en/skins/category/rennow",
+        "price_USD": 5.13,
+        "youtuber": true,
+        "odds": 23
     }
 ]
