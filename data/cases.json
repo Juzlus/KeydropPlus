@@ -13,7 +13,7 @@
         "url": "https://key-drop.com/pl/skins/category/forever",
         "price_USD": 9,
         "youtuber": true,
-        "odds": 15
+        "odds": 12
     },
     {
         "name": "NEXE",
@@ -45,7 +45,7 @@
         "url": "https://key-drop.com/pl/skins/category/medusa",
         "price_USD": 6.7,
         "youtuber": true,
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "ISAMU",
@@ -225,7 +225,7 @@
     },
     {
         "name": "LUXOR",
-        "odds": 10
+        "odds": 11
     },
     {
         "name": "ALPHA",
@@ -272,7 +272,8 @@
         "odds": 15
     },
     {
-        "odds": 0
+        "name": "SINDEL",
+        "odds": 17
     },
     {
         "name": "HERA",
@@ -524,7 +525,7 @@
     },
     {
         "name": "TERRORIST",
-        "odds": 16
+        "odds": 15
     },
     {
         "name": "NICE SHOT",
@@ -556,7 +557,7 @@
     },
     {
         "name": "AVALANCHE",
-        "odds": 18
+        "odds": 14
     },
     {
         "name": "SPIDER",
@@ -632,7 +633,7 @@
     },
     {
         "name": "USP-S",
-        "odds": 26
+        "odds": 18
     },
     {
         "name": "NEW KNIVES",
@@ -732,83 +733,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13634790.36"
+        "goldProfit": "13531426.31"
     },
     {
         "name": "BONY",
-        "goldProfit": "12393412.54"
+        "goldProfit": "12369263.64"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12531445.04"
+        "goldProfit": "12530386.19"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14799735.89"
+        "goldProfit": "14766379.25"
     },
     {
         "name": "RECON",
-        "goldProfit": "15481894.85"
+        "goldProfit": "15496709.95"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18480076.62"
+        "goldProfit": "18432730.53"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28935273.96"
+        "goldProfit": "28881320.91"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "25250131.22"
+        "goldProfit": "25199518.20"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21838664.25"
+        "goldProfit": "21819147.95"
     },
     {
         "name": "WIND",
-        "goldProfit": "21719212.51"
+        "goldProfit": "21709184.14"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22625355.94"
+        "goldProfit": "22565241.46"
     },
     {
         "name": "SHARK",
-        "goldProfit": "24190613.83"
+        "goldProfit": "24091170.87"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21939016.26"
+        "goldProfit": "21873107.08"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23438800.57"
+        "goldProfit": "23335604.02"
     },
     {
         "name": "ATUM",
-        "goldProfit": "21269192.35"
+        "goldProfit": "21253960.45"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "24449507.76"
+        "goldProfit": "24281525.73"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "21090838.12"
+        "goldProfit": "21068927.75"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "28005660.34"
+        "goldProfit": "27909183.69"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "24522061.92"
+        "goldProfit": "24537847.05"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21954904.22"
+        "goldProfit": "21949930.26"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -864,7 +865,7 @@
         "url": "https://key-drop.com/en/skins/category/krowny",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 14
+        "odds": 13
     },
     {
         "name": "DADOSCH",
@@ -920,7 +921,7 @@
         "url": "https://key-drop.com/en/skins/category/zolik22",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "PIETRAK",
@@ -952,7 +953,7 @@
         "url": "https://key-drop.com/en/skins/category/shavo",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "IRAPHAHELL",
@@ -1048,7 +1049,7 @@
         "url": "https://key-drop.com/en/skins/category/vural-ucar",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 18
+        "odds": 17
     },
     {
         "name": "RENNOW",
@@ -1057,6 +1058,62 @@
         "price_USD": 5.13,
         "youtuber": true,
         "odds": 23
+    },
+    {
+        "name": "KNUCKLE FURY",
+        "odds": 14
+    },
+    {
+        "name": "LOTUS",
+        "odds": 15
+    },
+    {
+        "name": "KONG STRONG",
+        "odds": 15
+    },
+    {
+        "name": "TANK CITY",
+        "odds": 15
+    },
+    {
+        "name": "COLIN",
+        "odds": 17
+    },
+    {
+        "name": "COUNTERATTACK",
+        "odds": 16
+    },
+    {
+        "name": "SKIN RUNNER",
+        "odds": 16
+    },
+    {
+        "name": "NINJA TORTOISE",
+        "odds": 17
+    },
+    {
+        "name": "HAVANA",
+        "odds": 17
+    },
+    {
+        "name": "RENEGADE",
+        "odds": 24
+    },
+    {
+        "name": "MARIACHI",
+        "odds": 15
+    },
+    {
+        "name": "PEDRO",
+        "odds": 15
+    },
+    {
+        "name": "IGNACIO",
+        "odds": 16
+    },
+    {
+        "name": "SOMBRERO",
+        "odds": 17
     },
     {
         "name": "KNUCKLE FURY",
