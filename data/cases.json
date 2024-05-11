@@ -733,83 +733,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13531426.31"
+        "goldProfit": "13569441.10"
     },
     {
         "name": "BONY",
-        "goldProfit": "12369263.64"
+        "goldProfit": "12372054.68"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12530386.19"
+        "goldProfit": "12537547.69"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14766379.25"
+        "goldProfit": "14781241.60"
     },
     {
         "name": "RECON",
-        "goldProfit": "15496709.95"
+        "goldProfit": "15460475.20"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18432730.53"
+        "goldProfit": "18421820.69"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28881320.91"
+        "goldProfit": "28884288.22"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "25199518.20"
+        "goldProfit": "25228338.14"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21819147.95"
+        "goldProfit": "21819036.32"
     },
     {
         "name": "WIND",
-        "goldProfit": "21709184.14"
+        "goldProfit": "21679085.18"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22565241.46"
+        "goldProfit": "22562802.23"
     },
     {
         "name": "SHARK",
-        "goldProfit": "24091170.87"
+        "goldProfit": "24089911.50"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21873107.08"
+        "goldProfit": "21918665.19"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23335604.02"
+        "goldProfit": "23372320.37"
     },
     {
         "name": "ATUM",
-        "goldProfit": "21253960.45"
+        "goldProfit": "21266271.61"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "24281525.73"
+        "goldProfit": "24282771.91"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "21068927.75"
+        "goldProfit": "21068090.48"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27909183.69"
+        "goldProfit": "27888160.69"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "24537847.05"
+        "goldProfit": "24564936.37"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21949930.26"
+        "goldProfit": "21915423.40"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -1058,6 +1058,62 @@
         "price_USD": 5.13,
         "youtuber": true,
         "odds": 23
+    },
+    {
+        "name": "KNUCKLE FURY",
+        "odds": 14
+    },
+    {
+        "name": "LOTUS",
+        "odds": 15
+    },
+    {
+        "name": "KONG STRONG",
+        "odds": 15
+    },
+    {
+        "name": "TANK CITY",
+        "odds": 15
+    },
+    {
+        "name": "COLIN",
+        "odds": 17
+    },
+    {
+        "name": "COUNTERATTACK",
+        "odds": 16
+    },
+    {
+        "name": "SKIN RUNNER",
+        "odds": 16
+    },
+    {
+        "name": "NINJA TORTOISE",
+        "odds": 17
+    },
+    {
+        "name": "HAVANA",
+        "odds": 17
+    },
+    {
+        "name": "RENEGADE",
+        "odds": 24
+    },
+    {
+        "name": "MARIACHI",
+        "odds": 15
+    },
+    {
+        "name": "PEDRO",
+        "odds": 15
+    },
+    {
+        "name": "IGNACIO",
+        "odds": 16
+    },
+    {
+        "name": "SOMBRERO",
+        "odds": 17
     },
     {
         "name": "KNUCKLE FURY",
