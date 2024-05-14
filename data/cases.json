@@ -101,7 +101,7 @@
         "url": "https://key-drop.com/pl/skins/category/enerqia",
         "price_USD": 4.95,
         "youtuber": true,
-        "odds": 21
+        "odds": 20
     },
     {
         "odds": 0
@@ -147,7 +147,7 @@
     },
     {
         "name": "GUN GOBLIN",
-        "odds": 21
+        "odds": 17
     },
     {
         "name": "GENTLE GIANT",
@@ -195,7 +195,7 @@
     },
     {
         "name": "STRANGE",
-        "odds": 22
+        "odds": 23
     },
     {
         "name": "MANTIS",
@@ -267,7 +267,7 @@
     },
     {
         "name": "VEST",
-        "odds": 21
+        "odds": 20
     },
     {
         "name": "SERPENT",
@@ -519,7 +519,7 @@
     },
     {
         "name": "VIPER",
-        "odds": 13
+        "odds": 14
     },
     {
         "name": "MASTER",
@@ -527,7 +527,7 @@
     },
     {
         "name": "MARKER",
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "CRIMSON EMERALD",
@@ -535,7 +535,7 @@
     },
     {
         "name": "DRAGON",
-        "odds": 19
+        "odds": 20
     },
     {
         "name": "PIKA PIKA",
@@ -547,7 +547,7 @@
     },
     {
         "name": "SPIDER",
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "TEETH",
@@ -567,7 +567,7 @@
     },
     {
         "name": "BUMBLEBEE",
-        "odds": 14
+        "odds": 15
     },
     {
         "name": "LAZURE",
@@ -583,7 +583,7 @@
     },
     {
         "name": "BANANA",
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "RAZOR",
@@ -615,7 +615,7 @@
     },
     {
         "name": "M4",
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "USP-S",
@@ -627,7 +627,7 @@
     },
     {
         "name": "MILSPEC",
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "RESTRICTED",
@@ -719,83 +719,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13428455.24"
+        "goldProfit": "13370232.31"
     },
     {
         "name": "BONY",
-        "goldProfit": "12217128.75"
+        "goldProfit": "12175783.58"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12443669.55"
+        "goldProfit": "12421696.50"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14636406.09"
+        "goldProfit": "14722899.23"
     },
     {
         "name": "RECON",
-        "goldProfit": "15453256.62"
+        "goldProfit": "15388445.85"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18399926.81"
+        "goldProfit": "18400558.78"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28637802.40"
+        "goldProfit": "28683259.37"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "25009180.07"
+        "goldProfit": "25013976.46"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21669936.81"
+        "goldProfit": "21609234.91"
     },
     {
         "name": "WIND",
-        "goldProfit": "21500154.41"
+        "goldProfit": "21513700.52"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22379585.57"
+        "goldProfit": "22316210.30"
     },
     {
         "name": "SHARK",
-        "goldProfit": "24195962.96"
+        "goldProfit": "24122278.18"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21775220.74"
+        "goldProfit": "21690408.31"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23179092.22"
+        "goldProfit": "23150249.28"
     },
     {
         "name": "ATUM",
-        "goldProfit": "21114182.77"
+        "goldProfit": "21010817.87"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "24143739.65"
+        "goldProfit": "24031022.42"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20903522.25"
+        "goldProfit": "20877216.30"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27728156.07"
+        "goldProfit": "27686144.96"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "24313541.26"
+        "goldProfit": "24307129.23"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21778627.12"
+        "goldProfit": "21758934.37"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -803,7 +803,7 @@
         "url": "https://key-drop.com/en/skins/category/jamiedrakehd",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 22
+        "odds": 16
     },
     {
         "name": "TIAGOVSKI",
@@ -851,7 +851,7 @@
         "url": "https://key-drop.com/en/skins/category/krowny",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 13
+        "odds": 11
     },
     {
         "name": "DADOSCH",
@@ -867,7 +867,7 @@
         "url": "https://key-drop.com/en/skins/category/elpibecs1",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 23
+        "odds": 16
     },
     {
         "name": "TARIFA",
@@ -899,7 +899,7 @@
         "url": "https://key-drop.com/en/skins/category/sajucsgo",
         "price_USD": 8.85,
         "youtuber": true,
-        "odds": 26
+        "odds": 24
     },
     {
         "name": "ZOLIK22",
@@ -907,7 +907,7 @@
         "url": "https://key-drop.com/en/skins/category/zolik22",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 16
+        "odds": 12
     },
     {
         "name": "PIETRAK",
@@ -939,7 +939,7 @@
         "url": "https://key-drop.com/en/skins/category/shavo",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 16
+        "odds": 13
     },
     {
         "name": "IRAPHAHELL",
@@ -1027,7 +1027,7 @@
         "url": "https://key-drop.com/en/skins/category/enerqia",
         "price_USD": 4.95,
         "youtuber": true,
-        "odds": 21
+        "odds": 20
     },
     {
         "name": "VURAL UCAR",
@@ -1035,7 +1035,7 @@
         "url": "https://key-drop.com/en/skins/category/vural-ucar",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 17
+        "odds": 13
     },
     {
         "name": "RENNOW",
@@ -1044,6 +1044,48 @@
         "price_USD": 5.13,
         "youtuber": true,
         "odds": 23
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
     },
     {
         "odds": 0
