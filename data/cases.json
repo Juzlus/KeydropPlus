@@ -93,7 +93,7 @@
         "url": "https://key-drop.com/pl/skins/category/rennow",
         "price_USD": 5.13,
         "youtuber": true,
-        "odds": 24
+        "odds": 23
     },
     {
         "name": "ENERQIA",
@@ -163,7 +163,7 @@
     },
     {
         "name": "VOLDEMEAT",
-        "odds": 16
+        "odds": 17
     },
     {
         "name": "TELEGRAM",
@@ -235,7 +235,7 @@
     },
     {
         "name": "TEMPTATION",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TRACES",
@@ -267,7 +267,7 @@
     },
     {
         "name": "VEST",
-        "odds": 21
+        "odds": 20
     },
     {
         "name": "SERPENT",
@@ -475,7 +475,7 @@
     },
     {
         "name": "STRIKE",
-        "odds": 23
+        "odds": 24
     },
     {
         "name": "SPLINTER",
@@ -543,7 +543,7 @@
     },
     {
         "name": "AVALANCHE",
-        "odds": 12
+        "odds": 13
     },
     {
         "name": "SPIDER",
@@ -719,83 +719,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13359205.08"
+        "goldProfit": "13286731.46"
     },
     {
         "name": "BONY",
-        "goldProfit": "12163712.55"
+        "goldProfit": "12081246.57"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12356900.25"
+        "goldProfit": "12368367.98"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14693978.53"
+        "goldProfit": "14583334.09"
     },
     {
         "name": "RECON",
-        "goldProfit": "15424016.80"
+        "goldProfit": "15394010.30"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18314415.98"
+        "goldProfit": "18252119.50"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28572098.63"
+        "goldProfit": "28531948.41"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24948287.85"
+        "goldProfit": "24894858.78"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21548905.42"
+        "goldProfit": "21534803.19"
     },
     {
         "name": "WIND",
-        "goldProfit": "21430067.76"
+        "goldProfit": "21335405.97"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22239174.66"
+        "goldProfit": "22170110.80"
     },
     {
         "name": "SHARK",
-        "goldProfit": "24085995.26"
+        "goldProfit": "24066807.03"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21698318.32"
+        "goldProfit": "21574116.60"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23104773.67"
+        "goldProfit": "23079991.80"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20975879.15"
+        "goldProfit": "20907486.38"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23966796.20"
+        "goldProfit": "23811368.73"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20816339.83"
+        "goldProfit": "20774237.21"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27639132.58"
+        "goldProfit": "27534754.56"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "24178081.55"
+        "goldProfit": "24074589.30"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21758542.71"
+        "goldProfit": "21682748.07"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -803,7 +803,7 @@
         "url": "https://key-drop.com/en/skins/category/jamiedrakehd",
         "price_USD": 6.32,
         "youtuber": true,
-        "odds": 16
+        "odds": 17
     },
     {
         "name": "TIAGOVSKI",
@@ -915,7 +915,7 @@
         "url": "https://key-drop.com/en/skins/category/pietrak",
         "price_USD": 5.13,
         "youtuber": true,
-        "odds": 27
+        "odds": 25
     },
     {
         "name": "JASONPLAY",
@@ -1043,7 +1043,7 @@
         "url": "https://key-drop.com/en/skins/category/rennow",
         "price_USD": 5.13,
         "youtuber": true,
-        "odds": 24
+        "odds": 23
     },
     {
         "odds": 0
@@ -1430,5 +1430,57 @@
         "price_USD": 4.75,
         "youtuber": true,
         "odds": 16
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 13
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 15
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 15
+    },
+    {
+        "name": "RETI",
+        "odds": 15
+    },
+    {
+        "name": "TOWER",
+        "odds": 16
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 16
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
     }
 ]
