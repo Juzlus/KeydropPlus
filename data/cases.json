@@ -113,7 +113,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -237,8 +238,7 @@
         "odds": 16
     },
     {
-        "name": "RAGNAR",
-        "odds": 13
+        "odds": 0
     },
     {
         "name": "JOCASTA",
@@ -714,83 +714,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13270348.46"
+        "goldProfit": "13296474.29"
     },
     {
         "name": "BONY",
-        "goldProfit": "12003473.20"
+        "goldProfit": "12027954.07"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12328508.42"
+        "goldProfit": "12320478.63"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14628598.53"
+        "goldProfit": "14570165.72"
     },
     {
         "name": "RECON",
-        "goldProfit": "15399862.33"
+        "goldProfit": "15447789.02"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "18227302.98"
+        "goldProfit": "18227730.53"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28475793.78"
+        "goldProfit": "28489138.54"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24813245.60"
+        "goldProfit": "24803204.67"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21473324.78"
+        "goldProfit": "21478632.01"
     },
     {
         "name": "WIND",
-        "goldProfit": "21278448.75"
+        "goldProfit": "21335723.85"
     },
     {
         "name": "RUBY",
-        "goldProfit": "22101380.22"
+        "goldProfit": "22082528.29"
     },
     {
         "name": "SHARK",
-        "goldProfit": "24031254.14"
+        "goldProfit": "24029645.96"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21623692.65"
+        "goldProfit": "21616696.98"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "23011535.40"
+        "goldProfit": "23029244.62"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20855665.93"
+        "goldProfit": "20854086.47"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23834668.32"
+        "goldProfit": "23833163.12"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20683956.16"
+        "goldProfit": "20710574.19"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "27198676.03"
+        "goldProfit": "27200128.65"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "24116485.64"
+        "goldProfit": "24027877.59"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21685121.65"
+        "goldProfit": "21654950.42"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -1050,7 +1050,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1092,7 +1093,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1134,7 +1136,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1176,7 +1179,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1218,7 +1222,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1260,7 +1265,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1302,7 +1308,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1344,7 +1351,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1386,7 +1394,8 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "TANK CITY",
+        "odds": 15
     },
     {
         "odds": 0
@@ -1456,7 +1465,7 @@
     },
     {
         "name": "FRENCH DEFENSE",
-        "odds": 16
+        "odds": 15
     },
     {
         "name": "KINGS DEFENSE",
@@ -1508,7 +1517,7 @@
     },
     {
         "name": "FRENCH DEFENSE",
-        "odds": 16
+        "odds": 15
     },
     {
         "name": "KINGS DEFENSE",
@@ -1572,7 +1581,59 @@
     },
     {
         "name": "FRENCH DEFENSE",
+        "odds": 15
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
         "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 13
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 15
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 15
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 15
+    },
+    {
+        "name": "RETI",
+        "odds": 15
+    },
+    {
+        "name": "TOWER",
+        "odds": 16
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 15
     },
     {
         "name": "KINGS DEFENSE",
