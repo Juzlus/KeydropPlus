@@ -5,7 +5,7 @@
         "url": "https://key-drop.com/pl/skins/category/zony",
         "price_USD": 9,
         "youtuber": true,
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "FOREVER",
@@ -223,7 +223,7 @@
     },
     {
         "name": "AGILI",
-        "odds": 22
+        "odds": 20
     },
     {
         "name": "THUNDERER",
@@ -270,7 +270,7 @@
     },
     {
         "name": "ARROW",
-        "odds": 20
+        "odds": 21
     },
     {
         "name": "LORE",
@@ -530,7 +530,7 @@
     },
     {
         "name": "DRAGON",
-        "odds": 20
+        "odds": 15
     },
     {
         "name": "PIKA PIKA",
@@ -714,83 +714,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13059877.86"
+        "goldProfit": "13030569.95"
     },
     {
         "name": "BONY",
-        "goldProfit": "11612290.84"
+        "goldProfit": "11552511.77"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12119597.04"
+        "goldProfit": "12071437.47"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14392662.48"
+        "goldProfit": "14382138.32"
     },
     {
         "name": "RECON",
-        "goldProfit": "15311199.95"
+        "goldProfit": "15182336.29"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "17816699.91"
+        "goldProfit": "17808338.37"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28401279.59"
+        "goldProfit": "28405776.77"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24316140.15"
+        "goldProfit": "24297000.73"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21179639.84"
+        "goldProfit": "21126093.75"
     },
     {
         "name": "WIND",
-        "goldProfit": "20848607.10"
+        "goldProfit": "20847530.30"
     },
     {
         "name": "RUBY",
-        "goldProfit": "21457195.95"
+        "goldProfit": "21438614.91"
     },
     {
         "name": "SHARK",
-        "goldProfit": "22993399.90"
+        "goldProfit": "22991539.45"
     },
     {
         "name": "WRAP",
-        "goldProfit": "21023557.54"
+        "goldProfit": "20928940.39"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22487015.07"
+        "goldProfit": "22470686.32"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20452682.32"
+        "goldProfit": "20406441.28"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23293673.55"
+        "goldProfit": "23193162.77"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20440087.76"
+        "goldProfit": "20444979.49"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "26591923.67"
+        "goldProfit": "26555262.59"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23196858.31"
+        "goldProfit": "23141919.95"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21221810.36"
+        "goldProfit": "21183378.37"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -950,7 +950,7 @@
         "url": "https://key-drop.com/en/skins/category/generalu",
         "price_USD": 7.1,
         "youtuber": true,
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "CALYX",
@@ -1449,7 +1449,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1501,7 +1501,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1565,7 +1565,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1617,7 +1617,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1669,7 +1669,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1721,7 +1721,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1773,7 +1773,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1825,7 +1825,7 @@
     },
     {
         "name": "ALIEN DANGER",
-        "odds": 18
+        "odds": 16
     },
     {
         "name": "DESERT PLANET",
@@ -1845,7 +1845,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1897,7 +1897,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -1973,7 +1973,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -2025,7 +2025,7 @@
     },
     {
         "name": "SICILIAN DEFENSE",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
@@ -2077,7 +2077,59 @@
     },
     {
         "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
         "odds": 15
+    },
+    {
+        "name": "TOWER",
+        "odds": 16
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
     },
     {
         "name": "CLOSED SICILIAN",
