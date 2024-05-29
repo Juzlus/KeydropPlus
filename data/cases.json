@@ -171,7 +171,7 @@
     },
     {
         "name": "DISCORD",
-        "odds": 18
+        "odds": 16
     },
     {
         "name": "INSTAGRAM",
@@ -215,7 +215,7 @@
     },
     {
         "name": "HEXAR",
-        "odds": 27
+        "odds": 26
     },
     {
         "name": "LAGOON",
@@ -618,7 +618,7 @@
     },
     {
         "name": "NEW KNIVES",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "MILSPEC",
@@ -714,83 +714,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "13030569.95"
+        "goldProfit": "13022795.89"
     },
     {
         "name": "BONY",
-        "goldProfit": "11552511.77"
+        "goldProfit": "11531657.97"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "12071437.47"
+        "goldProfit": "12028265.85"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14382138.32"
+        "goldProfit": "14359436.07"
     },
     {
         "name": "RECON",
-        "goldProfit": "15182336.29"
+        "goldProfit": "15345329.78"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "17808338.37"
+        "goldProfit": "17820735.39"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28405776.77"
+        "goldProfit": "28407357.03"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24297000.73"
+        "goldProfit": "24265181.30"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "21126093.75"
+        "goldProfit": "21124884.49"
     },
     {
         "name": "WIND",
-        "goldProfit": "20847530.30"
+        "goldProfit": "20817898.34"
     },
     {
         "name": "RUBY",
-        "goldProfit": "21438614.91"
+        "goldProfit": "21409633.67"
     },
     {
         "name": "SHARK",
-        "goldProfit": "22991539.45"
+        "goldProfit": "22931022.28"
     },
     {
         "name": "WRAP",
-        "goldProfit": "20928940.39"
+        "goldProfit": "20931250.03"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22470686.32"
+        "goldProfit": "22435673.54"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20406441.28"
+        "goldProfit": "20356080.13"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23193162.77"
+        "goldProfit": "23199528.76"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20444979.49"
+        "goldProfit": "20456400.18"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "26555262.59"
+        "goldProfit": "26499743.34"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23141919.95"
+        "goldProfit": "23054344.24"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21183378.37"
+        "goldProfit": "21135496.31"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -1457,11 +1457,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1509,11 +1509,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1573,11 +1573,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1625,11 +1625,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1677,11 +1677,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1729,11 +1729,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1781,11 +1781,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1825,7 +1825,7 @@
     },
     {
         "name": "ALIEN DANGER",
-        "odds": 16
+        "odds": 17
     },
     {
         "name": "DESERT PLANET",
@@ -1853,11 +1853,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1905,11 +1905,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -1981,11 +1981,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -2033,11 +2033,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -2085,11 +2085,11 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
-        "odds": 16
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
@@ -2137,11 +2137,63 @@
     },
     {
         "name": "RETI",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
         "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
     },
     {
         "name": "FRENCH DEFENSE",
