@@ -685,112 +685,95 @@
         "odds": 19
     },
     {
-        "name": "NEON",
-        "odds": 39
+        "odds": 0
     },
     {
-        "name": "DETECT",
-        "odds": 16
+        "odds": 0
     },
     {
-        "name": "HERO",
-        "odds": 35
+        "odds": 0
     },
     {
-        "name": "STAR",
-        "odds": 25
+        "odds": 0
     },
     {
-        "name": "CHAMPION",
-        "odds": 34
+        "odds": 0
     },
     {
-        "name": "WING",
-        "odds": 21
+        "odds": 0
     },
     {
-        "name": "RIVAL",
-        "odds": 34
+        "odds": 0
     },
     {
-        "name": "TOPAZ",
-        "goldProfit": "13022795.89"
+        "odds": 0
     },
     {
-        "name": "BONY",
-        "goldProfit": "11531657.97"
+        "odds": 0
     },
     {
-        "name": "MAGENT",
-        "goldProfit": "12028265.85"
+        "odds": 0
     },
     {
-        "name": "ASSAULT",
-        "goldProfit": "14359436.07"
+        "odds": 0
     },
     {
-        "name": "RECON",
-        "goldProfit": "15345329.78"
+        "odds": 0
     },
     {
-        "name": "FOSTER",
-        "goldProfit": "17820735.39"
+        "odds": 0
     },
     {
-        "name": "PREDATOR",
-        "goldProfit": "28407357.03"
+        "odds": 0
     },
     {
-        "name": "OPTIMAL",
-        "goldProfit": "24265181.30"
+        "odds": 0
     },
     {
-        "name": "SOLAR",
-        "goldProfit": "21124884.49"
+        "odds": 0
     },
     {
-        "name": "WIND",
-        "goldProfit": "20817898.34"
+        "odds": 0
     },
     {
         "name": "RUBY",
-        "goldProfit": "21409633.67"
+        "goldProfit": "21422325.87"
     },
     {
         "name": "SHARK",
-        "goldProfit": "22931022.28"
+        "goldProfit": "22926086.43"
     },
     {
         "name": "WRAP",
-        "goldProfit": "20931250.03"
+        "goldProfit": "20875222.06"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22435673.54"
+        "goldProfit": "22357676.83"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20356080.13"
+        "goldProfit": "20351128.69"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23199528.76"
+        "goldProfit": "23199681.28"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20456400.18"
+        "goldProfit": "20518254.06"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "26499743.34"
+        "goldProfit": "26488970.41"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "23054344.24"
+        "goldProfit": "23089050.12"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "21135496.31"
+        "goldProfit": "21145889.65"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -2218,5 +2201,105 @@
     },
     {
         "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "FOX",
+        "odds": 15
+    },
+    {
+        "name": "CHEAP KNIVES",
+        "odds": 20
+    },
+    {
+        "name": "BUTTERFLY",
+        "odds": 27
+    },
+    {
+        "name": "KARAMBIT",
+        "odds": 25
+    },
+    {
+        "name": "PREMIUM KNIVES",
+        "odds": 12
+    },
+    {
+        "name": "HEADSHOT",
+        "odds": 20
+    },
+    {
+        "name": "RAIN",
+        "odds": 16
+    },
+    {
+        "name": "FIRE",
+        "odds": 16
+    },
+    {
+        "name": "TICKET",
+        "odds": 17
+    },
+    {
+        "name": "MACHINE",
+        "odds": 17
+    },
+    {
+        "name": "STORM",
+        "odds": 16
+    },
+    {
+        "name": "COIL",
+        "odds": 17
     }
 ]
