@@ -37,7 +37,7 @@
         "url": "https://key-drop.com/pl/skins/category/innocent",
         "price_USD": 5.53,
         "youtuber": true,
-        "odds": 23
+        "odds": 24
     },
     {
         "name": "MEDUSA",
@@ -61,7 +61,7 @@
         "url": "https://key-drop.com/pl/skins/category/mateo",
         "price_USD": 3.94,
         "youtuber": true,
-        "odds": 9
+        "odds": 10
     },
     {
         "name": "KACPER RIETZ",
@@ -114,7 +114,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -183,7 +183,7 @@
     },
     {
         "name": "JAINA",
-        "odds": 25
+        "odds": 20
     },
     {
         "name": "ANDERS",
@@ -215,7 +215,7 @@
     },
     {
         "name": "HEXAR",
-        "odds": 29
+        "odds": 26
     },
     {
         "name": "LAGOON",
@@ -254,7 +254,7 @@
     },
     {
         "name": "SINDEL",
-        "odds": 17
+        "odds": 16
     },
     {
         "name": "HERA",
@@ -278,11 +278,11 @@
     },
     {
         "name": "VICE",
-        "odds": 22
+        "odds": 20
     },
     {
         "name": "BLOODSHOT",
-        "odds": 30
+        "odds": 31
     },
     {
         "name": "SNUGTOES",
@@ -290,7 +290,7 @@
         "url": "https://key-drop.com/en/skins/category/snugtoes",
         "price_USD": 27,
         "youtuber": true,
-        "odds": 9
+        "odds": 8
     },
     {
         "name": "BLACK",
@@ -330,7 +330,7 @@
         "url": "https://key-drop.com/en/skins/category/heatoncs",
         "price_USD": 25,
         "youtuber": true,
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "MAJ3R",
@@ -354,7 +354,7 @@
         "url": "https://key-drop.com/en/skins/category/xantares-2",
         "price_USD": 45.85,
         "youtuber": true,
-        "odds": 15
+        "odds": 16
     },
     {
         "name": "WICADIA",
@@ -438,7 +438,7 @@
     },
     {
         "name": "FANG",
-        "odds": 22
+        "odds": 16
     },
     {
         "name": "COBRA",
@@ -482,11 +482,11 @@
     },
     {
         "name": "TOXIC",
-        "odds": 15
+        "odds": 14
     },
     {
         "name": "OMEGA",
-        "odds": 14
+        "odds": 15
     },
     {
         "name": "DREAM",
@@ -494,11 +494,11 @@
     },
     {
         "name": "DIABLO",
-        "odds": 14
+        "odds": 12
     },
     {
         "name": "SHADOW",
-        "odds": 23
+        "odds": 24
     },
     {
         "name": "ICE BLAST",
@@ -514,7 +514,7 @@
     },
     {
         "name": "VIPER",
-        "odds": 12
+        "odds": 13
     },
     {
         "name": "MASTER",
@@ -542,7 +542,7 @@
     },
     {
         "name": "SPIDER",
-        "odds": 17
+        "odds": 18
     },
     {
         "name": "TEETH",
@@ -550,7 +550,7 @@
     },
     {
         "name": "MAFIA",
-        "odds": 25
+        "odds": 24
     },
     {
         "name": "GRADIENT",
@@ -714,83 +714,83 @@
     },
     {
         "name": "TOPAZ",
-        "goldProfit": "12838165.88"
+        "goldProfit": "12833995.53"
     },
     {
         "name": "BONY",
-        "goldProfit": "11352631.12"
+        "goldProfit": "11298306.80"
     },
     {
         "name": "MAGENT",
-        "goldProfit": "11931551.15"
+        "goldProfit": "11876617.55"
     },
     {
         "name": "ASSAULT",
-        "goldProfit": "14216932.69"
+        "goldProfit": "14152416.83"
     },
     {
         "name": "RECON",
-        "goldProfit": "15072976.24"
+        "goldProfit": "15057500.96"
     },
     {
         "name": "FOSTER",
-        "goldProfit": "17777322.81"
+        "goldProfit": "17685067.81"
     },
     {
         "name": "PREDATOR",
-        "goldProfit": "28393127.48"
+        "goldProfit": "28328746.10"
     },
     {
         "name": "OPTIMAL",
-        "goldProfit": "24106650.17"
+        "goldProfit": "24042928.26"
     },
     {
         "name": "SOLAR",
-        "goldProfit": "20874238.91"
+        "goldProfit": "20809966.78"
     },
     {
         "name": "WIND",
-        "goldProfit": "20589121.06"
+        "goldProfit": "20531336.91"
     },
     {
         "name": "RUBY",
-        "goldProfit": "21272930.94"
+        "goldProfit": "21223336.14"
     },
     {
         "name": "SHARK",
-        "goldProfit": "22700331.40"
+        "goldProfit": "22547129.35"
     },
     {
         "name": "WRAP",
-        "goldProfit": "20666234.29"
+        "goldProfit": "20607905.76"
     },
     {
         "name": "SAMURAI",
-        "goldProfit": "22269886.51"
+        "goldProfit": "22177859.40"
     },
     {
         "name": "ATUM",
-        "goldProfit": "20237704.02"
+        "goldProfit": "20167414.10"
     },
     {
         "name": "GOLD DIGGER",
-        "goldProfit": "23161681.72"
+        "goldProfit": "22946091.87"
     },
     {
         "name": "RUBIN RAIN",
-        "goldProfit": "20407463.76"
+        "goldProfit": "20409190.51"
     },
     {
         "name": "AMETHYST LIGHT",
-        "goldProfit": "26289882.29"
+        "goldProfit": "26253140.38"
     },
     {
         "name": "DIAMOND SKY",
-        "goldProfit": "22935100.86"
+        "goldProfit": "22921444.43"
     },
     {
         "name": "EMERALD CUT",
-        "goldProfit": "20839109.80"
+        "goldProfit": "20727361.71"
     },
     {
         "name": "JAMIEDRAKEHD",
@@ -830,7 +830,7 @@
         "url": "https://key-drop.com/en/skins/category/valek",
         "price_USD": 7.5,
         "youtuber": true,
-        "odds": 17
+        "odds": 15
     },
     {
         "name": "JORGO",
@@ -942,7 +942,7 @@
         "url": "https://key-drop.com/en/skins/category/iraphahell",
         "price_USD": 7.89,
         "youtuber": true,
-        "odds": 18
+        "odds": 19
     },
     {
         "name": "GENERALU",
@@ -950,7 +950,7 @@
         "url": "https://key-drop.com/en/skins/category/generalu",
         "price_USD": 7.1,
         "youtuber": true,
-        "odds": 18
+        "odds": 19
     },
     {
         "name": "CALYX",
@@ -982,7 +982,7 @@
         "url": "https://key-drop.com/en/skins/category/imorr",
         "price_USD": 8.69,
         "youtuber": true,
-        "odds": 12
+        "odds": 13
     },
     {
         "name": "FBBTV",
@@ -998,7 +998,7 @@
         "url": "https://key-drop.com/en/skins/category/maj3r",
         "price_USD": 3.46,
         "youtuber": true,
-        "odds": 21
+        "odds": 20
     },
     {
         "name": "WOXIC",
@@ -1051,7 +1051,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1094,7 +1094,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1137,7 +1137,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1180,7 +1180,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1223,7 +1223,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1266,7 +1266,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1309,7 +1309,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1352,7 +1352,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1395,7 +1395,7 @@
     },
     {
         "name": "TANK CITY",
-        "odds": 15
+        "odds": 14
     },
     {
         "odds": 0
@@ -1620,7 +1620,8 @@
         "odds": 14
     },
     {
-        "odds": 0
+        "name": "CLOSED SICILIAN",
+        "odds": 18
     },
     {
         "name": "RETI",
@@ -1631,7 +1632,8 @@
         "odds": 19
     },
     {
-        "odds": 0
+        "name": "FRENCH DEFENSE",
+        "odds": 20
     },
     {
         "name": "KINGS DEFENSE",
@@ -1654,32 +1656,40 @@
         "odds": 0
     },
     {
-        "odds": 0
+        "name": "QUEENS GAMBIT",
+        "odds": 16
     },
     {
-        "odds": 0
+        "name": "KINGS GAMBIT",
+        "odds": 12
     },
     {
         "name": "RUY LOPEZ",
         "odds": 14
     },
     {
-        "odds": 0
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
     },
     {
-        "odds": 0
+        "name": "CLOSED SICILIAN",
+        "odds": 18
     },
     {
-        "odds": 0
+        "name": "RETI",
+        "odds": 14
     },
     {
-        "odds": 0
+        "name": "TOWER",
+        "odds": 19
     },
     {
-        "odds": 0
+        "name": "FRENCH DEFENSE",
+        "odds": 20
     },
     {
-        "odds": 0
+        "name": "KINGS DEFENSE",
+        "odds": 22
     },
     {
         "name": "QUEENS PAWN",
@@ -2081,261 +2091,12 @@
         "odds": 20
     },
     {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "QUEENS GAMBIT",
-        "odds": 16
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "FRENCH DEFENSE",
-        "odds": 20
-    },
-    {
         "name": "KINGS DEFENSE",
         "odds": 22
     },
     {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "name": "QUEENS GAMBIT",
-        "odds": 16
-    },
-    {
-        "name": "KINGS GAMBIT",
-        "odds": 12
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
-    },
-    {
-        "odds": 0
+        "name": "QUEENS PAWN",
+        "odds": 24
     },
     {
         "odds": 0
@@ -2504,5 +2265,369 @@
     },
     {
         "odds": 0
+    },
+    {
+        "name": "FOX",
+        "odds": 15
+    },
+    {
+        "name": "CHEAP KNIVES",
+        "odds": 20
+    },
+    {
+        "name": "BUTTERFLY",
+        "odds": 26
+    },
+    {
+        "name": "KARAMBIT",
+        "odds": 25
+    },
+    {
+        "name": "PREMIUM KNIVES",
+        "odds": 12
+    },
+    {
+        "name": "HEADSHOT",
+        "odds": 20
+    },
+    {
+        "name": "RAIN",
+        "odds": 15
+    },
+    {
+        "name": "FIRE",
+        "odds": 16
+    },
+    {
+        "name": "TICKET",
+        "odds": 17
+    },
+    {
+        "name": "MACHINE",
+        "odds": 18
+    },
+    {
+        "name": "STORM",
+        "odds": 16
+    },
+    {
+        "name": "COIL",
+        "odds": 17
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "QUEENS GAMBIT",
+        "odds": 16
+    },
+    {
+        "name": "KINGS GAMBIT",
+        "odds": 12
+    },
+    {
+        "name": "RUY LOPEZ",
+        "odds": 14
+    },
+    {
+        "name": "SICILIAN DEFENSE",
+        "odds": 14
+    },
+    {
+        "name": "CLOSED SICILIAN",
+        "odds": 18
+    },
+    {
+        "name": "RETI",
+        "odds": 14
+    },
+    {
+        "name": "TOWER",
+        "odds": 19
+    },
+    {
+        "name": "FRENCH DEFENSE",
+        "odds": 20
+    },
+    {
+        "name": "KINGS DEFENSE",
+        "odds": 22
+    },
+    {
+        "name": "QUEENS PAWN",
+        "odds": 24
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "odds": 0
+    },
+    {
+        "name": "ERIS",
+        "odds": 20
     }
 ]
