@@ -140,6 +140,7 @@
     "freeOpen_caseSum": "CENA SKRZYNEK",
     "freeOpen_skinsSum": "SUMA SKINÓW",
     "freeOpen_profit": "ZYSK",
+    "freeOpenGames_info": "Dropy z skrzynek z grami mogą nie pokrywać się z server seed i client seed.",
 
     "skinport_loading": "Ładowanie cen skinów z serwisu Skinport... ",
     "skinport_currencyError": "Skinport nie obsługuje tej waluty!\n(Dozwolone waluty: PLN, USD, EUR, BRL, GBP, CZK)",

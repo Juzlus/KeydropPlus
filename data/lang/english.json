@@ -140,6 +140,7 @@
     "freeOpen_caseSum": "CASE PRICE",
     "freeOpen_skinsSum": "SKINS TOTAL",
     "freeOpen_profit": "PROFIT",
+    "freeOpenGames_info": "Drops from game cases may not coincide with server seed and client seed.",
 
     "skinport_loading": "Loading skin prices from Skinport... ",
     "skinport_currencyError": "Skinport doesn't support this currency!\n(Allowed currencies: PLN, USD, EUR, BRL, GBP, CZK)",

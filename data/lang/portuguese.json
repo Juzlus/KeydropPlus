@@ -140,6 +140,7 @@
     "freeOpen_caseSum": "PREÇO DA CAIXA",
     "freeOpen_skinsSum": "TOTAL DE SKINS",
     "freeOpen_profit": "LUCRO",
+    "freeOpenGames_info": "Os drops de caixas de jogo podem não coincidir com a semente do servidor e a semente do cliente.",
 
     "skinport_loading": "Carregando preços de skins do Skinport... ",
     "skinport_currencyError": "Skinport não suporta esta moeda!\n(Moedas permitidas: PLN, USD, EUR, BRL, GBP, CZK)",
