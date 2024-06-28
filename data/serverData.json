@@ -45,8 +45,9 @@
     
 
     "freeCaseBattle": [
-        {"name": "ADVANCE", "cover": "ADVANCE.png"},
-        {"name": "STACK", "cover": "STACK.png"},
-        {"name": "KICK", "cover": "KICK.png"}
+        {"name": "TICKET 1", "cover": "10_(1)1.png"},
+        {"name": "TICKET 10", "cover": "1_(2)2.png"},
+        {"name": "TICKET 100", "cover": "3_(2)1.png"},
+        {"name": "TICKET 1000", "cover": "1000.png"}
     ]
 }
