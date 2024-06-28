@@ -1,7 +1,7 @@
 {
     "current_versions": ["F2.8"],
     "keydropGiveawaysPort": 2061,
-    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants:|}]}],\"variants\":", "collect:|\"collect\":", "noFreeCases:|\"noFreeCases\":", "eventPointsRange:|\"eventPointsRange\":", "droppedAt:|\"droppedAt\":", "variants:|\"variants\":", "slug:|\"slug\":", "isFree :|\"isFree\":", "onlyFree:|\"onlyFree\":", "bonusCase:|\"bonusCase\":", "variants\": [],\n}}:|variants\": []\n}" ],
+    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants:|}]}],\"variants\":", "collect:|\"collect\":", "noFreeCases:|\"noFreeCases\":", "eventPointsRange:|\"eventPointsRange\":", "droppedAt:|\"droppedAt\":", "variants:|\"variants\":", "slug:|\"slug\":", "isFree :|\"isFree\":", "onlyFree:|\"onlyFree\":", "bonusCase:|\"bonusCase\":", "variants\": [],\n}}|variants\": []\n}" ],
     "skinsValueEnable": false,
 
     "iconsPath": "/icons/",
