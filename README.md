@@ -64,10 +64,10 @@ _Refreshing prices too often can temporarily block the Steam Market API._
 
 ## 🔥 Screenshots
 
-![Case Stats](https://media.discordapp.net/attachments/871134869525246012/1208606741856657421/1.png?ex=65e3e5be&is=65d170be&hm=29770f22ad1c2f2cdf5ac636e0b441343436371500895561d25fc708a23a0f36&=&format=webp&quality=lossless)
-![Custom Price - Skin Changer](https://media.discordapp.net/attachments/871134869525246012/1208606752086564975/2.png?ex=65e3e5c0&is=65d170c0&hm=7dff6b8f49b3a4ecbed098124c8e7550b938d9d9ec4d664c2886d678fd00ee21&=&format=webp&quality=lossless)
-![Fast Case Battle](https://media.discordapp.net/attachments/871134869525246012/1208606758277484615/4.png?ex=65e3e5c2&is=65d170c2&hm=7b8085adfc594cf052ae0b42dbd20c359149829f61d9f40935f51c88fe1544ad&=&format=webp&quality=lossless)
-![User Statistics](https://media.discordapp.net/attachments/871134869525246012/1208606763134353459/3.png?ex=65e3e5c3&is=65d170c3&hm=d4cab6041d284a3055c8703895a2c9981f62d675a5e389bde4df94493d321bd0&=&format=webp&quality=lossless)
+![Case Stats](https://github.com/Juzlus/KeydropPlus/assets/41649887/5146506d-d09d-4513-ac96-f69cab0f2b46)
+![Custom Price - Skin Changer](https://github.com/Juzlus/KeydropPlus/assets/41649887/64fb73df-e158-4802-9b71-cbd67e683c1d)
+![Fast Case Battle](https://github.com/Juzlus/KeydropPlus/assets/41649887/45e23d0b-6921-4efd-9731-c9cb62b7c138)
+![User Statistics](https://github.com/Juzlus/KeydropPlus/assets/41649887/72eeef42-09a5-44eb-a13d-75f7d42ec80a)
 
 
 ## 📝 Feedback
