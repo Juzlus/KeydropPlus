@@ -19,11 +19,12 @@ const getFreeCaseTimer = async(update) => {
     if(!dailyCaseData?.completed) return;
 
     if(!update)
-        $('div[data-testid="balance"]')
+        $('div[data-testid="header-balance-div"]')
                 ?.eq(0)
                     ?.prepend($(document?.createElement('div'))
-                        ?.addClass('flex items-center gap-x-2')
-                        ?.html(`<div class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#000902] lg:h-9 lg:w-9"><svg class="icon h-4 w-4 flex-shrink-0 text-lightgreen lg:h-5 lg:w-5" viewBox="0 0 22 19" fill="currentColor"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?39#box" style="color: #ffff85;"></use></svg></div><div><p class="text-xs font-bold tabular-nums text-lightgreen lg:text-sm"><a href="/daily-case"><span id="dailyCaseTimer" style="color: #ffff85;">00:00:00</span></a></p><p class="whitespace-nowrap text-2xs font-semibold uppercase leading-none tracking-wider">${langText?.dailyCase}</p></div>`)
+                        ?.addClass('flex h-full items-center gap-x-3 lg:pl-4 lg:pr-4')
+                        ?.css({ 'margin-right': '-24px', background: 'rgb(37 37 45)', 'padding-right': '30px' })
+                        ?.html(`<div class="flex h-9 w-9 items-center justify-center rounded-lg bg-[#110515]"><svg class="icon h-4 w-4 flex-shrink-0 text-lightgreen lg:h-5 lg:w-5" viewBox="0 0 22 19" fill="currentColor"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?39#box" style="color: #ffff85;"></use></svg></div><div><p class="text-xs font-bold tabular-nums text-lightgreen lg:text-sm"><a href="/daily-case"><span id="dailyCaseTimer" style="color: #ffff85;">00:00:00</span></a></p><p class="whitespace-nowrap text-2xs font-semibold uppercase leading-none tracking-wider">${langText?.dailyCase}</p></div>`)
                     )
                     .end();
 
@@ -67,7 +68,7 @@ const createSkinsValueDiv = async() => {
         ?.eq(0)
             ?.prepend($(document?.createElement('div'))
                 ?.addClass('flex items-center gap-x-2')
-                ?.html(`<div class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#000902] lg:h-9 lg:w-9"><svg class="icon h-4 w-4 flex-shrink-0 text-lightgreen lg:h-5 lg:w-5" viewBox="0 0 22 19" fill="currentColor"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?39#gun" style="color: #b585ff;"></use></svg></div><div><p class="text-xs font-bold tabular-nums text-lightgreen lg:text-sm"><span id="skinsValueText" style="color: #b585ff;">${skinsValue}</span></p><p class="whitespace-nowrap text-2xs font-semibold uppercase leading-none tracking-wider">${langText?.skinsValue}</p></div>`)
+                ?.html(`<div class="flex h-9 w-9 items-center justify-center rounded-lg bg-[#110515]"><svg class="icon h-4 w-4 flex-shrink-0 text-lightgreen lg:h-5 lg:w-5" viewBox="0 0 22 19" fill="currentColor"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?39#gun" style="color: #b585ff;"></use></svg></div><div><p class="text-xs font-bold tabular-nums text-lightgreen lg:text-sm"><span id="skinsValueText" style="color: #b585ff;">${skinsValue}</span></p><p class="whitespace-nowrap text-2xs font-semibold uppercase leading-none tracking-wider">${langText?.skinsValue}</p></div>`)
             )
             .end();
 

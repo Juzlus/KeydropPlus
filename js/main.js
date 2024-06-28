@@ -1,5 +1,5 @@
 const active = true;
-const version = "F2.8";
+const version = "F2.9";
 const toastCooldown = 4 * 1000
 const tokenExpiresTime = 90 * 1000;
 const extensionName = "Keydrop+";

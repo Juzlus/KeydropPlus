@@ -97,7 +97,7 @@ const createCaseOdds = async(cases, thisElement, eventCase) => {
     $(thisElement)?.find('div[data-testid=case-card-badge-btn] p')
         ?.eq(0)
         ?.removeClass('min-w-[8rem] max-w-full rounded-lg bg-navy-700 p-2 text-center text-sm font-normal uppercase leading-none text-white')
-        ?.html(`<p style="text-align: center;width: 60px;margin-left: calc(50% - 30px);border-radius: 10px 10px 0px 0px;color: rgb(220, 174, 100);height: 20px;" class="rounded-lg bg-navy-700 p-2 text-center text-sm font-normal uppercase leading-none text-white">${odds}</p><p class="rounded-lg bg-navy-700 min-w-[8rem] max-w-full p-2 text-center text-sm font-normal uppercase leading-none text-white">${caseName}</p>`)
+        ?.html(`<p style="text-align: center;width: 60px;margin-left: calc(50% - 30px);border-radius: 10px 10px 0px 0px;color: rgb(220, 174, 100);height: 20px;" class="rounded-lg p-2 text-center text-sm font-normal uppercase leading-none text-white">${odds}</p><p class="rounded-lg min-w-[8rem] max-w-full p-2 text-center text-sm font-normal uppercase leading-none text-white" style="margin-top: -4px;">${caseName}</p>`)
 };
 
 const createYTcases = async(cases) => {

@@ -7,12 +7,10 @@ $( document ).ready(async() => {
 
     waitForElm('[data-testid="items-browser-item-card"]').then(async() => {
         await createMenu(language);
-        const panel1 = document?.querySelectorAll('.grid.gap-3')[0];
-        const panel2 = document?.querySelectorAll('.grid.gap-3')[2];
+        const panel = document?.querySelector('[data-testid="skin-changer-sorting"]');
         const observer = new MutationObserver(refreshPrices);
-        if (panel1 instanceof Node && panel2 instanceof Node) {
-            observer.observe(panel1, { attributes: true, childList: true });
-            observer.observe(panel2,  { attributes: true, childList: true  });
+        if (panel instanceof Node) {
+            observer.observe(panel, { attributes: true, childList: true });
         }
 
         const skinChangerPanel = $('#skinChanger-best-skins-panel');
@@ -20,6 +18,7 @@ $( document ).ready(async() => {
             if(skinChangerPanel?.is(e?.target))
                 skinChangerPanel?.css({ opacity: 0, 'pointer-events': 'none' });
         });
+        refreshPrices();
     });
 });
 
@@ -67,7 +66,7 @@ const refreshPrices = async() => {
                 $('.customPrice.steam')?.prop('checked', true);
 
             if(!$(this)?.find('.keydrop-price')?.length)
-                $(this)?.find('div.text-gold')?.eq(0)?.addClass('keydrop-price flex')?.prepend($(document.createElement('img'))?.addClass('keydrop-price-icon'));
+                $(this)?.find('div[data-testid="items-browser-item-price"]')?.eq(0)?.addClass('keydrop-price flex')?.prepend($(document.createElement('img'))?.addClass('keydrop-price-icon'));
 
             if(skinportMarket?.skins?.length)
                 refreshPriceText(this, skinData, skinportMarket, language, 'skinport', !config?.skinportPrice);

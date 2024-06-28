@@ -25,14 +25,14 @@ const createAutoCaseBattlePanel = async() => {
     };
 
     let cards = '';
-    const fetch = await fetchUrl('GET', 'https://kdrp2.com/CaseBattle/cases');
+    //const fetch = await fetchUrl('GET', 'https://kdrp2.com/CaseBattle/cases');
     const server = await getServerData();
 
-    if(!fetch || !fetch?.data) return createToast('error', 'error_fetch');
+    //if(!fetch || !fetch?.data) return createToast('error', 'error_fetch');
     const fastCaseBattleConfigData = await getStorageData('sync', 'fastCaseBattleConfig');
-    fetch?.data?.forEach(el => {
-        cards += `<label class="caseCard"><input type="checkbox" ${fastCaseBattleConfigData?.casesName?.includes(el?.name) ? 'checked' : ''} name="caseCard" data-case-name="${el?.name}" style="display: none"><div class="caseData group flex cursor-pointer flex-col items-center justify-center rounded-lg border border-navy-500 bg-navy-700" style="background: url('https://key-drop.com/uploads/skins/${el?.cover}');width:190px;height:250px;background-position: center !important;"><p class="line-clamp mx-1 mb-4 overflow-hidden break-all text-center text-base leading-tight text-white" id="nameCase" style="background: #000000ba; box-shadow: 1px 1px 16px black; padding: 4px; border-radius: 9px;">${el?.name}</p></div></label>`;
-    });
+    //fetch?.data?.forEach(el => {
+    //    cards += `<label class="caseCard"><input type="checkbox" ${fastCaseBattleConfigData?.casesName?.includes(el?.name) ? 'checked' : ''} name="caseCard" data-case-name="${el?.name}" style="display: none"><div class="caseData group flex cursor-pointer flex-col items-center justify-center rounded-lg border border-navy-500 bg-navy-700" style="background: url('https://key-drop.com/uploads/skins/${el?.cover}');width:190px;height:250px;background-position: center !important;"><p class="line-clamp mx-1 mb-4 overflow-hidden break-all text-center text-base leading-tight text-white" id="nameCase" style="background: #000000ba; box-shadow: 1px 1px 16px black; padding: 4px; border-radius: 9px;">${el?.name}</p></div></label>`;
+    //});
     server?.freeCaseBattle?.forEach(el => {
         cards += `<label class="caseCard"><input type="checkbox" ${fastCaseBattleConfigData?.casesName?.includes(el?.name) ? 'checked' : ''} name="caseCard" data-case-name="${el?.name}" style="display: none"><div class="caseData group flex cursor-pointer flex-col items-center justify-center rounded-lg border border-navy-500 bg-navy-700" style="background: url('https://key-drop.com/uploads/skins/${el?.cover}');width:190px;height:250px;background-position: center !important;"><p class="line-clamp mx-1 mb-4 overflow-hidden break-all text-center text-base leading-tight text-white" id="nameCase" style="background: #000000ba; box-shadow: 1px 1px 16px black; padding: 4px; border-radius: 9px;">${el?.name}</p></div></label>`;
     });
@@ -101,9 +101,9 @@ waitForElm('#autoCaseBattleButton').then(() => {
 
 let autoJoinActive = false;
 let Interval, IntervalJoin;
-let minutes = 00;
-let seconds = 00;
-let tens = 00;
+let minutes = 0;
+let seconds = 0;
+let tens = 0;
 let lastTimeActive;
 let fastCaseBattleData
 let count = 0;
@@ -142,9 +142,9 @@ function autoJoinCaseBattle() {
         
         Interval = setInterval(startTimer, 10);
         IntervalJoin = setInterval(checkCaseBattle, timerCooldown);
-        minutes = 00;
-        seconds = 00; 
-        tens = 00; 
+        minutes = 0;
+        seconds = 0; 
+        tens = 0; 
         count = 0;
         $('span#minutes').text(`00`);
         $('span#seconds').text(`00`);

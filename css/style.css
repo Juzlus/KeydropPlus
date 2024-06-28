@@ -357,7 +357,7 @@ section.container-p-0.mb-8.mt-1 div.relative.overflow-hidden.md\:overflow-visibl
 }
 
 .css-gray, .css-gold, .css-red, .css-pink, .css-violet, .css-blue {
-    background-image: url("https://key-drop.com/web/KD/static/images/winner-top-drop-bg.png?v117");
+    background-image: url("https://key-drop.com/web/KD/static/images/case-item-bg.webp?v=137");
 }
 
 .css-gray::after, .css-gold::after, .css-red::after, .css-pink::after, .css-violet::after, .css-blue::after {
@@ -395,10 +395,18 @@ section.container-p-0.mb-8.mt-1 div.relative.overflow-hidden.md\:overflow-visibl
     border-top: 1px solid rgb(68, 130, 255);
 }
 
+#giveawaysListTable td + td {
+    border-left: 1px solid #28272F;
+}
 
+#giveawaysListTable tr + tr {
+    border-top: 1px solid #28272F;
+}
 
-
-
+.css-s83462 tr {
+    border-top: 3px solid #28272F;
+    border-bottom: 3px solid #28272F;
+}
 
 nav[aria-label="Primary"] {
     opacity: 0;
@@ -510,7 +518,7 @@ img[alt="KeyDrop"] {
 }
 
 .css-kd-p-fo {
-    background: url("https://key-drop.com/web/KD/static/images/case-item-bg.png?v52");
+    background: url("https://key-drop.com/web/KD/static/images/case-item-bg.webp?v=137");
 }
 
 .css-kd-p-fa {
