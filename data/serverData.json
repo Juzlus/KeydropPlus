@@ -6,7 +6,7 @@
 
     "iconsPath": "/icons/",
     "soundsPath": "/sounds/",
-    "updateLink": "https://www.github.com/Juzlus/KeydropPlus/releases/latest/download/Keydrop+.v2.8.zip",
+    "updateLink": null,
 
     "globalAlertVersion": [0],
     "globalAlertType": "error",
