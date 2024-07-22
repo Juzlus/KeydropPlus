@@ -1,7 +1,7 @@
 {
     "current_versions": ["F2.9"],
     "keydropGiveawaysPort": 2061,
-    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants:|}]}],\"variants\":", "collect:|\"collect\":", "noFreeCases:|\"noFreeCases\":", "eventPointsRange:|\"eventPointsRange\":", "droppedAt:|\"droppedAt\":", "variants:|\"variants\":", "slug:|\"slug\":", "isFree :|\"isFree\":", "onlyFree:|\"onlyFree\":", "bonusCase:|\"bonusCase\":", "variants\": ..,\n}|variants\": []", "isFree:|\"isFree\":", "oddsId:|\"oddsId\":", "\n}\n],\n},\n],:|\n}\n]\n}\n]," ],
+    "customCaseInfoReplace": [ "sellMany|\"sellMany\"", "sell_many\",\\n},|sell_many\"},", "}\n],\n},\n],\nvariants:|}]}],\"variants\":", "collect:|\"collect\":", "noFreeCases:|\"noFreeCases\":", "eventPointsRange:|\"eventPointsRange\":", "droppedAt:|\"droppedAt\":", "variants:|\"variants\":", "slug:|\"slug\":", "isFree :|\"isFree\":", "onlyFree:|\"onlyFree\":", "bonusCase:|\"bonusCase\":", "variants\": ..,\n}|variants\": []", "isFree:|\"isFree\":", "oddsId:|\"oddsId\":", "\n}\n],\n},\n],\n|\n}\n]\n}\n],\n" ],
     "skinsValueEnable": false,
 
     "iconsPath": "/icons/",
