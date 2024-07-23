@@ -27,7 +27,7 @@ const createPromocodeButton = async(lnagText, isFirst) => {
             ?.css({ 'cursor': 'pointer', 'user-select': 'none' })
             ?.html(`<span>${lnagText}<br>JUZLUS</span>`)
             ?.on('click', async() => {
-                await fetchUrl('POST', 'https://key-drop.com/pl/apiData/Bonus/promocode_activation_code', false, false, { promoCode: 'JUZLUS' });
+                await fetchUrl('POST', 'https://key-drop.com/en/apiData/Bonus/promocode_activation_code', false, false, { promoCode: 'JUZLUS' });
                 window?.location?.reload();
             })
         );

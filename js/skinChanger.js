@@ -32,7 +32,7 @@ const refreshPrices = async() => {
 
     $('div[data-testid="items-browser-item-card"]')
         ?.each(function() {
-            const keydrop_price_text = $(this)?.find('div[data-testid="items-browser-item-price"] div')?.eq(0)?.text().trim();
+            const keydrop_price_text = $(this)?.find('div[data-testid="items-browser-item-price"] div')?.eq(0)?.text().trim() || $(this)?.find('div[data-testid="items-browser-item-price"]')?.eq(0)?.text().trim();;
             const typeText = $(this)?.find('[data-testid="items-browser-item-condition"]')?.text().trim();
             let skinEx = null;
             
@@ -110,6 +110,7 @@ const convertPriceText = (currency, price) => {
 const refreshPriceText = async(tihsElement, skinData, market, language, cssName, hidden) => {
     const skinHashName = `${skinData?.stattrak ? 'StatTrak™ ' : ''}${skinData?.name_second} | ${skinData?.name}${skinData?.type ? ` (${skinData?.type})` : ''}`;
     const skinInfo = market?.skins?.filter(v => v.name === skinHashName);
+    const currency = await getCurrency();
 
     if (skinData?.currency_keydrop?.length != 3)
         switch(market?.currency) {
@@ -138,7 +139,7 @@ const refreshPriceText = async(tihsElement, skinData, market, language, cssName,
 
     $(`#refreshButton${cssName?.charAt(0)?.toUpperCase()}${cssName?.slice(1)}`)?.attr('title', `${langText?.currency}${market?.currency || '-'}\n${langText?.refresh}${new Date(parseInt(market?.updateTime)).toLocaleString() || '-'}`)
 
-    if(skinInfo?.length && skinData?.currency_keydrop == market?.currency) {
+    if(skinInfo?.length && currency == market?.currency) {
         if(skinData?.price_keydrop * 1.1 < skinInfo[0]?.price)
             color = "greenyellow";
         else if(skinData?.price_keydrop < skinInfo[0]?.price)
@@ -220,7 +221,7 @@ const createMenu = async(language) => {
         open(`https://steamcommunity.com/market/search/render/?appid=730&norender=1&currency=6&count=0&start=50000/keydrop+`, '_self');
     });
     
-    $('div#promo-code-modal').eq(0).before($(document?.createElement('div'))
+    $('div#keydrop-plus-modal').eq(0).before($(document?.createElement('div'))
         ?.addClass('bg-navy-700 pt-3 pb-3')
         ?.attr('id', 'skinChanger-best-skins-panel')
         ?.html(`<div class="scroll-container custom-scrollbar overflow-auto css-nqdl3y" style="max-height: 500px;"><table class="w-full table-fixed text-xs leading-none text-navy-200 css-s83462"><thead><tr class="text-left uppercase"><th class="px-2 py-4 text-center text-xs font-semibold" style="width: 20%;">${langText?.img}</th><th class="px-2 py-4 text-center text-xs font-semibold">${langText?.name}</th><th class="px-2 py-4 text-center text-xs font-semibold" style="width: 10%">${langText?.priceText} ${langText?.keydrop}</th><th class="px-2 py-4 text-center text-xs font-semibold" style="width: 10%">${langText?.priceText} <a id="skinChanger_priceName"></a></th><th class="px-2 py-4 text-center text-xs font-semibold" style="width: 10%">${langText?.diff}</th></tr></thead><tbody></tbody></table></div>`)
@@ -249,6 +250,50 @@ const createMenu = async(language) => {
 const findBestSkins = async(market, platform, language) => {
     const minPrice = $('div.my-4.flex.items-center.justify-between input[type="number"]')?.eq(0)?.val() || null;
     const maxPrice = $('div.my-4.flex.items-center.justify-between input[type="number"]')?.eq(1)?.val() || null;
+
+    const type = [];
+    const types = ['rifle', 'sniper-rifle', 'pistol', 'machinegun', 'smg', 'shotgun', 'knife', 'other']
+    const typeEls = $('.my-3').eq(1).find(`input[data-testid="checkbox-input"]`);
+    if (typeEls.length > 0)
+        typeEls.each((index, el) => {
+            if (el?.checked)
+                type.push(types[index]);
+        });
+
+    const condition = [];
+    const conditions = ['FN', 'MW', 'FT', 'WW', 'BS']
+    const conditionEls = $('.my-3').eq(2).find(`input[data-testid="checkbox-input"]`);
+    if (conditionEls.length > 0)
+        conditionEls.each((index, el) => {
+            if (el?.checked)
+                condition.push(conditions[index]);
+        });
+
+    const color = [];
+    const colors = ['gray', 'lightblue', 'blue', 'violet', 'pink', 'red', 'gold']
+    const colorEls = $('.my-3').eq(3).find(`input[data-testid="checkbox-input"]`);
+    if (colorEls.length > 0)
+        colorEls.each((index, el) => {
+            if (el?.checked)
+                if (colors[index])
+                    color.push(colors[index]);
+        });
+
+    const other = [];
+    const others = ['stattrak', 'sticker', 'agent', 'case', 'music kit']
+    const otherEls = $('.my-3').eq(4).find(`input[data-testid="checkbox-input"]`);
+    if (otherEls.length > 0)
+        otherEls.each((index, el) => {
+            if (el?.checked)
+            {
+                if (others[index])
+                    other.push(others[index]);
+                if (index == 3)
+                    other.push('package', 'capsule');
+            }
+        });
+
+    const inputName = $("input.input.w-full.border-none.bg-transparent").eq(1).val();
 
     let skinChanger_base_url = `https://wss-2096.key-drop.com`;
     await $('script')?.each(function() {
@@ -282,6 +327,11 @@ const findBestSkins = async(market, platform, language) => {
         if(skinInfo[0]?.price <= el?.price) return;
         if(minPrice > 0 && el?.price < minPrice) return;
         if(maxPrice > 0 && el?.price > maxPrice) return;
+        if(type.length > 0 && !type.includes(el?.weaponType)) return;
+        if(condition.length > 0 && !condition.includes(el?.condition)) return;
+        if(color.length > 0 && !color.includes(el?.color)) return;
+        if(other.length > 0 && !other.some(o => el?.title?.toLowerCase().includes(o) || el?.subtitle.toLowerCase().includes(o))) return;
+        if(inputName.length > 0 && !(el?.title?.toLowerCase().includes(inputName) || el?.subtitle.toLowerCase().includes(inputName))) return;
 
         const item = {
             condition: skinEx,

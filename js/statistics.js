@@ -42,17 +42,9 @@ const createStatisticsPanel = async() => {
         exchanged: language?.statistics_exchanged,
     };
 
-    $('div.flex.min-h-screen.flex-col.items-center.justify-center.text-center').remove();
+    $('div.flex.min-h-screen.flex-col.items-center.justify-center.text-center').hide();
 
-    $('a[data-testid="user-btn-tabs-my-account"]').on('click', () => window.location = "https://key-drop.com/pl/panel/profil/");
-    $('a[data-testid="user-btn-tabs-add-funds"]').on('click', () => window.location = "deposit-money");
-    $('a[data-testid="user-btn-tabs-contracts"]').on('click', () => window.location = "contracts");
-    $('a[data-testid="user-btn-tabs-free-gold"]').on('click', () => window.location = "free-gold");
-    $('a[data-testid="user-btn-tabs-affiliate-system"]').on('click', () => window.location = "affiliate-system");
-    $('a[data-testid="user-btn-tabs-support"]').on('click', () => window.location = "support-chat");
-    $('a[data-testid="user-btn-tabs-settings"]').on('click', () => window.location = "settings");
-
-    $('div.sticky.top-0.z-40.mx-auto.max-w-screen-xxl.p-0')
+    $('div[data-testid="user-nav-bar"]')
         ?.after($(document.createElement('table'))
             ?.addClass('container statistics_container')
             ?.css({ 'width': '100%', 'margin-top': '20px' })
@@ -73,7 +65,7 @@ const createStatisticsPanel = async() => {
 
         ?.after($(document.createElement('div'))
             ?.addClass('container statistics_container')
-            ?.html(`<div class="mb-10 grid grid-cols-1 border-grey-700 lg:grid-cols-3 lg:border-b"><h1 class="row-start-1 row-end-1 mt-10 ml-auto mr-auto -mb-px w-full border-b border-navy-100 pb-5 text-center text-lg uppercase lg:col-start-2 lg:col-end-2 lg:max-w-xs">${languagePanel?.title}</h1><div class="col-start-1 col-end-1 mt-px flex w-full justify-center self-end justify-self-center rounded-bl rounded-br bg-navy-500 py-3 md:col-start-3 md:col-end-3 md:mt-0 md:w-auto md:justify-self-end md:bg-transparent"><label>${languagePanel?.from}: <input type="datetime-local" id="statisctics_startTime" value="2010-01-01T00:00" min="2010-01-01T00:00" max="${new Date().toISOString()?.slice(0, 16)}"></label><label> ${languagePanel?.to}: <input type="datetime-local" id="statisctics_endTime" value="${new Date().toISOString()?.slice(0, 16)}" min="2010-01-01T00:00" max="${new Date().toISOString()?.slice(0, 16)}"></label></div></div>`)
+            ?.html(`<div class="mb-10 grid grid-cols-1 border-grey-700 lg:grid-cols-3 lg:border-b"><h1 class="row-start-1 row-end-1 mt-10 ml-auto mr-auto -mb-px w-full border-b border-navy-100 pb-5 text-center text-lg uppercase lg:col-start-2 lg:col-end-2 lg:max-w-xs">${languagePanel?.title}</h1><div class="col-start-2 col-end-3 mt-px flex w-full justify-center self-end justify-self-center rounded-bl rounded-br py-3 md:col-start-3 md:col-end-3 md:mt-0 md:w-auto md:justify-self-end md:bg-transparent"><label>${languagePanel?.from}: <input type="datetime-local" id="statisctics_startTime" value="2010-01-01T00:00" min="2010-01-01T00:00" max="${new Date().toISOString()?.slice(0, 16)}"></label><label> ${languagePanel?.to}: <input type="datetime-local" id="statisctics_endTime" value="${new Date().toISOString()?.slice(0, 16)}" min="2010-01-01T00:00" max="${new Date().toISOString()?.slice(0, 16)}"></label></div></div>`)
         )
         ?.end();
 
@@ -96,7 +88,7 @@ const statisticsRefresh = async(lang) => {
 };
 
 const getTransactionHistory = async(startTime, endTime, lang) => {
-    const fetch = await fetchUrl('GET', 'https://key-drop.com/pl/apiData/AccountHistory/transaction?perPage=999999&page=0');
+    const fetch = await fetchUrl('GET', 'https://key-drop.com/en/apiData/AccountHistory/transaction?perPage=999999&page=0');
     if(!fetch || !fetch?.data) return;
 
     let goldAmount = 0;
@@ -148,7 +140,7 @@ const getTransactionHistory = async(startTime, endTime, lang) => {
 };
 
 const getDepositHistory = async(startTime, endTime, lang) => {
-    const fetch = await fetchUrl('GET', 'https://key-drop.com/pl/apiData/AccountHistory/deposit?perPage=999999&page=0');
+    const fetch = await fetchUrl('GET', 'https://key-drop.com/en/apiData/AccountHistory/deposit?perPage=999999&page=0');
     if(!fetch || !fetch?.data) return;
 
     let amount = 0;
@@ -388,6 +380,6 @@ const getCasesInfo = async(startTime, endTime, lang) => {
     $('#statistics_giveawaysWinsAbbr')?.attr('title', giveawaysWins);
 };
 
-waitForElm('div.sticky.top-0.z-40.mx-auto.max-w-screen-xxl.p-0').then(() => {
+waitForElm('div[data-testid="user-nav-bar"]').then(() => {
     createStatisticsPanel();
 });

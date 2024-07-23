@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Keydrop+ v2",
-    "version": "2.9",
+    "version": "2.10",
     "short_name": "kd+",
     "author": ["🇯🅤🇿🅛🇺🅢#0420"],
     "icons": {
@@ -12,7 +12,7 @@
         "storage",
         "unlimitedStorage"
     ],
-    "homepage_url": "https://key-drop.com/pl/#keydrop_plus",
+    "homepage_url": "https://key-drop.com/en/#keydrop_plus",
     "content_scripts": [
         {
             "matches": [

@@ -1,5 +1,5 @@
 const active = true;
-const version = "F2.9";
+const version = "F2.10";
 const toastCooldown = 4 * 1000
 const tokenExpiresTime = 90 * 1000;
 const extensionName = "Keydrop+";
@@ -49,7 +49,7 @@ const getStorageData = async(type, name) => {
 const getIndexData = async() => {
     const storageData = await getStorageData(1, 'index');
     if(storageData?.expires >= new Date().getTime()) return storageData;
-    const fetch = await fetchUrl('GET', "https://key-drop.com/pl/apiData/Init/index");
+    const fetch = await fetchUrl('GET', "https://key-drop.com/en/apiData/Init/index");
     if(!fetch?.userName) return;
     const indexData = {
         username: fetch?.userName || 'Unknown',
@@ -97,7 +97,7 @@ const getConfigData = async() => {
 const checkToken = async(config) => {
     const timestamp = new Date().getTime();
     if(!config?.token || timestamp >= config?.tokenExp) {
-        const fetch = await fetchUrl('GET', `https://key-drop.com/pl/token`);
+        const fetch = await fetchUrl('GET', `https://key-drop.com/en/token`);
         if(!fetch) return config;
         config.token = fetch;
         config.tokenExp = timestamp + tokenExpiresTime;
@@ -144,7 +144,7 @@ const getCookieValue = (cookieName) => {
 const getCurrency = async() => {
     let currency = getCookieValue('currency');
     if (currency == null) {
-        fetch = await fetchUrl('GET', 'https://key-drop.com/pl/balance?skinsValue=true');
+        fetch = await fetchUrl('GET', 'https://key-drop.com/en/balance?skinsValue=true');
         currency = JSON.parse(fetch)?.currency;
     }
     return currency || 'USD';
@@ -174,7 +174,7 @@ const getUserSkinsData = async(token) => {
     const totalMaxSkins = 999;
 
     do {
-        const fetch = JSON.parse(await fetchUrl('GET', `https://key-drop.com/pl/panel/profil/my_winner_list?type=all&sort=newest&state=all&per_page=${totalMaxSkins}&current_page=${currentPage}?t=${new Date().getTime()}`, token));
+        const fetch = JSON.parse(await fetchUrl('GET', `https://key-drop.com/en/panel/profil/my_winner_list?type=all&sort=newest&state=all&per_page=${totalMaxSkins}&current_page=${currentPage}?t=${new Date().getTime()}`, token));
         if(!fetch || !fetch?.total || fetch?.data?.length <= 0) return;
         totalUserSkins = fetch?.total || 1;
         if(currentPage == 1) userSkinsArray = fetch?.data;

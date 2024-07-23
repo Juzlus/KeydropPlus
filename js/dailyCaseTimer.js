@@ -2,7 +2,7 @@ const getFreeCaseTimer = async(update) => {
     const config = await getConfigData();
     if(!config?.active) return;
     const language = await getLanguageData(config?.lang);
-    const fetch = await fetchUrl('GET', "https://key-drop.com/pl/apiData/DailyFree/index");
+    const fetch = await fetchUrl('GET', "https://key-drop.com/en/apiData/DailyFree/index");
 
     const langText = {
         waitTime: language?.dailyCase_waitTime,
@@ -59,7 +59,7 @@ const createSkinsValueDiv = async() => {
             skinsValue: language?.dailyCase_skinsValue || "Wartość skinów"
         };
 
-        const fetch = await fetchUrl("GET", "https://key-drop.com/pl/panel/profil/eq_value");
+        const fetch = await fetchUrl("GET", "https://key-drop.com/en/panel/profil/eq_value");
         if(!fetch) return;
         const data = JSON.parse(fetch);
         const skinsValue = `${(data?.fullPrice).toFixed(2).toString().replace('.',',')} ${data?.currency}`;

@@ -8,7 +8,7 @@ $( document ).ready(async() => {
 });
 
 const createTicketsInfo = async() => {
-    const fetch = await fetchUrl('GET', 'https://key-drop.com/pl/balance?battleTickets=1');
+    const fetch = await fetchUrl('GET', 'https://key-drop.com/en/balance?battleTickets=1');
     const data = JSON.parse(fetch);
     const tickets = data?.caseBattleTickets; 
 
