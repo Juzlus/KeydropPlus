@@ -62,6 +62,15 @@ To get everything working without a problem, you need to:
 _Refreshing prices too often can temporarily block the Steam Market API._
 
 
+## ✨ Usage
+- [Keydrop API](key-drop.com)
+- [Steam API](https://steamcommunity.com/market/)
+- [Skinport API](https://docs.skinport.com/#introduction)
+- [crypto-js](https://github.com/brix/crypto-js)
+- [jQuery](https://jquery.com)
+- [Chart.js](https://github.com/chartjs/Chart.js)
+
+
 ## 🔥 Screenshots
 
 ![Case Stats](https://github.com/Juzlus/KeydropPlus/assets/41649887/5146506d-d09d-4513-ac96-f69cab0f2b46)
