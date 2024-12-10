@@ -59,6 +59,11 @@
     "autoJoinFreeCaseBattle_winBattle": "The last battle was won!",
     "autoJoinFreeCaseBattle_lostBattle": "The last battle was lost!",
     "autoJoinFreeCaseBattle_caseCount": "Case count",
+    "autoJoinFreeCaseBattle_caseMode": "Team battle mode",
+    "autoJoinFreeCaseBattle_solo": "Solo",
+    "autoJoinFreeCaseBattle_team2v2": "Team 2v2",
+    "autoJoinFreeCaseBattle_team3v3": "Team 3v3",
+    "autoJoinFreeCaseBattle_noCaseMode": "No team battle mode selected in the battle!",
     
     "statistics_title": "STATISTICS",
     "statistics_from": "From",
@@ -134,6 +139,7 @@
     "settingsPanel_discord": "OFFICIAL SERVER",
     "settingsPanel_findBug": "FOUND A BUG",
     "settingsPanel_by": "By",
+    "settingsPanel_joker": "JOKER ODDS",
 
     "freeOpen_testDrops": "Test Drops",
     "freeOpen_caseCount": "CASE COUNT",

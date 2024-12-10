@@ -134,6 +134,7 @@
     "settingsPanel_discord": "SERVIDOR OFICIAL",
     "settingsPanel_findBug": "ENCONTREI UM BUG",
     "settingsPanel_by": "Por",
+    "settingsPanel_joker": "JOKER ODDS",
 
     "freeOpen_testDrops": "Drops Testes",
     "freeOpen_caseCount": "NÚMERO DE CAIXAS",
@@ -184,5 +185,11 @@
     "dailyCase_skinsValue": "Valor das skins",
 
     "disclosurePanels_lastDeposit": "Último depósito",
-    "disclosurePanels_never": "nunca"
+    "disclosurePanels_never": "nunca",
+
+    "autoJoinFreeCaseBattle_caseMode": "Team battle mode",
+    "autoJoinFreeCaseBattle_solo": "Solo",
+    "autoJoinFreeCaseBattle_team2v2": "Team 2v2",
+    "autoJoinFreeCaseBattle_team3v3": "Team 3v3",
+    "autoJoinFreeCaseBattle_noCaseMode": "No team battle mode selected in the battle!"
 }

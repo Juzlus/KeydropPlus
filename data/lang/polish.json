@@ -60,6 +60,12 @@
     "autoJoinFreeCaseBattle_lostBattle": "Ostatnia bitwa została przegrana!",
     "autoJoinFreeCaseBattle_caseCount": "Liczba skrzynek",
 
+    "autoJoinFreeCaseBattle_caseMode": "Tryb bitwy",
+    "autoJoinFreeCaseBattle_solo": "Solo",
+    "autoJoinFreeCaseBattle_team2v2": "Team 2v2",
+    "autoJoinFreeCaseBattle_team3v3": "Team 3v3",
+    "autoJoinFreeCaseBattle_noCaseMode": "Nie wybrano trybu bitwy!",
+
     "statistics_title": "STATYSTYKI",
     "statistics_from": "Od",
     "statistics_to": "Do",
@@ -134,6 +140,7 @@
     "settingsPanel_discord": "OFICJALNY SERWER",
     "settingsPanel_findBug": "ZNALAZŁEM BŁĄD",
     "settingsPanel_by": "By",
+    "settingsPanel_joker": "JOKER PROCENTY",
 
     "freeOpen_testDrops": "Testowe Dropy",
     "freeOpen_caseCount": "ILOŚĆ SKRZNEK",
