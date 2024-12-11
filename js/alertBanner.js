@@ -7,7 +7,7 @@ $(document).ready(async() => {
 
     if(!server?.current_versions?.includes(version))
         createToast('info', 'info_update', language['info_updateDownload'], server?.updateLink || 'https://www.github.com/Juzlus/KeydropPlus/releases/latest/');
-
+   
     if(server?.globalAlertVersion?.includes(config?.version))
         $('div#app-root')?.eq(0)
             ?.prepend($(document.createElement('div'))

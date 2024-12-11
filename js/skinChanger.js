@@ -31,7 +31,7 @@ const refreshPrices = async() => {
     const skinportMarket = await getStorageData('local', 'skinportMarketJSON');
 
     $('div[data-testid="items-browser-item-card"]')
-        ?.each(function() {
+        ?.each(function () {
             const keydrop_price_text = $(this)?.find('div[data-testid="items-browser-item-price"] div')?.eq(0)?.text().trim() || $(this)?.find('div[data-testid="items-browser-item-price"]')?.eq(0)?.text().trim();;
             const typeText = $(this)?.find('[data-testid="items-browser-item-condition"]')?.text().trim();
             let skinEx = null;
@@ -68,6 +68,11 @@ const refreshPrices = async() => {
             if(!$(this)?.find('.keydrop-price')?.length)
                 $(this)?.find('div[data-testid="items-browser-item-price"]')?.eq(0)?.addClass('keydrop-price flex')?.prepend($(document.createElement('img'))?.addClass('keydrop-price-icon'));
 
+            if (!$(this)?.find('div.keydrop_plus_custom_price')?.length)
+                $(this)?.find('div.flex.w-full.items-center')?.eq(0)?.after($(document?.createElement('div'))
+                    ?.addClass(`keydrop_plus_custom_price`)
+                    ?.css({ position: 'absolute', top: '34px', right: 0 }));
+
             if(skinportMarket?.skins?.length)
                 refreshPriceText(this, skinData, skinportMarket, language, 'skinport', !config?.skinportPrice);
 
@@ -80,7 +85,10 @@ const getCurrencyAndPrice = (text) => {
     text = text.trim().replace(/ /g, '');
 
     if(text.indexOf(',') != -1 && text.indexOf('.') != -1)
-        text = text.replace(/\./g, '');
+        if (text.indexOf(',') < text.indexOf('.'))
+            text = text.replace(/,/g, '')
+        else
+            text = text.replace(/\./g, '');
     else
         text = text.replace(/,/g, '.');
 
@@ -140,6 +148,7 @@ const refreshPriceText = async(tihsElement, skinData, market, language, cssName,
     $(`#refreshButton${cssName?.charAt(0)?.toUpperCase()}${cssName?.slice(1)}`)?.attr('title', `${langText?.currency}${market?.currency || '-'}\n${langText?.refresh}${new Date(parseInt(market?.updateTime)).toLocaleString() || '-'}`)
 
     if(skinInfo?.length && currency == market?.currency) {
+        console.log(skinData?.price_keydrop, skinInfo[0]?.price)
         if(skinData?.price_keydrop * 1.1 < skinInfo[0]?.price)
             color = "greenyellow";
         else if(skinData?.price_keydrop < skinInfo[0]?.price)
@@ -147,11 +156,18 @@ const refreshPriceText = async(tihsElement, skinData, market, language, cssName,
     }
 
     if(!$(tihsElement)?.find(`.${cssName}-price`)?.length)
-        $(tihsElement)?.find('div.flex.w-full.items-center')?.eq(0)?.after($(document?.createElement('div'))
+    {
+        let element = $(tihsElement)?.find('div.keydrop_plus_custom_price')?.eq(0)
+        let newElement = ($(document?.createElement('div'))
             ?.addClass(`flex w-full items-center ${cssName}-price-div`)
             ?.css({ display: hidden ? "none" : "flex" })
             ?.html(`<div class="${cssName}-price m-1.5 ml-auto min-w-0 whitespace-nowrap rounded-md bg-navy-900 p-1.5 font-bold leading-none text-gold" style="margin-top: -2px;font-size: 9px;"><div style="display: block; white-space: nowrap;"><img class="${cssName}-price-icon"><a ${skinInfo[0]?.price ? `href="${hrefUrl}" target="_blank"` : ''} style="color: ${color}">${priceText}</a></div></div>`)
         );
+        if (cssName == 'steam')
+            $(element).prepend(newElement);
+        else
+            $(element).append(newElement);
+    }
     else {
         $(tihsElement)?.find(`.${cssName}-price a`)?.text(priceText)?.css({ color: color });
         $(tihsElement)?.find(`.${cssName}-price-div`)?.css({ display: hidden ? "none" : "flex" });

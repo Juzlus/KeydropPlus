@@ -158,7 +158,7 @@ const getGamesCaseData = async(languageText, server) => {
                 if(target && newValue)
                     _caseInfo = _caseInfo?.replace(new RegExp(target, 'g'), newValue);
             });
-            
+
             _caseInfo = `${_caseInfo?.slice(0, _caseInfo?.search('.\n"lang": {'))}}`;
             let caseJSON = JSON?.parse(_caseInfo);
 
@@ -242,7 +242,7 @@ const gamesCaseDataCombine = async(caseJSON, languageText, currency) => {
     const avgPriceText = `${drawsPriceSum == 0 ? 0 : (drawsPriceSum / drawsCount)?.toFixed(2)} ${currency}`;
     let profitPercentText = `${Math?.round(betterSkinsOdds) || 0}%`;
 
-    $('#main-view .container').eq(2)
+    $('#main-view .container').eq(1)
         .prepend($(document?.createElement('section'))
             .addClass('mb-8 py-8')
             .attr('id', 'caseInfoPanel')

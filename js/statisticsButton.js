@@ -20,7 +20,10 @@ const createStatisticsButton = async() => {
         $('#statistics_button img')?.css('filter', 'invert(99%) sepia(27%) saturate(184%) hue-rotate(127deg) brightness(108%) contrast(100%)');
         $('.statistics_container')?.css('display', 'none');
     });
-    observer.observe(panel, { childList: true });
+    try {
+        observer.observe(panel, { childList: true });
+    }
+    catch {};
 };
 
 waitForElm('div[data-testid="user-nav-bar"]').then(() => {

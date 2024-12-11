@@ -217,6 +217,30 @@ div.relative.flex-1.css-lx3yvj {
     opacity: 1;
 }
 
+#keydrop-plus-modal {
+    filter: opacity(0);
+    display: none;
+    animation-name: hideSettings;
+    animation-duration: 0.4s;
+}
+
+#keydrop-plus-modal.is-open {
+    filter: opacity(1);
+    display: block;
+    animation-name: showSettings;
+    animation-duration: 0.4s;
+}
+
+@keyframes hideSettings {
+    0% { filter: opacity(1); display: block; }
+    100% { filter: opacity(0); display: block; }
+}
+
+@keyframes showSettings {
+    0% { filter: opacity(0) }
+    100% { filter: opacity(1); }
+}
+
 #skinChanger-best-skins-panel {
     border-radius: 15px;
     position: fixed;
@@ -488,9 +512,76 @@ img[alt="KeyDrop"] {
     cursor: unset;
 }
 
-.keydrop-plus-freeOpen-nonce:checked + p {
+.freeOpen div.grid-rows-1 {
+    border-color: rgb(74 71 94);
+}
+
+.keydrop-plus-auto-casebattle-button {
+    border: 1px solid rgb(119 255 157);
+    border-radius: .375rem;
+    padding: 0px 32px !important;
+    background-color: rgb(25 43 5);
+    margin-left: 15px;
+    height: 48px;
+    color: white;
+    font-weight: bolder;
+    font-size: .75rem;
+}
+
+div#caseBattle-root label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+#autoCaseBattleButton {
+    width: 170px;
+    margin-right: 28px;
+}
+
+input[name="caseMode"]:checked + label, input[name="casePlayers"]:checked + label, input[name="caseCount"]:checked + label {
+    background: rgba(220, 174, 100, 0.99);
+    color: black;
+}
+
+#keydrop-plus-free-open label {
+    background: transparent;
+    color: rgb(106 109 129);
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(74 71 94);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+label[for="keydrop-plus-select-nonce-6"] {
+    border-radius: 8px 0px 0px 8px;
+}
+
+label[for="keydrop-plus-select-nonce-42"] {
+    border-radius: 0px 8px 8px 0px;
+}
+
+#keydrop-plus-free-open div.flex.h-10 input {
+    display: none;
+}
+  
+.keydrop-plus-freeOpen-nonce:checked + label {
+    border: 2px solid rgb(220 174 100) !important;
+    box-shadow: inset 0px 0px 7px rgb(220 174 100);
+}
+
+#keydrop-plus-free-open div.flex.h-10 label:hover {
+    background: #ffffff07;
+}
+
+#keydrop-plus-free-open div.flex.h-10 label p {
+    margin-top: 12px;
+    user-select: none;
+}
+
+.keydrop-plus-freeOpen-nonce:checked + label p {
     color: rgb(220 174 100);
-    cursor: unset !important;
 }
 
 .keydorop-show-menu + label {

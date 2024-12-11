@@ -1,107 +1,565 @@
 [
     {
-        "name": "ZONY",
-        "price_USD": 9,
-        "img": "https://key-drop.com/uploads/skins/ZONY1.png",
-        "url": "https://key-drop.com/pl/skins/category/zony",
-        "youtuber": true,
-        "odds": 13
+        "name": "CIASTKO",
+        "price_USD": 16,
+        "odds": 19
     },
     {
         "name": "FOREVER",
         "price_USD": 9,
         "img": "https://key-drop.com/uploads/skins/FOREVER1.png",
-        "url": "https://key-drop.com/pl/skins/category/forever",
+        "url": "https://key-drop.com/en/skins/category/FOREVER",
         "youtuber": true,
         "odds": 17
-    },
-    {
-        "name": "NEXE",
-        "price_USD": 6.66,
-        "img": "https://key-drop.com/uploads/skins/NEXE1.png",
-        "url": "https://key-drop.com/pl/skins/category/nexe",
-        "youtuber": true,
-        "odds": 18
-    },
-    {
-        "name": "DMG",
-        "price_USD": 37,
-        "img": "https://key-drop.com/uploads/skins/DMG_.png",
-        "url": "https://key-drop.com/pl/skins/category/dmg",
-        "youtuber": true,
-        "odds": 11
-    },
-    {
-        "name": "INNOCENT",
-        "price_USD": 5.53,
-        "img": "https://key-drop.com/uploads/skins/INNOCENT_.png",
-        "url": "https://key-drop.com/pl/skins/category/innocent",
-        "youtuber": true,
-        "odds": 22
     },
     {
         "name": "MEDUSA",
         "price_USD": 6.7,
         "img": "https://key-drop.com/uploads/skins/MEDUSA1.png",
-        "url": "https://key-drop.com/pl/skins/category/medusa",
+        "url": "https://key-drop.com/en/skins/category/MEDUSA",
         "youtuber": true,
         "odds": 15
+    },
+    {
+        "name": "PUNIOGAMING",
+        "price_USD": 10,
+        "img": "https://key-drop.com/uploads/skins/PUNIOGAMING.png",
+        "url": "https://key-drop.com/en/skins/category/PUNIOGAMING",
+        "youtuber": true,
+        "odds": 4
     },
     {
         "name": "ISAMU",
         "price_USD": 15,
         "img": "https://key-drop.com/uploads/skins/ISAMU_.png",
-        "url": "https://key-drop.com/pl/skins/category/isamu",
+        "url": "https://key-drop.com/en/skins/category/ISAMU",
         "youtuber": true,
         "odds": 15
     },
     {
-        "name": "MATEO",
-        "price_USD": 3.94,
-        "img": "https://key-drop.com/uploads/skins/MATEO1.png",
-        "url": "https://key-drop.com/pl/skins/category/mateo",
-        "youtuber": true,
-        "odds": 10
+        "name": "JRKZ",
+        "price_USD": 10,
+        "odds": 5
     },
     {
-        "name": "KACPER RIETZ",
-        "price_USD": 3.94,
-        "img": "https://key-drop.com/uploads/skins/KACPER_RIETZ1.png",
-        "url": "https://key-drop.com/pl/skins/category/kacper-rietz",
+        "name": "MISZCZU",
+        "price_USD": 20,
+        "odds": 16
+    },
+    {
+        "name": "VYSOTZKY",
+        "price_USD": 18,
+        "img": "https://key-drop.com/uploads/skins/VYSOTZKY.png",
+        "url": "https://key-drop.com/en/skins/category/VYSOTZKY",
         "youtuber": true,
-        "odds": 28
+        "odds": 8
+    },
+    {
+        "name": "DMG",
+        "price_USD": 37,
+        "img": "https://key-drop.com/uploads/skins/DMG_.png",
+        "url": "https://key-drop.com/en/skins/category/DMG",
+        "youtuber": true,
+        "odds": 11
+    },
+    {
+        "name": "OKTA",
+        "price_USD": 9,
+        "odds": 15
+    },
+    {
+        "name": "GIGO",
+        "price_USD": 10,
+        "img": "https://key-drop.com/uploads/skins/GIGO.png",
+        "url": "https://key-drop.com/en/skins/category/GIGO",
+        "youtuber": true,
+        "odds": 20
+    },
+    {
+        "name": "DEXON",
+        "price_USD": 2.5,
+        "img": "https://key-drop.com/uploads/skins/DEXON.png",
+        "url": "https://key-drop.com/en/skins/category/DEXON",
+        "youtuber": true,
+        "odds": 1
     },
     {
         "name": "MOPO",
         "price_USD": 10.8,
         "img": "https://key-drop.com/uploads/skins/MOPO1.png",
-        "url": "https://key-drop.com/pl/skins/category/mopo",
+        "url": "https://key-drop.com/en/skins/category/MOPO",
         "youtuber": true,
         "odds": 14
     },
     {
-        "name": "XM1NN",
-        "price_USD": 7.1,
-        "img": "https://key-drop.com/uploads/skins/XM1NN1.png",
-        "url": "https://key-drop.com/pl/skins/category/xm1nn",
+        "name": "NEXE",
+        "price_USD": 6.66,
+        "img": "https://key-drop.com/uploads/skins/NEXE1.png",
+        "url": "https://key-drop.com/en/skins/category/NEXE",
         "youtuber": true,
-        "odds": 15
+        "odds": 18
     },
     {
-        "name": "RENNOW",
-        "price_USD": 5.13,
-        "img": "https://key-drop.com/uploads/skins/RENNOW.png",
-        "url": "https://key-drop.com/pl/skins/category/rennow",
+        "name": "CHINIYO",
+        "price_USD": 70,
+        "img": "https://key-drop.com/uploads/skins/CHINIYO1.png",
+        "url": "https://key-drop.com/en/skins/category/CHINIYO",
+        "youtuber": true,
+        "odds": 19
+    },
+    {
+        "name": "PEVOR",
+        "price_USD": 40,
+        "odds": 9
+    },
+    {
+        "name": "MLODZIUTKI7",
+        "price_USD": 7.5,
+        "img": "https://key-drop.com/uploads/skins/MLODZIUTKI7.png",
+        "url": "https://key-drop.com/en/skins/category/MLODZIUTKI7",
+        "youtuber": true,
+        "odds": 3
+    },
+    {
+        "name": "POPO",
+        "price_USD": 20,
+        "img": "https://key-drop.com/uploads/skins/POPO1.png",
+        "url": "https://key-drop.com/en/skins/category/POPO",
+        "youtuber": true,
+        "odds": 6
+    },
+    {
+        "name": "REMSUA",
+        "price_USD": 20,
+        "img": "https://key-drop.com/uploads/skins/remsua.png",
+        "url": "https://key-drop.com/en/skins/category/REMSUA",
+        "youtuber": true,
+        "odds": 8
+    },
+    {
+        "name": "LUKISTEVE",
+        "price_USD": 20,
+        "img": "https://key-drop.com/uploads/skins/LUKISTEVE.png",
+        "url": "https://key-drop.com/en/skins/category/LUKISTEVE",
+        "youtuber": true,
+        "odds": 3
+    },
+    {
+        "name": "TARIFA BRONZE",
+        "price_USD": 30,
+        "img": "https://key-drop.com/uploads/skins/TARIFA1.png",
+        "url": "https://key-drop.com/en/skins/category/tarifa-bronze",
+        "youtuber": true,
+        "odds": 5
+    },
+    {
+        "name": "TARIFA",
+        "price_USD": 80,
+        "img": "https://key-drop.com/uploads/skins/TARIFA.png",
+        "url": "https://key-drop.com/en/skins/category/tarifa-3",
+        "youtuber": true,
+        "odds": 10
+    },
+    {
+        "name": "TARIFA GOLD",
+        "price_USD": 160,
+        "img": "https://key-drop.com/uploads/skins/TARIFA2.png",
+        "url": "https://key-drop.com/en/skins/category/tarifa-gold",
+        "youtuber": true,
+        "odds": 14
+    },
+    {
+        "name": "MOKRYSUCHAR",
+        "price_USD": 4,
+        "img": "https://key-drop.com/uploads/skins/MOKRYSUCHAR.png",
+        "url": "https://key-drop.com/en/skins/category/MOKRYSUCHAR",
         "youtuber": true,
         "odds": 22
     },
     {
-        "name": "ENERQIA",
-        "price_USD": 4.95,
-        "img": "https://key-drop.com/uploads/skins/ENERQIA1.png",
-        "url": "https://key-drop.com/pl/skins/category/enerqia",
+        "name": "OLSZAKUMPEL",
+        "price_USD": 1,
+        "img": "https://key-drop.com/uploads/skins/OLSZAKUMPEL.png",
+        "url": "https://key-drop.com/en/skins/category/OLSZAKUMPEL",
         "youtuber": true,
+        "odds": 9
+    },
+    {
+        "name": "GRACZOL",
+        "price_USD": 5,
+        "odds": 19
+    },
+    {
+        "name": "DEJVID",
+        "price_USD": 1,
+        "img": "https://key-drop.com/uploads/skins/dejvid.png",
+        "url": "https://key-drop.com/en/skins/category/DEJVID",
+        "youtuber": true,
+        "odds": 4
+    },
+    {
+        "name": "ZONY",
+        "price_USD": 9,
+        "img": "https://key-drop.com/uploads/skins/ZONY1.png",
+        "url": "https://key-drop.com/en/skins/category/ZONY",
+        "youtuber": true,
+        "odds": 13
+    },
+    {
+        "name": "INNOCENT",
+        "price_USD": 5.53,
+        "img": "https://key-drop.com/uploads/skins/INNOCENT_.png",
+        "url": "https://key-drop.com/en/skins/category/INNOCENT",
+        "youtuber": true,
+        "odds": 22
+    },
+    {
+        "name": "ZIGGY",
+        "price_USD": 8.25,
+        "img": "https://key-drop.com/uploads/skins/ZIGGY.png",
+        "url": "https://key-drop.com/en/skins/category/ZIGGY",
+        "youtuber": true,
+        "odds": 10
+    },
+    {
+        "name": "AKI",
+        "price_USD": 10,
+        "img": "https://key-drop.com/uploads/skins/AKI1.png",
+        "url": "https://key-drop.com/en/skins/category/AKI",
+        "youtuber": true,
+        "odds": 15
+    },
+    {
+        "name": "VURAL UCAR",
+        "price_USD": 6.32,
+        "img": "https://key-drop.com/uploads/skins/VULAR_UCAR.png",
+        "url": "https://key-drop.com/en/skins/category/VURAL-UCAR",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "MAAILINH",
+        "price_USD": 35,
+        "img": "https://key-drop.com/uploads/skins/MAAILINH1.png",
+        "url": "https://key-drop.com/en/skins/category/MAAILINH",
+        "youtuber": true,
+        "odds": 11
+    },
+    {
+        "name": "NATURAL",
+        "price_USD": 10,
+        "odds": 9
+    },
+    {
+        "name": "KACPER RIETZ",
+        "price_USD": 3.94,
+        "img": "https://key-drop.com/uploads/skins/KACPER_RIETZ1.png",
+        "url": "https://key-drop.com/en/skins/category/KACPER-RIETZ",
+        "youtuber": true,
+        "odds": 28
+    },
+    {
+        "name": "SAMPEV2",
+        "price_USD": 15,
+        "img": "https://key-drop.com/uploads/skins/SAMPEV2.png",
+        "url": "https://key-drop.com/en/skins/category/SAMPEV2",
+        "youtuber": true,
+        "odds": 5
+    },
+    {
+        "name": "XAYOO",
+        "price_USD": 25,
+        "img": "https://key-drop.com/uploads/skins/XAYOO1.png",
+        "url": "https://key-drop.com/en/skins/category/XAYOO",
+        "youtuber": true,
+        "odds": 24
+    },
+    {
+        "name": "MATEO",
+        "price_USD": 3.94,
+        "img": "https://key-drop.com/uploads/skins/MATEO1.png",
+        "url": "https://key-drop.com/en/skins/category/MATEO",
+        "youtuber": true,
+        "odds": 10
+    },
+    {
+        "name": "WTCN",
+        "price_USD": 10,
+        "odds": 7
+    },
+    {
+        "name": "ATADOGANN",
+        "price_USD": 21.5,
+        "odds": 35
+    },
+    {
+        "name": "CIASTKO JOKER",
+        "price_USD": 402.9,
+        "odds": 33
+    },
+    {
+        "name": "FOREVER JOKER",
+        "price_USD": 405.2,
+        "img": "https://key-drop.com/uploads/skins/FOREVER1.png",
+        "url": "https://key-drop.com/en/skins/category/FOREVER-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "MEDUSA JOKER",
+        "price_USD": 408.36,
+        "img": "https://key-drop.com/uploads/skins/MEDUSA1.png",
+        "url": "https://key-drop.com/en/skins/category/MEDUSA-JOKER",
+        "youtuber": true,
+        "odds": 21
+    },
+    {
+        "name": "PUNIOGAMING JOKER",
+        "price_USD": 440.56,
+        "img": "https://key-drop.com/uploads/skins/PUNIOGAMING.png",
+        "url": "https://key-drop.com/en/skins/category/PUNIOGAMING-JOKER",
+        "youtuber": true,
+        "odds": 25
+    },
+    {
+        "name": "ISAMU JOKER",
+        "price_USD": 517.45,
+        "img": "https://key-drop.com/uploads/skins/ISAMU_.png",
+        "url": "https://key-drop.com/en/skins/category/ISAMU-JOKER",
+        "youtuber": true,
+        "odds": 22
+    },
+    {
+        "name": "JRKZ JOKER",
+        "price_USD": 524.92,
+        "odds": 8
+    },
+    {
+        "name": "MISZCZU JOKER",
+        "price_USD": 528.86,
         "odds": 26
+    },
+    {
+        "name": "VYSOTZKY JOKER",
+        "price_USD": 597.41,
+        "img": "https://key-drop.com/uploads/skins/VYSOTZKY.png",
+        "url": "https://key-drop.com/en/skins/category/VYSOTZKY-JOKER",
+        "youtuber": true,
+        "odds": 33
+    },
+    {
+        "name": "DMG JOKER",
+        "price_USD": 611,
+        "img": "https://key-drop.com/uploads/skins/DMG_.png",
+        "url": "https://key-drop.com/en/skins/category/DMG-JOKER",
+        "youtuber": true,
+        "odds": 25
+    },
+    {
+        "name": "OKTA JOKER",
+        "price_USD": 655.45,
+        "odds": 8
+    },
+    {
+        "name": "GIGO JOKER",
+        "price_USD": 657.69,
+        "img": "https://key-drop.com/uploads/skins/GIGO.png",
+        "url": "https://key-drop.com/en/skins/category/GIGO-JOKER",
+        "youtuber": true,
+        "odds": 27
+    },
+    {
+        "name": "DEXON JOKER",
+        "price_USD": 719.96,
+        "img": "https://key-drop.com/uploads/skins/DEXON.png",
+        "url": "https://key-drop.com/en/skins/category/DEXON-JOKER",
+        "youtuber": true,
+        "odds": 25
+    },
+    {
+        "name": "MOPO JOKER",
+        "price_USD": 784.36,
+        "img": "https://key-drop.com/uploads/skins/MOPO1.png",
+        "url": "https://key-drop.com/en/skins/category/MOPO-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "NEXE JOKER",
+        "price_USD": 940.36,
+        "img": "https://key-drop.com/uploads/skins/NEXE1.png",
+        "url": "https://key-drop.com/en/skins/category/NEXE-JOKER",
+        "youtuber": true,
+        "odds": 28
+    },
+    {
+        "name": "CHINIYO JOKER",
+        "price_USD": 1078.37,
+        "img": "https://key-drop.com/uploads/skins/CHINIYO2.png",
+        "url": "https://key-drop.com/en/skins/category/CHINIYO-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "PEVOR JOKER",
+        "price_USD": 1162.08,
+        "odds": 50
+    },
+    {
+        "name": "MLODZIUTKI7 JOKER",
+        "price_USD": 1169.74,
+        "img": "https://key-drop.com/uploads/skins/MLODZIUTKI7.png",
+        "url": "https://key-drop.com/en/skins/category/MLODZIUTKI7-JOKER",
+        "youtuber": true,
+        "odds": 33
+    },
+    {
+        "name": "POPO JOKER",
+        "price_USD": 1320.7,
+        "img": "https://key-drop.com/uploads/skins/POPO1.png",
+        "url": "https://key-drop.com/en/skins/category/POPO-JOKER",
+        "youtuber": true,
+        "odds": 8
+    },
+    {
+        "name": "REMSUA JOKER",
+        "price_USD": 1395.42,
+        "img": "https://key-drop.com/uploads/skins/remsua.png",
+        "url": "https://key-drop.com/en/skins/category/REMSUA-JOKER",
+        "youtuber": true,
+        "odds": 22
+    },
+    {
+        "name": "LUKISTEVE JOKER",
+        "price_USD": 1950.57,
+        "img": "https://key-drop.com/uploads/skins/LUKISTEVE.png",
+        "url": "https://key-drop.com/en/skins/category/LUKISTEVE-JOKER",
+        "youtuber": true,
+        "odds": 42
+    },
+    {
+        "name": "MOKRYSUCHAR JOKER",
+        "price_USD": 15.66,
+        "img": "https://key-drop.com/uploads/skins/MOKRYSUCHAR.png",
+        "url": "https://key-drop.com/en/skins/category/MOKRYSUCHAR-JOKER",
+        "youtuber": true,
+        "odds": 15
+    },
+    {
+        "name": "OLSZAKUMPEL JOKER",
+        "price_USD": 68.49,
+        "img": "https://key-drop.com/uploads/skins/OLSZAKUMPEL.png",
+        "url": "https://key-drop.com/en/skins/category/OLSZAKUMPEL-JOKER",
+        "youtuber": true,
+        "odds": 25
+    },
+    {
+        "name": "GRACZOL JOKER",
+        "price_USD": 134.65,
+        "odds": 33
+    },
+    {
+        "name": "DEJVID JOKER",
+        "price_USD": 135,
+        "img": "https://key-drop.com/uploads/skins/dejvid.png",
+        "url": "https://key-drop.com/en/skins/category/DEJVID-JOKER",
+        "youtuber": true,
+        "odds": 13
+    },
+    {
+        "name": "ZONY JOKER",
+        "price_USD": 162.45,
+        "img": "https://key-drop.com/uploads/skins/ZONY1.png",
+        "url": "https://key-drop.com/en/skins/category/ZONY-JOKER",
+        "youtuber": true,
+        "odds": 23
+    },
+    {
+        "name": "INNOCENT JOKER",
+        "price_USD": 166.23,
+        "img": "https://key-drop.com/uploads/skins/INNOCENT_.png",
+        "url": "https://key-drop.com/en/skins/category/INNOCENT-JOKER",
+        "youtuber": true,
+        "odds": 21
+    },
+    {
+        "name": "ZIGGY JOKER",
+        "price_USD": 174.19,
+        "img": "https://key-drop.com/uploads/skins/ZIGGY.png",
+        "url": "https://key-drop.com/en/skins/category/ZIGGY-JOKER",
+        "youtuber": true,
+        "odds": 33
+    },
+    {
+        "name": "AKI JOKER",
+        "price_USD": 187,
+        "img": "https://key-drop.com/uploads/skins/AKI1.png",
+        "url": "https://key-drop.com/en/skins/category/AKI-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "VURAL UCAR JOKER",
+        "price_USD": 249.18,
+        "img": "https://key-drop.com/uploads/skins/VULAR_UCAR.png",
+        "url": "https://key-drop.com/en/skins/category/VURAL-UCAR-JOKER",
+        "youtuber": true,
+        "odds": 20
+    },
+    {
+        "name": "MAAILINH JOKER",
+        "price_USD": 267.5,
+        "img": "https://key-drop.com/uploads/skins/MAAILINH1.png",
+        "url": "https://key-drop.com/en/skins/category/MAAILINH-JOKER",
+        "youtuber": true,
+        "odds": 30
+    },
+    {
+        "name": "NATURAL JOKER",
+        "price_USD": 296.6,
+        "odds": 25
+    },
+    {
+        "name": "KACPER RIETZ JOKER",
+        "price_USD": 305.95,
+        "img": "https://key-drop.com/uploads/skins/KACPER_RIETZ1.png",
+        "url": "https://key-drop.com/en/skins/category/KACPER-RIETZ-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "SAMPEV2 JOKER",
+        "price_USD": 326.13,
+        "img": "https://key-drop.com/uploads/skins/SAMPEV2.png",
+        "url": "https://key-drop.com/en/skins/category/SAMPEV2-JOKER",
+        "youtuber": true,
+        "odds": 28
+    },
+    {
+        "name": "XAYOO JOKER",
+        "price_USD": 341.47,
+        "img": "https://key-drop.com/uploads/skins/XAYOO1.png",
+        "url": "https://key-drop.com/en/skins/category/XAYOO-JOKER",
+        "youtuber": true,
+        "odds": 17
+    },
+    {
+        "name": "MATEO JOKER",
+        "price_USD": 346.52,
+        "img": "https://key-drop.com/uploads/skins/MATEO1.png",
+        "url": "https://key-drop.com/en/skins/category/MATEO-JOKER",
+        "youtuber": true,
+        "odds": 11
+    },
+    {
+        "name": "WTCN JOKER",
+        "price_USD": 369.8,
+        "odds": 11
+    },
+    {
+        "name": "ATADOGANN JOKER",
+        "price_USD": 373.14,
+        "odds": 25
     },
     {
         "name": "CLEVER BOY",
@@ -703,6 +1161,56 @@
         "name": "HEADSHOT JOKER",
         "price_USD": 1668.12,
         "odds": 27
+    },
+    {
+        "name": "EMERALD",
+        "price_USD": 1000,
+        "odds": 25
+    },
+    {
+        "name": "EMERALD JOKER",
+        "price_USD": 2526.57,
+        "odds": 25
+    },
+    {
+        "name": "PEARL",
+        "price_USD": 3300,
+        "odds": 25
+    },
+    {
+        "name": "PEARL JOKER",
+        "price_USD": 6658.57,
+        "odds": 31
+    },
+    {
+        "name": "PANDORA",
+        "price_USD": 5000,
+        "odds": 22
+    },
+    {
+        "name": "GUNGNIR",
+        "price_USD": 4000,
+        "odds": 25
+    },
+    {
+        "name": "TALON",
+        "price_USD": 2500,
+        "odds": 25
+    },
+    {
+        "name": "TALON JOKER",
+        "price_USD": 5722.79,
+        "odds": 27
+    },
+    {
+        "name": "SPORT",
+        "price_USD": 1700,
+        "odds": 25
+    },
+    {
+        "name": "SPORT JOKER",
+        "price_USD": 3295.78,
+        "odds": 33
     },
     {
         "name": "SNUGTOES",
@@ -2023,102 +2531,102 @@
     {
         "name": "TOPAZ",
         "price_USD": 700,
-        "goldProfit": "15146520.14"
+        "goldProfit": "15114803.34"
     },
     {
         "name": "BONY",
         "price_USD": 2000,
-        "goldProfit": "13419196.45"
+        "goldProfit": "13417659.75"
     },
     {
         "name": "MAGENT",
         "price_USD": 6200,
-        "goldProfit": "12965842.38"
+        "goldProfit": "13051166.95"
     },
     {
         "name": "ASSAULT",
         "price_USD": 13600,
-        "goldProfit": "16031912.77"
+        "goldProfit": "16085336.62"
     },
     {
         "name": "RECON",
         "price_USD": 35000,
-        "goldProfit": "16804015.63"
+        "goldProfit": "16919318.17"
     },
     {
         "name": "FOSTER",
         "price_USD": 610,
-        "goldProfit": "23545897.16"
+        "goldProfit": "23543359.15"
     },
     {
         "name": "PREDATOR",
         "price_USD": 1200,
-        "goldProfit": "32061144.66"
+        "goldProfit": "32052094.55"
     },
     {
         "name": "OPTIMAL",
         "price_USD": 1930,
-        "goldProfit": "29104585.25"
+        "goldProfit": "29095941.06"
     },
     {
         "name": "SOLAR",
         "price_USD": 5600,
-        "goldProfit": "24657584.23"
+        "goldProfit": "24635342.11"
     },
     {
         "name": "WIND",
         "price_USD": 12500,
-        "goldProfit": "23168517.96"
+        "goldProfit": "23223435.04"
     },
     {
         "name": "RUBY",
         "price_USD": 1300,
-        "goldProfit": "24847985.15"
+        "goldProfit": "24857858.13"
     },
     {
         "name": "SHARK",
         "price_USD": 680,
-        "goldProfit": "26433974.16"
+        "goldProfit": "26432050.54"
     },
     {
         "name": "WRAP",
         "price_USD": 4900,
-        "goldProfit": "24371486.79"
+        "goldProfit": "24320061.52"
     },
     {
         "name": "SAMURAI",
         "price_USD": 9900,
-        "goldProfit": "24943432.45"
+        "goldProfit": "24949722.09"
     },
     {
         "name": "ATUM",
         "price_USD": 2670,
-        "goldProfit": "24604990.28"
+        "goldProfit": "24586161.60"
     },
     {
         "name": "GOLD DIGGER",
         "price_USD": 480,
-        "goldProfit": "28273966.58"
+        "goldProfit": "28279643.17"
     },
     {
         "name": "RUBIN RAIN",
         "price_USD": 840,
-        "goldProfit": "24322189.98"
+        "goldProfit": "24333473.39"
     },
     {
         "name": "AMETHYST LIGHT",
         "price_USD": 1400,
-        "goldProfit": "30827231.53"
+        "goldProfit": "30816507.70"
     },
     {
         "name": "DIAMOND SKY",
         "price_USD": 6200,
-        "goldProfit": "27099687.46"
+        "goldProfit": "27118384.10"
     },
     {
         "name": "EMERALD CUT",
         "price_USD": 19200,
-        "goldProfit": "23357920.64"
+        "goldProfit": "23346053.17"
     },
     {
         "name": "VALEK",
@@ -2263,14 +2771,6 @@
         "url": "https://key-drop.com/en/skins/category/sajucsgo-joker",
         "youtuber": true,
         "odds": 19
-    },
-    {
-        "name": "TARIFA",
-        "price_USD": 80,
-        "img": "https://key-drop.com/uploads/skins/TARIFA.png",
-        "url": "https://key-drop.com/en/skins/category/tarifa-3",
-        "youtuber": true,
-        "odds": 10
     },
     {
         "name": "VIRUZZ",

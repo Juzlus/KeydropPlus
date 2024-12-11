@@ -1,5 +1,5 @@
 const active = true;
-const version = "F2.10";
+const version = "F2.11";
 const toastCooldown = 4 * 1000
 const tokenExpiresTime = 90 * 1000;
 const extensionName = "Keydrop+";
@@ -9,7 +9,7 @@ const errorText = "Something went wrong. Try again later!"
 
 $('body').append($(document.createElement('div'))
     .addClass('toast-container js-toast-container')
-    .css({ position: 'fixed', right: 0, 'margin-right': '-82px', 'margin-bottom': '-5px', bottom: 0, 'z-index': 999 })
+    .css({ position: 'fixed', right: 0, 'margin-right': '10px', 'margin-bottom': '11px', bottom: 0, 'z-index': 999 })
 );
 
 const fetchUrl = async(type, url, token, noTime, data) => {
@@ -83,6 +83,7 @@ const getConfigData = async() => {
         toastSoundEnable_info: true,
         toastSoundEnable_success: true,
         toastSoundEnable_warning: true,   
+        showJokerOdds: false,
     }
     const refreshedConfigData = await checkToken(storageData || configData);
     if(refreshedConfigData?.tokenExp && refreshedConfigData?.tokenExp > (new Date().getTime() + tokenExpiresTime)) {
@@ -216,14 +217,14 @@ const createToast = async(type, text, urlText, url, altText) => {
     } catch {}; 
 
     const toast = await $(document.createElement('div'))
-        .addClass(`toast toast-keydrop-plus z-[9999] flex w-screen origin-bottom overflow-hidden rounded border-y-2 border-l-2 border-r-4 bg-gradient-to-r py-6 pl-4 pr-14 md:w-auto md:max-w-lg md:origin-top-left border-y-red-500/20 border-l-red-500/20 border-r-red-500 from-[#46212A] via-[#261B21] to-[#18181D]" style="position: fixed; left: 1505px; top: 466px; transition-property: opacity, transform; transition-duration: 200ms;`)
+        .addClass(`toast toast-keydrop-plus z-[9999] flex w-screen origin-bottom overflow-hidden rounded border-y-2 border-l-2 border-r-4 bg-gradient-to-r py-6 pl-4 md:w-auto md:max-w-lg md:origin-bottom-right border-y-red-400/20 border-l-red-400/20 border-r-red-400 from-[#46212A] via-[#261B21] to-[#18181D]`)
         .attr({ 'tabindex': -1, 'data-time': new Date().getTime() })
-        .css({ 'margin-top': '-10px', width: '495px', scale: '0.8',
+        .css({ 'margin-top': '-10px', width: '450px', scale: '0.8', 'padding-right': '2rem',
             'border-top': `2px solid ${borderColor.split(' ')[0]}`,
             'border-left': `2px solid ${borderColor.split(' ')[0]}`,
             'border-right': `4px solid ${borderColor.split(' ')[1]}`,
             'border-bottom': `2px solid ${borderColor.split(' ')[0]}`,
-            'background' : `linear-gradient(90deg, ${borderColor.split(' ')[0]} 49%, rgba(28,28,28,0) 89%)`
+            'background' : `linear-gradient(90deg, ${borderColor.split(' ')[0]} 49%, rgba(28 28 28 / 81%) 85%)`
         })
         .html(`<audio id="toast_sound" preload="none" autoplay=''><source type='audio/mpeg' src="${soundEnabled ? `${githubUrl}${server?.soundsPath}toast_${type}.mp3?raw=true` : ''}"></source></audio><svg class="absolute -bottom-8 right-10 h-24 w-24 rotate-[30deg] opacity-10 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><svg class="mr-2 h-11 w-11 flex-shrink-0 ${imgColorClass}"><use xlink:href="https://key-drop.com/web/KD/static/icons.svg?44#toast-${type}"></use></svg><div class="flex flex-col"><span class="text-xl font-bold leading-tight ${imgColorClass}">Keydrop+</span><p class="text-sm leading-6 text-navy-100">${altText || langText || errorText} <a href="${url}" style="text-decoration: underline">${urlText || ''}</a></p></div>`)
         .click(function() {
@@ -295,7 +296,7 @@ const showNav = async() => {
     await setTimeout(async () => {
         const server = await getServerData();
         $('img[alt="KeyDrop"]')
-            .attr('src', `${githubUrl}${server?.iconsPath}Keydrop%2B_Icon.svg`)
+            .attr('src', await changeLogo())
             .css({ "animation-name": "show", "filter": "opacity(100)" })
             .end();
 
@@ -318,6 +319,14 @@ const showNav = async() => {
     }, 1 * 1000);
 }
 
+const changeLogo = async() => {
+    const date = new Date();
+    const server = await getServerData();
+    if (date.getMonth() == 11  && (date.getDate() >= 5 && date.getDate() <= 30))
+        return `${githubUrl}${server?.iconsPath}Keydrop%2B_Icon-Christmas.png`;
+    return `${githubUrl}${server?.iconsPath}Keydrop%2B_Icon.svg`;
+};
+
 createWaterMark();
 showNav();
 
@@ -338,7 +347,7 @@ const verifyUser = async() => {
     if(!steamId) {
         $('main')
             ?.css({ height: "100vh", width: '100vw', margin: 0, color: '#fff', overflow: 'hidden', display: 'flex', 'justify-content': 'center', 'flex-direction': 'column', 'align-items': 'center', position: 'relative', 'background-color': '#181e27', 'background-image': "url('https://github.com/Juzlus/KeydropPlus/blob/main/data/icons/background.png?raw=true')", 'background-size': 'cover', 'background-blend-mode': 'overlay', 'background-repeat': 'no-repeat', 'background-attachment': 'fixed', 'background-position': 'center' })
-            ?.html(`<img src="https://raw.githubusercontent.com/Juzlus/KeydropPlus/44b3288883029e0722aa0d09c24a225651ea0550/data/icons/Keydrop%2B_Icon.svg" width="220px"><h1 id="keydropPlus_accessDenied" style="text-transform: uppercase;font-size: 60px;margin-bottom: 0;text-align: center;line-height: 1.2;">${langText?.mainText}</h1><p style="text-transform: uppercase;font-weight: 700;font-size: 14px;margin-bottom: 40px;margin-left: 10px;margin-right: 10px;text-align: center;">${language?.warning_mustLogin}</p><svg viewBox="0 0 24 24" fill="rgb(221, 177, 105)" style="width: 30px; height: 30px"> <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg><p style="max-width: 420px;text-align: center;line-height: 1;color: #B4B8CD;margin-left: 10px;margin-right: 10px;font-size: 14px;">${langText?.info?.split('|')[0]} <b>${langText?.userName}</b> ${langText?.info?.split('|')[1]} <span style="color: rgb(221, 177, 105); font-weight: 600"><a href="https://discord.gg/6XS4AXRKSB">${langText?.serverName}</a></span>.</p>`)
+            ?.html(`<img src="${await changeLogo()}" width="220px"><h1 id="keydropPlus_accessDenied" style="text-transform: uppercase;font-size: 60px;margin-bottom: 0;text-align: center;line-height: 1.2;">${langText?.mainText}</h1><p style="text-transform: uppercase;font-weight: 700;font-size: 14px;margin-bottom: 40px;margin-left: 10px;margin-right: 10px;text-align: center;">${language?.warning_mustLogin}</p><svg viewBox="0 0 24 24" fill="rgb(221, 177, 105)" style="width: 30px; height: 30px"> <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg><p style="max-width: 420px;text-align: center;line-height: 1;color: #B4B8CD;margin-left: 10px;margin-right: 10px;font-size: 14px;">${langText?.info?.split('|')[0]} <b>${langText?.userName}</b> ${langText?.info?.split('|')[1]} <span style="color: rgb(221, 177, 105); font-weight: 600"><a href="https://discord.gg/6XS4AXRKSB">${langText?.serverName}</a></span>.</p>`)
         return createToast('warning', 'warning_mustLogin');
     }
 
