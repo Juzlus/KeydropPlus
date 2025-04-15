@@ -29,7 +29,7 @@ $( document ).ready(async() => {
         gamesInfo: language?.freeOpenGames_info
     };
 
-    waitForElm('h2.mr-auto.px-6.text-center.text-base.font-semibold.uppercase.leading-tight.text-white').then(()=>{
+    waitForElm('ul.grid.gap-4').then(()=>{
         getGamesCaseData(languageText, server);
     });
 });
